@@ -1,0 +1,156 @@
+/* Magic Numbers */
+:root {
+  --font-size: 18px;
+  --h1-font-size: calc(var(--double-size) - 0.5rem);
+  --h2-font-size: calc(var(--size) + 0.25rem);
+  --h3-font-size: calc(var(--size) - 0.25rem);
+  --heading-line-height: 1.25;
+  --flow: 1.5em;
+  --max-width: 64em;
+  --text-color: #555;
+  --light: #e6eee6;
+  --accent: #003a64;
+  --accent-light: hsl(242, 45%, 95%);
+  --alt-one: #277a80;
+  --alt-two: #48e0a5;
+}
+
+/* Typography */
+body {
+  color: var(--text-color);
+  font-size: var(--font-size);
+}
+
+h1,
+h2,
+h3,
+.h2,
+.h3 {
+  color: var(--accent);
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  line-height: var(--heading-line-height);
+}
+
+h1,
+.h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2,
+.h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3,
+.h3 {
+  font-size: var(--h3-font-size);
+}
+
+/* Links and Buttons */
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+button,
+.button {
+  display: inline-flex;
+  gap: var(--half-size);
+  justify-content: center;
+  align-items: center;
+  padding-block: calc(var(--size) / 1.5);
+  padding-inline: calc(var(--double-size));
+  background-color: var(--accent);
+  color: var(--light);
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: none;
+  cursor: pointer;
+}
+
+button:is(:hover, :focus),
+.button:is(:hover, :focus) {
+  background-color: transparent;
+  color: var(--accent);
+  text-decoration: none;
+  outline: 0.25em solid var(--accent);
+}
+
+/* Form elements */
+label {
+  font-weight: 500;
+}
+
+input,
+textarea {
+  padding: var(--half-size);
+}
+
+/* Utilities */
+.title {
+  padding-bottom: var(--size);
+  border-bottom: 1px solid;
+}
+
+.underline {
+  text-decoration: underline;
+  text-decoration-color: var(--alt-one);
+  text-decoration-thickness: 2px;
+  text-underline-offset: var(--half-size);
+}
+
+/* Layout */
+section.full-bleed {
+  margin-block-start: var(--double-size);
+  padding-block-start: var(--double-size);
+  padding-block-end: calc(var(--double-size) + 0.5rem);
+}
+
+/* Skins */
+.bg-light {
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.bg-accent {
+  background-color: var(--accent);
+  color: var(--light);
+}
+
+.bg-accent a {
+  color: var(--light);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+.bg-accent :is(button, .button) {
+  background-color: var(--light);
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.bg-accent :is(button:hover, button:focus, .button:hover, .button:focus) {
+  background-color: transparent;
+  color: var(--light);
+  outline: 0.25em solid var(--light);
+}
+
+.bg-accent :is(h1, h2, h3, .h1, .h2, .h3) {
+  color: var(--light);
+}
+
+/* Images */
+main img {
+  border: 1px solid lightgray;
+}
+
+.full-bleed img {
+  border: unset;
+}
