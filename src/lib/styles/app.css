@@ -63,7 +63,7 @@ section:last-child {
 }
 
 .inner {
-  width: var(--width);
+  /* width: var(--width); */
   max-width: var(--max-width);
   margin-inline: auto;
   padding-block: var(--size);

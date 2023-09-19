@@ -3,6 +3,7 @@
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
   import Header from '$lib/Headers/Header.svelte'
+  import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
 
   const mobileThreshold = 960
@@ -10,6 +11,10 @@
 
 <div class="wrapper">
   <Header {mobileThreshold} />
+
+  {#if $page.route.id === '/'}
+    <HomeHero image="/hero.jpg" />
+  {/if}
   
   <main id="main-content" class="flow">
     <slot />
