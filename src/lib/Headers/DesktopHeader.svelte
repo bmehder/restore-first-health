@@ -51,10 +51,11 @@
   
   .skip-nav-link:focus {
     transition: transform 200ms ease-in;
-    transform: translateY(0);
+    transform: translateY(0%);
   }
 
   .inner {
+    width: var(--width);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -95,12 +96,12 @@
   }
   
   a:hover {
-    text-decoration-color: var(--alt-one);
+    text-decoration-color: var(--secondary);
   }
   
   a[aria-current='true'] {
     text-decoration: underline;
-    text-decoration-color: var(--light);
+    text-decoration-color: var(--highlight);
     text-decoration-thickness: calc(var(--size) / 8);
   }
 </style>

@@ -31,6 +31,7 @@
 <style>
   button {
     padding-inline: 0 !important;
+    background-color: transparent;
   }
 
   button:is(:hover, :focus) {

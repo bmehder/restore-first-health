@@ -60,6 +60,10 @@
     color: var(--light);
   }
 
+  .inner {
+    width: var(--width);
+  }
+
   .top {
     display: flex;
     justify-content: space-between;

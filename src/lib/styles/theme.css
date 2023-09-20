@@ -6,13 +6,17 @@
   --h3-font-size: calc(var(--size) - 0.25rem);
   --heading-line-height: 1.25;
   --flow: 1.5em;
-  --max-width: 64em;
+  --max-width: 58em;
+  /* --max-width: 1240px; */
   --text-color: #555;
-  --light: #e6eee6;
+  --light: #e6e6e6;
   --accent: #003a64;
   --accent-light: #0078a1;
+  --secondary: #c9e9ed;
+  --highlight: #e71;
   --alt-one: #277a80;
   --alt-two: #48e0a5;
+  --shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 /* Typography */
@@ -26,7 +30,7 @@ h2,
 h3,
 .h2,
 .h3 {
-  color: var(--accent);
+  color: var(--accent-light);
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
   line-height: var(--heading-line-height);
@@ -49,7 +53,7 @@ h3,
 
 /* Links and Buttons */
 a {
-  color: var(--accent);
+  color: var(--highlight);
   text-decoration: none;
 }
 
@@ -66,21 +70,23 @@ button,
   align-items: center;
   padding-block: calc(var(--size) / 1.5);
   padding-inline: calc(var(--double-size));
-  background-color: var(--accent);
-  color: var(--light);
+  background-color: var(--highlight);
+  color: white;
+  text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 1px;
   border: none;
+  border-radius: var(--double-size);
   cursor: pointer;
 }
 
 button:is(:hover, :focus),
 .button:is(:hover, :focus) {
   background-color: transparent;
-  color: var(--accent);
+  color: var(--accent-light);
   text-decoration: none;
-  outline: 0.25em solid var(--accent);
+  outline: 0.25em solid var(--accent-light);
 }
 
 /* Form elements */
@@ -115,7 +121,7 @@ section.full-bleed {
 
 /* Skins */
 .bg-light {
-  background-color: var(--light);
+  background-color: var(--secondary);
   color: var(--dark);
 }
 
@@ -131,8 +137,8 @@ section.full-bleed {
 }
 
 .bg-accent :is(button, .button) {
-  background-color: var(--light);
-  color: var(--accent);
+  background-color: var(--highlight);
+  color: var(--light);
   text-decoration: none;
 }
 

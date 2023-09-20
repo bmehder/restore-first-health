@@ -11,7 +11,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: calc(var(--size) / 4);
     text-align: center;
-    color: var(--light);
+    color: white;
     font-weight: bold;
   }
   div {

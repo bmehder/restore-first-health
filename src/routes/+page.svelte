@@ -48,38 +48,37 @@
   </div>
 </section>
 
-<section class="full-bleed bg-accent flow">
-  <h2>Local Clinical Resources</h2>
-
-  <p>
-    We are local community members - partnering with local home health, assisted living,
-    and long term care. We also welcome patients who care for themselves or loved ones at
-    home who need chronic wound care.
-  </p>
-
-  <div class="flex">
-    <div class="flow">
-      <Sveltetube
-        id="Tt15F9hmYS8"
-        title="Patient Testimonial"
-        poster="https://img.youtube.com/vi/Tt15F9hmYS8/hqdefault.jpg"
-        radius="2px"
-        shadow="0 5px 10px rgb(0 0 0 / 20%)"
-        color="#eee"
-      />
-      <p class="h3 center">Patient Testimonial</p>
-    </div>
-
-    <div class="flow">
-      <Sveltetube
-        id="9xOxp9Cw2ZM"
-        title="Chronic Wound Care at Restore First Health"
-        poster="https://img.youtube.com/vi/9xOxp9Cw2ZM/maxresdefault.jpg"
-        radius="2px"
-        shadow="0 5px 10px rgb(0 0 0 / 20%)"
-        color="#eee"
-      />
-      <p class="h3 center">Advanced Wound Care Protocols</p>
+<section class="full-bleed bg-accent">
+  <div class="inner flow">
+    <h2>Local Clinical Resources</h2>
+    <p>
+      We are local community members - partnering with local home health, assisted living,
+      and long term care. We also welcome patients who care for themselves or loved ones at
+      home who need chronic wound care.
+    </p>
+    <div class="flex">
+      <div class="flow">
+        <Sveltetube
+          id="Tt15F9hmYS8"
+          title="Patient Testimonial"
+          poster="https://img.youtube.com/vi/Tt15F9hmYS8/hqdefault.jpg"
+          radius="2px"
+          shadow="0 5px 10px rgb(0 0 0 / 20%)"
+          color="#eee"
+        />
+        <p class="h3 center">Patient Testimonial</p>
+      </div>
+      <div class="flow">
+        <Sveltetube
+          id="9xOxp9Cw2ZM"
+          title="Chronic Wound Care at Restore First Health"
+          poster="https://img.youtube.com/vi/9xOxp9Cw2ZM/maxresdefault.jpg"
+          radius="2px"
+          shadow="0 5px 10px rgb(0 0 0 / 20%)"
+          color="#eee"
+        />
+        <p class="h3 center">Advanced Wound Care Protocols</p>
+      </div>
     </div>
   </div>
 </section>
@@ -95,7 +94,13 @@
       we inform, communicate and ensure all of our patients and their care providers are on
       the same page at all times.
     </p>
-    <div class="flex">
+    <div class="flex swap">
+      <div>
+        <img
+          src="https://restorefirsthealth.com/wp-content/uploads/2023/02/wound-care-travel.jpg"
+          alt="wound care traveling doctor in car"
+        />
+      </div>
       <div class="flow">
         <p>Our dedicated wound care coordinator:</p>
         <ul class="list">
@@ -105,12 +110,6 @@
           <li>Provides medical updates to authorized providers for continuity of care</li>
           <li>Checks in regularly to ensure quality of care and positive outcomes</li>
         </ul>
-      </div>
-      <div>
-        <img
-          src="https://restorefirsthealth.com/wp-content/uploads/2023/02/wound-care-travel.jpg"
-          alt="wound care traveling doctor in car"
-        />
       </div>
     </div>
   </div>
@@ -125,7 +124,7 @@
   </p>
 
   <div class="flow bg-light" style="padding: var(--double-size);">
-    <ul class="list">
+    <ul class="difference-list">
       <li>We come to you for evaluation and treatment.</li>
       <li>
         We ensure your insurance is verified and authorized in advance of treatment, so
@@ -153,21 +152,23 @@
 </section>
 
 <section class="full-bleed bg-accent flow">
-  <div class="flex swap">
-    <div>
-      <img
-        src="/lunch-n-learn.jpg"
-        alt="people at a table during a lunch 'n learn presentation"
-      />
-    </div>
-    <div class="flow">
-      <h2>Schedule a Lunch-N-Learn</h2>
-      <p>We want to hear how best we can meet your needs!</p>
-      <p>
-        Schedule a Lunch-N-Learn to hear more from our team about our collaborative
-        process and how to best schedule visits!
-      </p>
-      <a href="/contact-us" class="button">Contact Us</a>
+  <div class="inner">
+    <div class="flex swap">
+      <div>
+        <img
+          src="/lunch-n-learn.jpg"
+          alt="people at a table during a lunch 'n learn presentation"
+        />
+      </div>
+      <div class="flow">
+        <h2>Schedule a Lunch-N-Learn</h2>
+        <p>We want to hear how best we can meet your needs!</p>
+        <p>
+          Schedule a Lunch-N-Learn to hear more from our team about our collaborative
+          process and how to best schedule visits!
+        </p>
+        <a href="/contact-us" class="button">Contact Us</a>
+      </div>
     </div>
   </div>
 </section>
@@ -204,3 +205,11 @@
     <a href="https://restorefirsthealth.com/wp-content/uploads/2023/05/chronic-wound-theapy-restore-first-health.pdf" class="button">DOWNLOAD PRINTABLE PDF</a>
   </div>
 </section>
+
+<style>
+  .difference-list li {
+    padding-block: calc(var(--half-size) / 2);
+    margin-inline: var(--size);
+    list-style: disc;
+  }
+</style>
