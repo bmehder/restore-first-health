@@ -1,1 +1,8 @@
-<h1>Job Opportunities</h1>
+<section class="flow">
+  <h1 class="title">Job Opportunities</h1>
+  <h2>New Jersey</h2>
+  <p><strong>Nurse Practitioner</strong><br>
+  Cranbury, NJ<br>
+  Salary: $140 - $150K - Full-time</p>
+  <a href="https://restorefirsthealthduluth.applytojob.com/apply/3yXDKoYkEi/Nurse-Practitioner" class="button">Apply Now</a>
+</section>

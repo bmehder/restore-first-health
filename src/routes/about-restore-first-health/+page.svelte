@@ -1,6 +1,6 @@
 <section>
   <div class="inner flow">
-    <h1>About Restore First Health</h1>
+    <h1 class="title">About Restore First Health</h1>
     <h2>A Specialized Medical Practice</h2>
     
     <p>Welcome to Restore First Health, a specialized medical practice focused on non-invasive therapies for advanced wound care, Diabetes & Metabolic disorders and chronic knee pain.</p>
