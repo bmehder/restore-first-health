@@ -4,6 +4,8 @@
 </script>
 
 <section>
+  <p class="description h3 balance">Partnerships and Collaboration with Home Health, Assisted Living, Health Systems, and patients in the community in need of at-home chronic wound care.</p>
+  
   <div class="inner flow">
     <h2>A Unique Treatment Solution</h2>
     <p>
@@ -23,7 +25,7 @@
         We offer bedside, on-site services and facility partnerships to best coordinate
         care.
       </p>
-      <ul class="list">
+      <ul class="special-list">
         <li>Diabetic Ulcers</li>
         <li>Sacral Ulcers</li>
         <li>Arterial Wounds</li>
@@ -98,7 +100,7 @@
       </div>
       <div class="flow">
         <p>Our dedicated wound care coordinator:</p>
-        <ul class="list">
+        <ul class="special-list">
           <li>Schedules your consultations and appointments</li>
           <li>Verifies and pre-authorizes insurance</li>
           <li>Communicates with current care physicians or providers</li>
@@ -119,7 +121,7 @@
   </p>
 
   <div class="flow bg-light" style="padding: var(--double-size);">
-    <ul class="difference-list">
+    <ul class="special-list">
       <li>We come to you for evaluation and treatment.</li>
       <li>
         We ensure your insurance is verified and authorized in advance of treatment, so
@@ -202,10 +204,17 @@
 </section>
 
 <style>
-  .difference-list li {
+  .description {
+    padding: var(--double-size);
+    background-color: var(--secondary);
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  .special-list li {
     padding-block: calc(var(--half-size) / 2);
     padding-inline: var(--half-size);
     margin-inline: var(--size);
-    list-style-image: url(/check.svg);
+    list-style-image: url(/icons/check.svg);
   }
 </style>
