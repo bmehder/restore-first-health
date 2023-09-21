@@ -5,6 +5,7 @@
   import Header from '$lib/Headers/Header.svelte'
   import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
+  import BackToTop from '$lib/BackToTop.svelte'
 
   const mobileThreshold = 960
 </script>
@@ -22,6 +23,8 @@
   
   <Footer />
 </div>
+
+<BackToTop />
 
 <style>
   .wrapper {

@@ -6,9 +6,11 @@ export default [
   {
     name: 'About',
     url: '/about-restore-first-health/',
-    // children: [
-    //   { name: 'Careers', url: '/team/careers/' },
-    // ],
+    children: [
+      { name: 'Our Story', url: '/about-restore-first-health/our-story/' },
+      { name: 'Georgia Care Team', url: '/about-restore-first-health/georgia-care-team/' },
+      { name: 'New Jersey Care Team', url: '/about-restore-first-health/new-jersey-care-team/' },
+    ],
   },
   {
     name: 'Blog',

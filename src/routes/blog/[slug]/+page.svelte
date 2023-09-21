@@ -4,20 +4,22 @@
   const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
     dateStyle: 'full',
   })
+
+  console.log(data)
 </script>
-<!-- 
-<details>
+
+<!-- <details>
   <pre>{JSON.stringify(data.post, null, 2)}</pre>
 </details> -->
 
 <section>
   <article class="flow">
-    <h1>{@html data.post[0].title.rendered}</h1>
-    <p>Published on: {date}</p>
+    <h1 class="title">{@html data.post[0].title.rendered}</h1>
+    <p>{date}</p>
     <img
       class="square"
       src={data.post[0]._embedded['wp:featuredmedia'][0].source_url}
-      alt=""
+      alt="{data.post[0].title.rendered}"
     />
     <div>{@html data.post[0].content.rendered}</div>
   </article>
@@ -34,5 +36,24 @@
 
   article div :global(figure) {
     display: none;
+  }
+  
+  article div :global(ul) {
+    list-style: initial;
+    padding-inline-start: calc(var(--size) * 1.5);
+  }
+/*   
+  article div :global(li) {
+    padding-block: calc(var(--half-size) / 2);
+  } */
+  
+  article div :global(.pull-quote) {
+    padding: calc(var(--size) * 1.5);
+    background-color: var(--secondary);
+    font-style: italic;
+    font-size: larger;
+    border-radius: 2px;
+    /* box-shadow: var(--shadow); */
+    color: var(--accent);
   }
 </style>

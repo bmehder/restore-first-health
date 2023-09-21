@@ -95,8 +95,10 @@
     text-decoration-thickness: calc(var(--size) / 12);
   }
   
-  a:hover {
-    text-decoration-color: var(--secondary);
+  a:hover:not([aria-current='true']) {
+    /* text-decoration-color: var(--secondary); */
+    text-decoration: none;
+    opacity: 0.9;
   }
   
   a[aria-current='true'] {

@@ -25,7 +25,7 @@
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.6);
+    /* text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.6); */
     letter-spacing: 1px;
   }
   .h2 {
@@ -44,8 +44,9 @@
   }
   .button:hover,
   .button:focus {
+    background-color: var(--accent);
     color: var(--light);
-    outline-color: var(--light);
+    /* outline-color: var(--light); */
   }
   .content {
     display: grid;
