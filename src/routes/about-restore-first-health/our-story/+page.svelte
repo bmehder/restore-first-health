@@ -3,7 +3,7 @@
 
   <div class="float-right center half-flow">
     <img src="/john-fish.jpg" alt="John Fish - CEO, Restore First Health">
-    <p>John Fish, CEO</p>
+    <p><strong>John Fish, CEO</strong></p>
   </div>
 
   <p>Restore First Health was established in 2018, formerly known as Prime Regen. The primary focus of the practice was to care for patients with <a href="https://restorefirsthealth.com/knee-pain/">chronic knee pain</a> in the Atlanta region. The team utilized hyaluronic knee injections to patients who wanted to avoid surgery, and receive real pain relief giving people hope for regaining their lifestyle.</p>

@@ -45,6 +45,14 @@
   }
 
   .answer {
-    padding-inline-end: var(--size);
+    /* padding-inline-end: var(--size); */
+    padding: var(--size);
+    background-color: var(--secondary);
+  }
+
+  .answer :global(ul),
+  .answer :global(ol) {
+    list-style: initial;
+    padding-inline-start: calc(var(--size) * 1.5);
   }
 </style>

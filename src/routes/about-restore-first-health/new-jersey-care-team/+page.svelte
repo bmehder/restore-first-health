@@ -13,7 +13,7 @@
 
   <p>You deserve better health, and we are here to help you get there!</p>
 
-  <h2>Meet Our Team</h2>
+  <!-- <h2>Meet Our Team</h2> -->
   <ul class="flow">
     {#each teamMembers as item}
       <Member {item} />

@@ -14,10 +14,12 @@
       </div>
     </div>
   </div>
+  <img src="/submark.png" alt="" />
 </div>
 
 <style>
   .hero {
+    position: relative;
     padding-block: calc(var(--size) * 4);
     background-position: center;
     background-size: cover;
@@ -51,5 +53,12 @@
   .content {
     display: grid;
     gap: var(--size);
+  }
+  img {
+    width: 150px;
+    position: absolute;
+    bottom: -75px;
+    left: 50%;
+    translate: -50%;
   }
 </style>

@@ -87,6 +87,7 @@
     display: block;
     padding: var(--size);
     background-color: var(--accent);
+    z-index: 1;
   }
 
   a {

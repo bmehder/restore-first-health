@@ -6,13 +6,28 @@
 </script>
 
 <footer class="bg-accent">
-  <div class="inner">
-    
+  <div class="inner flex">
+    <p>© Copyright {currentYear} Restore First Health. All rights reserved.</p>
+    <p style="text-align: right;"><a href="/policies-and-disclosures">Policies and Disclosures</a></p>
   </div>
 </footer>
 
 <style>
   .inner {
-    padding-block-start: var(--double-size);
+    width: var(--width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--size);
+    padding-block: var(--double-size);
+  }
+  
+  .flex {
+    justify-content: space-between;
+  }
+
+  a {
+    text-decoration: none;
   }
 </style>
