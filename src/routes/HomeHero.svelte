@@ -5,11 +5,13 @@
 <div class="hero" style="background-image: url({image})">
   <div class="inner balance">
     <div class="content">
-      <div class="h2">Chronic Wound Care</div>
-      <!-- <div class="h3">EXPERT CARE COORDINATION</div> -->
+      <div class="h2">Restore First Health </div>
+      <div class="h3">Advanced Care for Chronic Wound</div>
+      <p class="locations">Serving Georgia & New Jersey<br><small>Coming soon to Pennsylvania</small></p>
+      <p class="info">Partnerships and Collaboration with Home Health, Assisted Living, Health Systems, and patients in the community in need of at-home chronic wound care.</p>
       <div>
         <a class="button" aria-label="Request Appointment" href="/contact-us/"
-          >Request Appointment</a
+          >Request Consultation</a
         >
       </div>
     </div>
@@ -37,6 +39,19 @@
   .h3 {
     color: var(--light);
     font-size: calc(var(--size) + 0.5rem);
+  }
+  .locations {
+    font-size: var(--size);
+  }
+  small {
+    font-style: italic;
+  }
+  .info {
+    max-width: 32em;
+    margin-inline: auto;
+    padding: var(--size);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: calc(var(--half-size) / 2);
   }
   .button {
     display: inline-block;

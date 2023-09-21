@@ -7,16 +7,11 @@
   <div class="inner flow">
     <h2>A Unique Treatment Solution</h2>
     <p>
-      Restore First Health offers a proven, specialized chronic wound treatment using an
-      allograft therapy for patients who suffer from wounds that show no significant
-      progress toward healing after 30 days of conventional treatment.
+      Restore First Health offers a proven, advanced therapy for the treatment of chronic wounds. We utilize FDA approved skin substitutes in conjunction with high quality wound care. We help patients who suffer from wounds that show no significant progress toward healing after 30 days documented of conventional treatment.
     </p>
     <p>
-      Our clinical team evaluates, measures, and examines the wounds for infections. Once
-      deemed qualified, our team visits the patients in their home once a week, addresses
-      the wound and places a specialized allograft.
+      Our clinical team evaluates, measures, and examines the wounds for infections. Once deemed qualified, our team visits the patients in their home once a week, addresses the wound and places a specialized skin substitute. Patients normally begin to experience healing within the first few applications!
     </p>
-    <p>Patients normally begin to experience healing within the first few applications!</p>
   </div>
 </section>
 
@@ -209,7 +204,8 @@
 <style>
   .difference-list li {
     padding-block: calc(var(--half-size) / 2);
+    padding-inline: var(--half-size);
     margin-inline: var(--size);
-    list-style: disc;
+    list-style-image: url(/check.svg);
   }
 </style>

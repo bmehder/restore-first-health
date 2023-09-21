@@ -1,7 +1,7 @@
 <div class="graphic">
   <div class="one">Is an open wound on the skin</div>
   <div class="two">Is not infected</div>
-  <div class="three">Is greater than 1 square cm</div>
+  <div class="three">Must be LARGER than 2cm x 2cm</div>
   <div class="four">Has not improved after 4 weeks of therapy</div>
 </div>
 
