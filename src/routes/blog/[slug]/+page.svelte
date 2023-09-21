@@ -24,14 +24,13 @@
 </section>
 
 <style>
+  article {
+    max-width: 42em;
+  }
+
   article div :global(> * + *) {
     margin-block-start: var(--size);
   }
-
-  /* article div :global(figure) {
-    float: right;
-    margin-inline-start: var(--double-size);
-  } */
 
   article div :global(figure) {
     display: none;

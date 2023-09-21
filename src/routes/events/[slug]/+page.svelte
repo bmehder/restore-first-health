@@ -1,17 +1,13 @@
 <script>
   export let data
-
-  // const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
-  //   dateStyle: 'full',
-  // })
 </script>
 
-<!-- <details>
+<details>
   <pre>{JSON.stringify(data.event, null, 2)}</pre>
-</details> -->
+</details>
 
 <section>
-  <article class="flex swap">
+  <article class="flex">
     <img
       class="square"
       src={data.event[0]._embedded['wp:featuredmedia'][0].source_url}
@@ -23,9 +19,3 @@
     </div>
   </article>
 </section>
-
-<!-- <style>
-  article div :global(> * + *) {
-    margin-block-start: var(--size);
-  }
-</style> -->
