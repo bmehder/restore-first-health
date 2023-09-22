@@ -25,6 +25,7 @@
     display: grid;
     place-content: center;
     padding-inline: var(--size);
+    font-size: calc(var(--size) - 0.5rem);
     aspect-ratio: 1;
     border-radius: 25%;
   }

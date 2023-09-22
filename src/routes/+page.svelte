@@ -134,7 +134,7 @@
   </p>
 
   <div class="flow bg-light" style="padding: var(--double-size);">
-    <ul class="special-list">
+    <ul class="special-list difference-list">
       <li>We come to you for evaluation and treatment.</li>
       <li>
         We ensure your insurance is verified and authorized in advance of treatment, so
@@ -252,5 +252,11 @@
     padding-inline: var(--half-size);
     margin-inline: calc(var(--size) * 1.5);
     list-style-image: url(/icons/check.svg);
+  }
+  
+  @media (max-width: 48em) {
+    .difference-list li {
+      margin-inline: 0;
+    }
   }
 </style>
