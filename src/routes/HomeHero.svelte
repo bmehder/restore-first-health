@@ -23,7 +23,7 @@
 <style>
   .hero {
     position: relative;
-    padding-block-start: calc(var(--size) * 3);
+    padding-block-start: calc(var(--size) * 2);
     padding-block-end: calc(var(--size) * 4);
     background-position: center;
     background-size: cover;

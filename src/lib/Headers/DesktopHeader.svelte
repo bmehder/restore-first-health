@@ -73,7 +73,7 @@
   ul {
     display: flex;
     gap: var(--size);
-    margin-block: var(--size);
+    padding-block: var(--size);
   }
 
   ul li ul {

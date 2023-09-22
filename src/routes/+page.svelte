@@ -250,7 +250,7 @@
   .special-list li {
     padding-block: calc(var(--half-size) / 2);
     padding-inline: var(--half-size);
-    margin-inline: calc(var(--size) * 1.5);
+    margin-inline-start: calc(var(--size) * 1.5);
     list-style-image: url(/icons/check.svg);
   }
   
