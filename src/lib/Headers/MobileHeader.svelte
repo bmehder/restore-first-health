@@ -86,7 +86,7 @@
   }
 
   li {
-    padding-block-end: calc(var(--size));
+    padding-block-end: calc(var(--half-size));
     border-bottom: 2px solid var(--light);
   }
 
