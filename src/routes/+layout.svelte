@@ -14,7 +14,7 @@
   <Header {mobileThreshold} />
 
   {#if $page.route.id === '/'}
-    <HomeHero image="/hero.jpg" />
+    <HomeHero image="/hero-1.jpg" />
   {/if}
   
   <main id="main-content" class="flow">

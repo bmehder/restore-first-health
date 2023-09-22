@@ -23,7 +23,8 @@
 <style>
   .hero {
     position: relative;
-    padding-block: calc(var(--size) * 3);
+    padding-block-start: calc(var(--size) * 3);
+    padding-block-end: calc(var(--size) * 4);
     background-position: center;
     background-size: cover;
     color: var(--light);
@@ -51,22 +52,24 @@
     display: inline-block;
     margin-block-start: var(--half-size);
     font-size: calc(var(--size) - 0.25rem);
+    text-shadow: none;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.24);
   }
   .button:hover,
   .button:focus {
-    background-color: var(--accent);
+    background-color: var(--accent-light);
     color: var(--light);
-    /* outline-color: var(--light); */
+    outline-color: var(--light);
   }
   .content {
     display: grid;
     gap: var(--size);
   }
   img {
-    width: 90px;
+    --width: 150px;
+    width: var(--width);
     position: absolute;
-    bottom: -45px;
+    bottom: calc((var(--width) / -2) - var(--half-size));
     left: 50%;
     translate: -50%;
   }

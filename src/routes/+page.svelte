@@ -4,15 +4,24 @@
 </script>
 
 <section>
-  <p class="description h3 balance">Partnerships and Collaboration with Home Health, Assisted Living, Health Systems, and patients in the community in need of at-home chronic wound care.</p>
-  
-  <div class="inner flow">
+  <p class="description h3 balance">
+    Partnerships and Collaborations with Home Health, Assisted Living, Health Systems, and
+    patients in the community in need of at-home chronic wound care.
+  </p>
+
+  <div class="inner flow" style="margin-block-start: var(--size);">
     <h2>A Unique Treatment Solution</h2>
     <p>
-      Restore First Health offers a proven, advanced therapy for the treatment of chronic wounds. We utilize FDA approved skin substitutes in conjunction with high quality wound care. We help patients who suffer from wounds that show no significant progress toward healing after 30 days documented of conventional treatment.
+      Restore First Health offers a proven, advanced therapy for the treatment of chronic
+      wounds. We utilize FDA approved skin substitutes in conjunction with high quality
+      wound care. We help patients who suffer from wounds that show no significant
+      progress toward healing after 30 days documented of conventional treatment.
     </p>
     <p>
-      Our clinical team evaluates, measures, and examines the wounds for infections. Once deemed qualified, our team visits the patients in their home once a week, addresses the wound and places a specialized skin substitute. Patients normally begin to experience healing within the first few applications!
+      Our clinical team evaluates, measures, and examines the wounds for infections. Once
+      deemed qualified, our team visits the patients in their home once a week, addresses
+      the wound and places a specialized skin substitute. Patients normally begin to
+      experience healing within the first few applications!
     </p>
   </div>
 </section>
@@ -37,9 +46,13 @@
         RFH Clinical Team does not replace traditional wound care. We collaborate with
         teams to bring our specialized therapy.
       </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis totam
+        nobis atque asperiores. Eum libero deleniti quas dolor voluptatibus.
+      </p>
     </div>
-    <div>
-      <h3>Qualified patients have a wound that...</h3>
+    <div class="flow">
+      <h3 class="center">Qualified patients have a wound that...</h3>
       <Qualified />
     </div>
   </div>
@@ -50,8 +63,8 @@
     <h2>Local Clinical Resources</h2>
     <p>
       We are local community members - partnering with local home health, assisted living,
-      and long term care. We also welcome patients who care for themselves or loved ones at
-      home who need chronic wound care.
+      and long term care. We also welcome patients who care for themselves or loved ones
+      at home who need chronic wound care.
     </p>
     <div class="flex">
       <div class="flow">
@@ -88,8 +101,8 @@
     </p>
     <p>
       From the first phone call or referral to our initial at home evaluation and therapy,
-      we inform, communicate and ensure all of our patients and their care providers are on
-      the same page at all times.
+      we inform, communicate and ensure all of our patients and their care providers are
+      on the same page at all times.
     </p>
     <div class="flex swap">
       <div>
@@ -175,7 +188,9 @@
     <div class="flex">
       <div class="flow">
         <h2>Facility Partnerships</h2>
-        <p>If you are a facility looking to learn more about partnerships – Call today!</p>
+        <p>
+          If you are a facility looking to learn more about partnerships – Call today!
+        </p>
         <ul class="list">
           <li><a href="tel:4707817510">(470) 781-7510 (Georgia)</a></li>
           <li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
@@ -183,10 +198,23 @@
       </div>
       <div class="flow">
         <h2>Patient Referral Forms</h2>
-        <p>Download the patient referral form or call directly, and we will take the info over the phone or by fax!</p>
+        <p>
+          Download the patient referral form or call directly, and we will take the info
+          over the phone or by fax!
+        </p>
         <ul class="list">
-          <li><a href="https://restorefirsthealth.com/wp-content/uploads/2022/07/RFH_referral-form_v3.pdf">Download Patient Referral Form – Georgia [PDF]</a></li>
-          <li><a href="https://restorefirsthealth.com/wp-content/uploads/2022/11/RFH_referral-form_NJ_v1.pdf">Download Patient Referral Form – New Jersey [PDF]</a></li>
+          <li>
+            <a
+              href="https://restorefirsthealth.com/wp-content/uploads/2022/07/RFH_referral-form_v3.pdf"
+              >Download Patient Referral Form – Georgia [PDF]</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://restorefirsthealth.com/wp-content/uploads/2022/11/RFH_referral-form_NJ_v1.pdf"
+              >Download Patient Referral Form – New Jersey [PDF]</a
+            >
+          </li>
         </ul>
       </div>
     </div>
@@ -197,24 +225,32 @@
   <div class="inner flow">
     <h2>Wound Care Info Sheet</h2>
 
-    <p>Download and share our Chronic Wound Care Information Sheet with your teams and learn more about our process. We pride ourselves on making it easy and transparent to get the care patients deserve.</p>
+    <p>
+      Download and share our Chronic Wound Care Information Sheet with your teams and
+      learn more about our process. We pride ourselves on making it easy and transparent
+      to get the care patients deserve.
+    </p>
 
-    <a href="https://restorefirsthealth.com/wp-content/uploads/2023/05/chronic-wound-theapy-restore-first-health.pdf" class="button">DOWNLOAD PRINTABLE PDF</a>
+    <a
+      href="https://restorefirsthealth.com/wp-content/uploads/2023/05/chronic-wound-theapy-restore-first-health.pdf"
+      class="button">DOWNLOAD PRINTABLE PDF</a
+    >
   </div>
 </section>
 
 <style>
   .description {
     padding: var(--double-size);
+    padding-block-start: calc(var(--double-size) + var(--half-size));
     background-color: var(--secondary);
     line-height: 1.5;
     text-align: center;
   }
-  
+
   .special-list li {
     padding-block: calc(var(--half-size) / 2);
     padding-inline: var(--half-size);
-    margin-inline: var(--size);
+    margin-inline: calc(var(--size) * 1.5);
     list-style-image: url(/icons/check.svg);
   }
 </style>
