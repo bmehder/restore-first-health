@@ -31,7 +31,8 @@
   aside {
     padding: var(--half-size);
     background-color: #223;
-    color: var(--light);
+    color: var(--highlight);
+    font-weight: 500;
     text-align: center;
   }
   .wrapper {

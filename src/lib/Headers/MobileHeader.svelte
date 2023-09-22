@@ -92,6 +92,9 @@
 
   .child {
     padding-inline-start: var(--size);
+    padding-block-end: 0;
+    font-size: calc(var(--size) - 0.5rem);
+    border-bottom: none;
   }
 
   a {
@@ -100,7 +103,7 @@
   }
 
   a[aria-current='true'] {
-    color: var(--alt-one);
+    color: var(--highlight);
   }
 
   :global(body:has(.isOpen)) {
