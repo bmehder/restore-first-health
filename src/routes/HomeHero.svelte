@@ -31,7 +31,7 @@
     font-weight: bold;
     line-height: 1.5;
     text-align: center;
-    text-shadow: 2px 3px 3px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
     letter-spacing: 1px;
   }
   .h2 {

@@ -10,6 +10,7 @@
   const mobileThreshold = 960
 </script>
 
+<aside>This is a notice area!</aside>
 <div class="wrapper">
   <Header {mobileThreshold} />
 
@@ -27,6 +28,12 @@
 <BackToTop />
 
 <style>
+  aside {
+    padding: var(--half-size);
+    background-color: #223;
+    color: var(--light);
+    text-align: center;
+  }
   .wrapper {
     min-height: 100dvh;
     display: grid;

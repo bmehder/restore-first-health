@@ -34,8 +34,9 @@
 
 <style>
   header {
-    background-color: var(--accent);
     max-height: 6em;
+    background-color: var(--accent);
+    padding-block: var(--size);
   }
 
   .skip-nav-link {
@@ -46,12 +47,12 @@
     padding-inline: var(--size);
     text-decoration: underline;
     text-underline-offset: calc(var(--half-size) / 2);
-    transform: translateY(-120%);
+    transform: translateY(-300%);
   }
   
   .skip-nav-link:focus {
     transition: transform 200ms ease-in;
-    transform: translateY(0%);
+    transform: translateY(-150%);
   }
 
   .inner {
@@ -61,6 +62,8 @@
     justify-content: space-between;
     align-items: center;
     gap: var(--size);
+    margin-block-start: calc(var(--half-size) * -0.5);
+    padding-block: 0;
   }
 
   .logo {
@@ -70,6 +73,7 @@
   ul {
     display: flex;
     gap: var(--size);
+    margin-block: var(--size);
   }
 
   ul li ul {

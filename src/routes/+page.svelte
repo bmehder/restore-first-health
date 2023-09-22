@@ -4,7 +4,7 @@
 </script>
 
 <section>
-  <p class="description h3 balance">
+  <p class="description h2 balance">
     Partnerships and Collaborations with Home Health, Assisted Living, Health Systems, and
     patients in the community in need of at-home chronic wound care.
   </p>
@@ -243,7 +243,7 @@
     padding: var(--double-size);
     padding-block-start: calc(var(--double-size) + var(--half-size));
     background-color: var(--secondary);
-    line-height: 1.5;
+    /* line-height: 1.5; */
     text-align: center;
   }
 
