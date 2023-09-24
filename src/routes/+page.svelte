@@ -9,7 +9,7 @@
     patients in the community in need of at-home chronic wound care.
   </p>
 
-  <div class="inner flow" style="margin-block-start: var(--size);">
+  <div class="inner flow" style="margin-block-start: var(--double-size);">
     <h2>A Unique Treatment Solution</h2>
     <p>
       Restore First Health offers a proven, advanced therapy for the treatment of chronic
@@ -128,12 +128,11 @@
 <section class="flow">
   <h2>The RFH Difference</h2>
 
-  <p>
-    We have vast experience in care coordination and management of chronic wounds
-    providing a one-on-one wound care coordinator.
-  </p>
-
   <div class="flow bg-light" style="padding: var(--double-size);">
+    <p>
+      We have vast experience in care coordination and management of chronic wounds
+      providing a one-on-one wound care coordinator.
+    </p>
     <ul class="special-list difference-list">
       <li>We come to you for evaluation and treatment.</li>
       <li>

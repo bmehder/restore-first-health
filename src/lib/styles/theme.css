@@ -84,12 +84,13 @@ button,
   cursor: pointer;
 }
 
-button:is(:hover, :focus),
-.button:is(:hover, :focus) {
+button:is(:hover, :focus-visible),
+.button:is(:hover, :focus-visible) {
   background-color: transparent;
   color: var(--accent-light);
   text-decoration: none;
   outline: 0.25em solid var(--accent-light);
+  transition: all 200ms ease;
 }
 
 /* Form elements */

@@ -7,7 +7,7 @@
   export let closeIcon
   export let classNames = ''
 
-  let isOpen
+  export let isOpen = false
 
   const handleClick = () => (isOpen = !isOpen)
 </script>
@@ -45,9 +45,8 @@
   }
 
   .answer {
-    /* padding-inline-end: var(--size); */
     padding: var(--size);
-    background-color: var(--secondary);
+    background-color: var(--light);
   }
 
   .answer :global(ul),
