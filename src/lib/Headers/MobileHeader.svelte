@@ -106,8 +106,8 @@
     color: var(--highlight);
   }
 
-  :global(body:has(.isOpen)) {
+  /* :global(body:has(.isOpen)) {
     position: fixed;
     inset: 0;
-  }
+  } */
 </style>
