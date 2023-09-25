@@ -56,18 +56,36 @@
     <div class="inner flow">
       <h2>Georgia Locations</h2>
       <div class="auto-grid">
-        {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone }}
-          <Location {name} {address1} {address2} {city} {mapLink} {phoneLink} {phone} />
+        {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
+          <Location
+            {name}
+            {address1}
+            {address2}
+            {city}
+            {mapLink}
+            {phoneLink}
+            {phone}
+            {teamURL}
+          />
         {/each}
       </div>
     </div>
   </section>
-  
+
   <section class="flow jersey">
     <h2>New Jersey Locations</h2>
     <div class="auto-grid">
-      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone }}
-        <Location {name} {address1} {address2} {city} {mapLink} {phoneLink} {phone} />
+      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
+        <Location
+          {name}
+          {address1}
+          {address2}
+          {city}
+          {mapLink}
+          {phoneLink}
+          {phone}
+          {teamURL}
+        />
       {/each}
     </div>
   </section>
@@ -91,7 +109,7 @@
       object-position: top;
     }
   }
-  
+
   @media (min-width: 52em) {
     .jersey {
       max-width: 17.5em;

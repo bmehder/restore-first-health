@@ -1,6 +1,5 @@
 <script>
   export let data
-  console.log(data.event)
 
   const startDate = new Date(data.event[0]._bd_events_datetime).toLocaleDateString('en-US', {
     year: 'numeric',
@@ -41,7 +40,7 @@
           – <time>{endDate}</time>
         {/if}
       </p>
-      <div class="address">
+      <div>
         {#if data.event[0]._bd_events_located_at}
         <strong>{data.event[0]._bd_events_located_at}</strong><br />
         {/if}

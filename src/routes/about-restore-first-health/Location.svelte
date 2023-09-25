@@ -6,6 +6,7 @@
   export let mapLink
   export let phoneLink
   export let phone
+  export let teamURL
 </script>
 
 <div class="half-flow bg-light">
@@ -19,7 +20,7 @@
     ><br />
     <a href="{phoneLink}">{phone}</a>
   </p>
-  <a href="" class="button">Meet the Team</a>
+  <a href="{teamURL}" class="button">Meet the Team</a>
 </div>
 
 <style>
