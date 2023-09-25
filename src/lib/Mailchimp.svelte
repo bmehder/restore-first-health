@@ -4,7 +4,7 @@
     method="post"
     id="mc-embedded-subscribe-form"
     name="mc-embedded-subscribe-form"
-    class="validate"
+    class="validate bg-light"
     target="_blank"
     novalidate
   >
@@ -47,17 +47,22 @@
 </aside>
 
 <style>
+  form {
+    padding: 2rem;
+    border: 1px solid var(--accent);
+  }
   aside {
     min-width: 400px;
-    padding: 2rem;
-    background-color: white;
-    text-align: center;
-    border: 4px solid var(--primary-dark);
-    border-radius: 2rem;
+    /* padding: 2rem; */
+    /* background-color: white; */
+    /* text-align: center; */
+    /* border: 4px solid var(--primary-dark); */
+    /* border-radius: 2rem; */
+    /* border-radius: 2px; */
   }
-  h3 {
+  aside h3 {
     margin-bottom: 0.5rem;
-    color: var(--accent-light) !important;
+    color: var(--accent);
   }
   
   input[type='email'] {
