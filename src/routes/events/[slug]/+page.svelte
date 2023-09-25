@@ -4,7 +4,7 @@
 
   const startDate = new Date(data.event[0]._bd_events_datetime).toLocaleDateString('en-US', {
     year: 'numeric',
-    month: '2-digit',
+    month: 'long',
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
@@ -12,7 +12,7 @@
   
   const endDate = new Date(data.event[0]._bd_events_datetime_end).toLocaleDateString('en-US', {
     year: 'numeric',
-    month: '2-digit',
+    month: 'long',
     day: '2-digit',
     hour: '2-digit',
     minute: '2-digit',
@@ -29,11 +29,12 @@
 <section>
   <article class="flex">
     <img
+      style="flex: 1"
       class="square"
       src={data.event[0]._embedded['wp:featuredmedia'][0].source_url}
       alt={data.event[0].title.rendered}
     />
-    <div class="flow">
+    <div class="flow" style="flex: 2">
       <p class="h3">
         <time>{startDate}</time>
         {#if data.event[0]._bd_events_datetime_end}
