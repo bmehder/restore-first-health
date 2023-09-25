@@ -11,20 +11,4 @@ export default [
     
     <p>Pinky lives in Freehold, NJ, and enjoys traveling and going to the beach with her family.</p>`,
   },
-  {
-    src: '/new-jersey/lizette-lorenzo-betancourt.jpg',
-    name: 'Lizette Lorenzo-Betancourt',
-    job: 'Director of Operations, NJ',
-    description: `<p>Lizette Lorenzo-Betancourt is the Regional Office Manager of Restore First Health in New Jersey. Her experience in healthcare management spans leadership roles in programs focused on neuro-rehabilitation, social services as well as skilled nursing throughout the state. Lizette’s motivation, people-centric nature, and compassion have afforded her excellent team-building skills. She is a team leader focused on new strategies and policies in collaboration with partners to establish and achieve the best patient care possible at RFH.</p>
-
-    <p>Lizette currently manages the day to day operations of the Cranbury, NJ office supporting the expansion of RFH into more communities throughout the region.</p>
-
-    <p>She resides in NJ with her husband and children and enjoys spending time cheering her son on the baseball field, eating donuts and going on hikes with her fur babies.</p>`,
-  },
-  // {
-  //   src: '',
-  //   name: 'Naveen Ahuja, MD',
-  //   job: 'Medical Director - RFH NJ',
-  //   description: ``,
-  // },
 ]

@@ -1,7 +1,13 @@
 <script>
   export let data
 
-  console.log(data.events)
+  const startDate = x => new Date(data.events[x]._bd_events_datetime).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+  })
 </script>
 
 <section class="flow">
@@ -15,7 +21,7 @@
   </details>
 
   <div class="auto-grid">
-    {#each data.events as event}
+    {#each data.events as event, idx}
       <article class="flow">
         {#if event._embedded['wp:featuredmedia']?.[0]}
           <a href="/events/{event.slug}">
@@ -28,6 +34,11 @@
         {/if}
         <div class="flow">
           <h2><a href="/events/{event.slug}">{@html event.title.rendered}</a></h2>
+          <p>
+            <a class="date" href="/events/{event.slug}">
+              <time>{startDate(idx)}</time><br />
+            </a>
+          </p>
           <div>{@html event.excerpt.rendered}</div>
         </div>
         <a href="/events/{event.slug}" class="button">Read More</a>
@@ -48,6 +59,11 @@
 
   h2 a {
     color: var(--accent-light);
+  }
+
+  .date {
+    color: inherit;
+    font-weight: bold;
   }
 
   article > div {

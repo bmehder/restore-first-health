@@ -50,14 +50,14 @@
   form {
     padding: 2rem;
     border: 1px solid var(--accent);
+    border-radius: var(--half-size);
   }
   aside {
-    min-width: 400px;
+    min-width: 24em;
     /* padding: 2rem; */
     /* background-color: white; */
     /* text-align: center; */
     /* border: 4px solid var(--primary-dark); */
-    /* border-radius: 2rem; */
     /* border-radius: 2px; */
   }
   aside h3 {

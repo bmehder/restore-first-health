@@ -7,8 +7,9 @@ export default [
     name: 'About',
     url: '/about-restore-first-health/',
     children: [
-      { name: 'Georgia Care Team', url: '/about-restore-first-health/georgia-care-team/' },
-      { name: 'New Jersey Care Team', url: '/about-restore-first-health/new-jersey-care-team/' },
+      { name: 'Johns Creek, GA', url: '/about-restore-first-health/johns-creek-ga/' },
+      { name: 'Decatur, GA', url: '/about-restore-first-health/decatur-ga/' },
+      { name: 'Cranbury, NJ', url: '/about-restore-first-health/cranbury-nj/' },
     ],
   },
   {

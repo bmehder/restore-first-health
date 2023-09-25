@@ -52,7 +52,7 @@
 </section>
 
 <div class="flow">
-  <section class="flow locations">
+  <section class="flow">
     <div class="inner flow">
       <h2>Georgia Locations</h2>
       <div class="auto-grid">
@@ -63,7 +63,7 @@
     </div>
   </section>
   
-  <section class="flow locations jersey">
+  <section class="flow jersey">
     <h2>New Jersey Locations</h2>
     <div class="auto-grid">
       {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone }}
