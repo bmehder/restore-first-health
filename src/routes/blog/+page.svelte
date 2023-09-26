@@ -2,14 +2,12 @@
   export let data
 </script>
 
-<h1 class="title">Blog</h1>
+<svelte:head>
+  <title>Blog - Restore First Health</title>
+  <meta name="description" content="Blog articles and news from Restore First Health in Georgia and New Jersey."/>
+</svelte:head>
 
-<!-- <details>
-  <summary>JSON Response</summary>
-  <pre>
-    {JSON.stringify(data.posts, null, 2)}
-  </pre>
-</details> -->
+<h1 class="title">Blog</h1>
 
 <section>
   <div class="auto-grid">

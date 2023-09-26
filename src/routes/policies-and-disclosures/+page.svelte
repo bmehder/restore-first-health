@@ -1,8 +1,14 @@
 <script>
   export let data
-
-  console.log(data.page)
 </script>
+
+<svelte:head>
+  <title>Policies and Disclosures - Restore First Health</title>
+  <meta
+    name="description"
+    content="Find information about Policies and Disclosures for the Restore First Health website."
+  />
+</svelte:head>
 
 <section class="flow">
   <h1 class="title">Policies and Disclosures</h1>

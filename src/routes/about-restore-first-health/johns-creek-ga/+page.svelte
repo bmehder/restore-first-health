@@ -3,6 +3,14 @@
   import Member from '../Member.svelte'
 </script>
 
+<svelte:head>
+  <title>Johns Creek, GA Team - Restore First Health</title>
+  <meta
+    name="description"
+    content="Meet the Johns Creek, GA team at Restore First Health. We are here to guide you through any of these treatments and work with you to ensure your health and well being are being prioritized."
+  />
+</svelte:head>
+
 <section class="flow">
   <h1 class="title">Johns Creek, GA Care Team</h1>
 

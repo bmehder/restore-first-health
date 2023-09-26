@@ -1,7 +1,12 @@
 <script>
-  import locations from './locations'
-  import Location from './Location.svelte'
+  import locations from '$lib/locations'
+  import Location from '$lib/Location.svelte'
 </script>
+
+<svelte:head>
+  <title>About Restore First Health</title>
+  <meta name="description" content="Learn about Restore First Health - a specialized medical practice focused on in-home, advanced wound care."/>
+</svelte:head>
 
 <section class="flow">
   <h1 class="title">About Restore First Health</h1>

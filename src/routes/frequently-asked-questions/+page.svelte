@@ -9,6 +9,14 @@
   const handleClick = () => isOpen = !isOpen
 </script>
 
+<svelte:head>
+  <title>Frequently Asked Questions - Restore First Health</title>
+  <meta
+    name="description"
+    content="Get answers to Frequently Asked Questions about Restore First Health advanced care for chronic wounds."
+  />
+</svelte:head>
+
 <section class="flow">
   <h1 class="title">Frequently Asked Questions</h1>
 

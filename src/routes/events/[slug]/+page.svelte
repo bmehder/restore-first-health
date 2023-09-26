@@ -24,17 +24,25 @@
   )
 </script>
 
+<svelte:head>
+  <title>{data.event[0].title.rendered} - Restore First Health</title>
+  <meta name="description" content="{data.event[0].yoast_head_json.description}"/>
+</svelte:head>
+
 <h1 class="title">
   {@html data.event[0].title.rendered}
 </h1>
+
 <section>
   <article class="flex">
+    {#if data.event[0]._embedded?.['wp:featuredmedia']?.[0].source_url}
     <img
       style="flex: 1"
       class="square"
-      src={data.event[0]._embedded['wp:featuredmedia'][0].source_url}
+      src={data.event[0]._embedded?.['wp:featuredmedia']?.[0].source_url}
       alt={data.event[0].title.rendered}
     />
+    {/if}
     <div class="flow" style="flex: 2">
       <p class="h3">
         <time>{startDate}</time>

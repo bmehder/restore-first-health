@@ -10,10 +10,19 @@
       minute: '2-digit',
     })
 
-  const events = data.events.sort(
-    (a, b) => new Date(b._bd_events_datetime) - new Date(a._bd_events_datetime)
-  )
+  const sortDescByDate = (a, b) =>
+    new Date(b._bd_events_datetime) - new Date(a._bd_events_datetime)
+
+  const events = data.events.sort(sortDescByDate)
 </script>
+
+<svelte:head>
+  <title>Events - Restore First Health</title>
+  <meta
+    name="description"
+    content="Find information about events hosted by Restore First Health."
+  />
+</svelte:head>
 
 <section class="flow">
   <h1 class="title">Events</h1>
@@ -21,11 +30,11 @@
   <div class="auto-grid">
     {#each events as event, idx}
       <article class="flow">
-        {#if event._embedded['wp:featuredmedia']?.[0]}
+        {#if event._embedded?.['wp:featuredmedia']?.[0]}
           <a href="/events/{event.slug}">
             <img
               class="square"
-              src={event._embedded['wp:featuredmedia'][0].source_url}
+              src={event._embedded?.['wp:featuredmedia']?.[0].source_url}
               alt={event.title.rendered}
             />
           </a>

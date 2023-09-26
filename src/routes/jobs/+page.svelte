@@ -1,3 +1,11 @@
+<svelte:head>
+  <title>Job Opportunities - Restore First Health</title>
+  <meta
+    name="description"
+    content="Learn about job opportunities in wound care at Restore First Health in Georgia and New Jersey."
+  />
+</svelte:head>
+
 <section class="flow">
   <h1 class="title">Job Opportunities</h1>
   <h2>New Jersey</h2>

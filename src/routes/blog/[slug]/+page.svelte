@@ -4,13 +4,12 @@
   const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
     dateStyle: 'full',
   })
-
-  console.log(data)
 </script>
 
-<!-- <details>
-  <pre>{JSON.stringify(data.post, null, 2)}</pre>
-</details> -->
+<svelte:head>
+  <title>{data.post[0].title.rendered} - Restore First Health</title>
+  <meta name="description" content="{data.post[0].yoast_head_json.description}"/>
+</svelte:head>
 
 <section>
   <article class="flow">

@@ -3,6 +3,14 @@
   import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
 
+<svelte:head>
+  <title>Home - Advanced Care for Chronic Wounds - Restore First Health</title>
+  <meta
+    name="description"
+    content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care."
+  />
+</svelte:head>
+
 <section>
   <p class="description h2 balance">
     Partnerships and Collaborations with Home Health, Assisted Living, Health Systems, and
