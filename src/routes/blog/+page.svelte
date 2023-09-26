@@ -4,12 +4,12 @@
 
 <h1 class="title">Blog</h1>
 
-<details>
+<!-- <details>
   <summary>JSON Response</summary>
   <pre>
     {JSON.stringify(data.posts, null, 2)}
   </pre>
-</details>
+</details> -->
 
 <section>
   <div class="auto-grid">

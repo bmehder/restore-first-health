@@ -11,4 +11,10 @@ export default [
     
     <p>When not treating patients or volunteering John enjoys attending his children’s sporting events with his wife, and attending college and professional sporting events as a family.</p>`,
   },
+  {
+    src: '/georgia/diedre-anthony.jpg',
+    name: 'Diedre Anthony',
+    job: 'Nurse Practitioner',
+    description: `<p>Diedre Anthony is a nurse practitioners in the John's Creek office. She has been working in healthcare for almost 20 years. Diedre started her career as a physical therapy aide at Northside Hospital before switching to nursing. She completed a BS degree in Exercise Physiology then enrolled to start nursing school immediately after graduation. Throughout nursing school, she worked on the orthopedics and Gastrointestinal floor. After graduating, she spent almost 11 years as a labor and delivery nurse. She has now been a nurse practitioner for over 6 years working in a primary care clinic as well as providing primary care inhome which is where she began to see the need for chronic wound care. She is passionate about helping patients improve their health and to live their best lives.</p>`,
+  },
 ]

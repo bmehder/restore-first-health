@@ -53,7 +53,8 @@
     border-radius: var(--half-size);
   }
   aside {
-    min-width: 24em;
+    max-width: 24em;
+    /* min-width: 24em; */
     /* padding: 2rem; */
     /* background-color: white; */
     /* text-align: center; */

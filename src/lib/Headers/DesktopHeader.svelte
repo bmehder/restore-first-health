@@ -109,6 +109,6 @@
   a[aria-current='true'] {
     text-decoration: underline;
     text-decoration-color: var(--highlight);
-    text-decoration-thickness: calc(var(--size) / 8);
+    text-decoration-thickness: 2px;
   }
 </style>

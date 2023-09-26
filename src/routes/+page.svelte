@@ -204,13 +204,13 @@
         <ul class="list">
           <li>
             <a
-              href="https://restorefirsthealth.com/wp-content/uploads/2022/07/RFH_referral-form_v3.pdf"
+              href="/wound-care-referral-form-ga.pdf" target="_blank"
               >Download Patient Referral Form – Georgia [PDF]</a
             >
           </li>
           <li>
             <a
-              href="https://restorefirsthealth.com/wp-content/uploads/2022/11/RFH_referral-form_NJ_v1.pdf"
+              href="/wound-care-referral-form-nj.pdf" target="_blank"
               >Download Patient Referral Form – New Jersey [PDF]</a
             >
           </li>

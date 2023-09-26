@@ -14,12 +14,12 @@
 <section class="flow">
   <h1 class="title">Events</h1>
 
-  <details>
+  <!-- <details>
     <summary>JSON Response</summary>
     <pre>
       {JSON.stringify(data.events, null, 2)}
     </pre>
-  </details>
+  </details> -->
 
   <div class="auto-grid">
     {#each data.events as event, idx}

@@ -107,6 +107,10 @@ section:last-child {
   flex: 1;
 }
 
+.column {
+  flex-direction: column;
+}
+
 @media (min-width: 49em) {
   .flex {
     flex-direction: row;

@@ -18,9 +18,9 @@
   })
 </script>
 
-<details>
+<!-- <details>
   <pre>{JSON.stringify(data.event, null, 2)}</pre>
-</details>
+</details> -->
 
 <h1 class="title">
   {@html data.event[0].title.rendered}
