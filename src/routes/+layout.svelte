@@ -32,7 +32,7 @@
 <Popover delay="2000">
   <h2>My content</h2>
   <p>
-    Lorem ipsum dolor, <a href="/jobs/">sit</a> amet consectetur adipisicing elit. Repellat nam dignissimos
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nam dignissimos
     asperiores, neque eaque sequi pariatur ex blanditiis accusantium iusto eveniet dolor
     nihil molestias autem soluta dicta doloribus eius voluptates officia rerum placeat
     mollitia deleniti ab facilis? Quam mollitia exercitationem officia, perspiciatis nihil

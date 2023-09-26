@@ -54,10 +54,10 @@
         RFH Clinical Team does not replace traditional wound care. We collaborate with
         teams to bring our specialized therapy.
       </p>
-      <p>
+      <!-- <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt blanditiis totam
         nobis atque asperiores. Eum libero deleniti quas dolor voluptatibus.
-      </p>
+      </p> --> 
     </div>
     <div class="flow">
       <h3 class="center">Qualified patients have a wound that...</h3>
