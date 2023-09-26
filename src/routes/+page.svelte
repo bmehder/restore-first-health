@@ -231,8 +231,8 @@
     </p>
 
     <a
-      href="https://restorefirsthealth.com/wp-content/uploads/2023/05/chronic-wound-theapy-restore-first-health.pdf"
-      class="button">DOWNLOAD PRINTABLE PDF</a
+      href="/chronic-wound-theapy-restore-first-health.pdf"
+      class="button" target="_blank">DOWNLOAD PRINTABLE PDF</a
     >
   </div>
 </section>

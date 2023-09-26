@@ -52,7 +52,7 @@
   
   .skip-nav-link:focus {
     transition: transform 200ms ease-in;
-    transform: translateY(-150%);
+    transform: translateY(-120%);
   }
 
   .inner {

@@ -1,26 +1,28 @@
 <script>
   export let data
 
-  const startDate = new Date(data.event[0]._bd_events_datetime).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-  })
-  
-  const endDate = new Date(data.event[0]._bd_events_datetime_end).toLocaleDateString('en-US', {
-    year: 'numeric',
-    month: 'long',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-  })
-</script>
+  const startDate = new Date(data.event[0]._bd_events_datetime).toLocaleDateString(
+    'en-US',
+    {
+      year: 'numeric',
+      month: 'long',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    }
+  )
 
-<!-- <details>
-  <pre>{JSON.stringify(data.event, null, 2)}</pre>
-</details> -->
+  const endDate = new Date(data.event[0]._bd_events_datetime_end).toLocaleDateString(
+    'en-US',
+    {
+      year: 'numeric',
+      month: 'long',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    }
+  )
+</script>
 
 <h1 class="title">
   {@html data.event[0].title.rendered}
@@ -42,7 +44,7 @@
       </p>
       <div>
         {#if data.event[0]._bd_events_located_at}
-        <strong>{data.event[0]._bd_events_located_at}</strong><br />
+          <strong>{data.event[0]._bd_events_located_at}</strong><br />
         {/if}
         {data.event[0]._bd_events_address}<br />
         {#if data.event[0]._bd_events_address_2}

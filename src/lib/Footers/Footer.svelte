@@ -25,7 +25,7 @@
               <li><a href="/events">Events</a></li>
               <li><a href="/frequently-asked-questions">FAQ</a></li>
               <li><a href="/jobs">Jobs</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li><a href="/contact-us">Contact</a></li>
             </ul>
           </nav>
         </div>

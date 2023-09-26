@@ -10,7 +10,8 @@
   const mobileThreshold = 960
 </script>
 
-<aside>This is a notice area!</aside>
+<!-- <aside>This is a notice area!</aside> -->
+<aside></aside>
 <div class="wrapper">
   <Header {mobileThreshold} />
 

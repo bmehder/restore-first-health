@@ -9,20 +9,17 @@
       hour: '2-digit',
       minute: '2-digit',
     })
+
+  const events = data.events.sort(
+    (a, b) => new Date(b._bd_events_datetime) - new Date(a._bd_events_datetime)
+  )
 </script>
 
 <section class="flow">
   <h1 class="title">Events</h1>
 
-  <!-- <details>
-    <summary>JSON Response</summary>
-    <pre>
-      {JSON.stringify(data.events, null, 2)}
-    </pre>
-  </details> -->
-
   <div class="auto-grid">
-    {#each data.events as event, idx}
+    {#each events as event, idx}
       <article class="flow">
         {#if event._embedded['wp:featuredmedia']?.[0]}
           <a href="/events/{event.slug}">
@@ -63,7 +60,8 @@
   }
 
   .date {
-    color: inherit;
+    color: var(--text-color);
+    font-size: var(--size);
     font-weight: bold;
   }
 
