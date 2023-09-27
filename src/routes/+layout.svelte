@@ -1,44 +1,49 @@
 <script>
-  import { page } from '$app/stores'
+  import '@fontsource-variable/nunito-sans'
   import '$lib/styles/app.css'
   import '$lib/styles/theme.css'
+  import { page } from '$app/stores'
   import Header from '$lib/Headers/Header.svelte'
   import HomeHero from './HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
-  import Popover from '$lib/Popover.svelte'
+  // import Popover from '$lib/Popover.svelte'
+
+  // export let data
 
   const mobileThreshold = 960
 </script>
 
 <!-- <aside>This is a notice area!</aside> -->
-<aside></aside>
+<aside />
 <div class="wrapper">
   <Header {mobileThreshold} />
 
   {#if $page.route.id === '/'}
     <HomeHero image="/hero-1.jpg" />
   {/if}
-  
+
   <main id="main-content" class="flow">
     <slot />
   </main>
-  
+
   <Footer />
 </div>
 
 <BackToTop />
 
-<Popover delay="2000">
-  <h2>My content</h2>
-  <p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nam dignissimos
-    asperiores, neque eaque sequi pariatur ex blanditiis accusantium iusto eveniet dolor
-    nihil molestias autem soluta dicta doloribus eius voluptates officia rerum placeat
-    mollitia deleniti ab facilis? Quam mollitia exercitationem officia, perspiciatis nihil
-    iste fugiat eum tenetur nemo debitis magni.
-  </p>
-</Popover>
+<!-- {#if !data.rfhPopup}
+  <Popover delay="2000">
+    <h2>My content</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nam dignissimos
+      asperiores, neque eaque sequi pariatur ex blanditiis accusantium iusto eveniet dolor
+      nihil molestias autem soluta dicta doloribus eius voluptates officia rerum placeat
+      mollitia deleniti ab facilis? Quam mollitia exercitationem officia, perspiciatis
+      nihil iste fugiat eum tenetur nemo debitis magni.
+    </p>
+  </Popover>
+{/if} -->
 
 <style>
   aside {

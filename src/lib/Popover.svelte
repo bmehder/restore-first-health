@@ -3,9 +3,13 @@
 
   export let delay = 0
 
-  const openModal = (elem, ms) => setTimeout(() => elem.showPopover(), ms)
+  const openModal = (elem, ms) => {
+    setTimeout(() => elem.showPopover(), ms)
+  }
 
-  const hideModal = evt => evt.target.parentElement.hidePopover()
+  const hideModal = evt => {
+    evt.target.parentElement.hidePopover()
+  }
 </script>
 
 <div class="flow" use:openModal={delay} popover>
