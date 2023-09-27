@@ -9,8 +9,8 @@
       hour: '2-digit',
       minute: '2-digit',
     })
-  
-    const getEndDate = x =>
+
+  const getEndDate = x =>
     new Date(data.events[x]._bd_events_datetime_end).toLocaleDateString('en-US', {
       year: 'numeric',
       month: '2-digit',
@@ -83,7 +83,7 @@
   {/if}
 </section>
 
-<hr>
+<hr />
 
 <section class="flow">
   <h2>Past Events</h2>

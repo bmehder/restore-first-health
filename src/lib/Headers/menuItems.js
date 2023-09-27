@@ -9,6 +9,7 @@ export default [
     children: [
       { name: 'Johns Creek, GA', url: '/about-restore-first-health/johns-creek-ga/' },
       { name: 'Decatur, GA', url: '/about-restore-first-health/decatur-ga/' },
+      { name: 'Marietta, GA', url: '/about-restore-first-health/marietta-ga/' },
       { name: 'Cranbury, NJ', url: '/about-restore-first-health/cranbury-nj/' },
     ],
   },
