@@ -46,7 +46,7 @@
 
   .answer {
     padding: var(--size);
-    background-color: var(--light);
+    background-color: var(--secondary);
   }
 
   .answer :global(ul),

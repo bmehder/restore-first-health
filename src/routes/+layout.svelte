@@ -4,7 +4,7 @@
   import '$lib/styles/theme.css'
   import { page } from '$app/stores'
   import Header from '$lib/Headers/Header.svelte'
-  import HomeHero from './HomeHero.svelte'
+  import HomeHero from '$lib/HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
   // import Popover from '$lib/Popover.svelte'

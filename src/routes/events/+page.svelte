@@ -10,10 +10,18 @@
       minute: '2-digit',
     })
 
+  const today = new Date()
+
   const sortDescByDate = (a, b) =>
     new Date(b._bd_events_datetime) - new Date(a._bd_events_datetime)
 
-  const events = data.events.sort(sortDescByDate)
+  const upcommingEvents = data.events
+    .sort(sortDescByDate)
+    .filter(x => new Date(x._bd_events_datetime_end) >= today)
+  
+  const pastEvents = data.events
+    .sort(sortDescByDate)
+    .filter(x => new Date(x._bd_events_datetime_end || x._bd_events_datetime) < today)
 </script>
 
 <svelte:head>
@@ -24,11 +32,14 @@
   />
 </svelte:head>
 
-<section class="flow">
-  <h1 class="title">Events</h1>
+<h1 class="title">Events</h1>
 
+<section class="flow">
+  <h2>Upcomming Events</h2>
+
+  {#if upcommingEvents.length > 0}
   <div class="auto-grid">
-    {#each events as event, idx}
+    {#each upcommingEvents as event, idx}
       <article class="flow">
         {#if event._embedded?.['wp:featuredmedia']?.[0]}
           <a href="/events/{event.slug}">
@@ -52,6 +63,43 @@
       </article>
     {/each}
   </div>
+  {:else}
+    <h3>No upcommimg events</h3>
+  {/if}
+</section>
+
+<section class="flow">
+  <h2>Past Events</h2>
+
+  {#if pastEvents.length > 0}
+  <div class="auto-grid">
+    {#each pastEvents as event, idx}
+      <article class="flow">
+        {#if event._embedded?.['wp:featuredmedia']?.[0]}
+          <a href="/events/{event.slug}">
+            <img
+              class="square"
+              src={event._embedded?.['wp:featuredmedia']?.[0].source_url}
+              alt={event.title.rendered}
+            />
+          </a>
+        {/if}
+        <div class="flow">
+          <h2><a href="/events/{event.slug}">{@html event.title.rendered}</a></h2>
+          <p>
+            <a class="date" href="/events/{event.slug}">
+              <time>{startDate(idx)}</time><br />
+            </a>
+          </p>
+          <div>{@html event.excerpt.rendered}</div>
+        </div>
+        <a href="/events/{event.slug}" class="button">Read More</a>
+      </article>
+    {/each}
+  </div>
+  {:else}
+    <h3>No past events</h3>
+  {/if}
 </section>
 
 <style>

@@ -148,6 +148,10 @@ section:last-child {
   text-wrap: balance;
 }
 
+.unset {
+  all: unset;
+}
+
 .list {
   list-style: initial;
   padding-inline-start: calc(var(--size) * 1.5);

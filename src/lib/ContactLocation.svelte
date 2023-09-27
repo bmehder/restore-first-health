@@ -22,7 +22,7 @@
 </div>
 
 <style>
-  div {
+  .locations {
     padding: var(--size);
   }
 

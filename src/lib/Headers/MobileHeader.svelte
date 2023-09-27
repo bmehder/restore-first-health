@@ -19,13 +19,13 @@
       <div class="logo">
         <a on:click={closeMenu} href="/">{@html logo}</a>
       </div>
-      <div class="trigger" on:click={toggleMenu} on:keypress>
+      <button class="trigger unset" on:click={toggleMenu}>
         {#if isOpen}
           <Close />
         {:else}
           <Hamburger />
         {/if}
-      </div>
+      </button>
     </div>
     {#if isOpen}
       <nav id="header-nav" aria-label="Main Navigation" transition:slide>
