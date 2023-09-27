@@ -1,5 +1,4 @@
 <script>
-  import Mailchimp from '$lib/Mailchimp.svelte'
   import Facebook from '$lib/icons/Facebook.svelte'
   import Instagram from '$lib/icons/Instagram.svelte'
   import Youtube from '$lib/icons/Youtube.svelte'
@@ -11,7 +10,7 @@
 <footer class="bg-accent">
   <div class="inner socials">
     <nav>
-      <ul class="flex" style="flex-direction: row;">
+      <ul class="flex">
         <li>
           <a href="https://www.facebook.com/RestoreFirstHealth" target="_blank"
             ><Facebook /></a
@@ -60,6 +59,16 @@
 
   .socials nav {
     width: max-content;
+    /* margin-left: auto; */
+  }
+
+  @media (max-width: 48em) {
+    /* .socials nav {
+      margin-left: 0;
+    } */
+    .socials nav ul {
+      flex-direction: row;
+    }
   }
   
   .socials nav ul {

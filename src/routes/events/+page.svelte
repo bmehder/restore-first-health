@@ -24,7 +24,7 @@
   const sortDescByDate = (a, b) =>
     new Date(b._bd_events_datetime) - new Date(a._bd_events_datetime)
 
-  const upcommingEvents = [...data.events]
+  const upcomingEvents = [...data.events]
     .sort(sortDescByDate)
     .filter(x => new Date(x._bd_events_datetime_end) >= today)
 
@@ -32,7 +32,7 @@
     .sort(sortDescByDate)
     .filter(x => new Date(x._bd_events_datetime_end || x._bd_events_datetime) < today)
 
-  $: if (pastEvents.length > 6) upcommingEvents.length = 6
+  $: if (pastEvents.length > 6) upcomingEvents.length = 6
 </script>
 
 <svelte:head>
@@ -46,11 +46,11 @@
 <h1 class="title">Events</h1>
 
 <section class="flow">
-  <h2>Upcomming Events</h2>
+  <h2>Upcoming Events</h2>
 
-  {#if upcommingEvents.length > 0}
+  {#if upcomingEvents.length > 0}
     <div class="auto-grid">
-      {#each upcommingEvents as event, idx}
+      {#each upcomingEvents as event, idx}
         <article class="flow">
           {#if event._embedded?.['wp:featuredmedia']?.[0]}
             <a href="/events/{event.slug}">
