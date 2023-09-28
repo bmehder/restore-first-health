@@ -19,7 +19,7 @@
       <div class="logo">
         <a on:click={closeMenu} href="/">{@html logo}</a>
       </div>
-      <button class="trigger unset" on:click={toggleMenu}>
+      <button class="trigger" on:click={toggleMenu}>
         {#if isOpen}
           <Close />
         {:else}
@@ -104,6 +104,16 @@
 
   a[aria-current='true'] {
     color: var(--highlight);
+  }
+
+  button {
+    all: unset;
+  }
+
+  button:is(:focus-visible) {
+    outline: 2px solid white;
+    outline-offset: 0.25em;
+    border-radius: 2px;
   }
 
   /* :global(body:has(.isOpen)) {

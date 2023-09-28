@@ -32,7 +32,7 @@
     .sort(sortDescByDate)
     .filter(x => new Date(x._bd_events_datetime_end || x._bd_events_datetime) < today)
 
-  $: if (pastEvents.length > 6) upcomingEvents.length = 6
+  $: if (pastEvents.length > 6) pastEvents.length = 6
 </script>
 
 <svelte:head>

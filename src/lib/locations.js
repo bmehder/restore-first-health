@@ -29,7 +29,7 @@ export default {
       mapLink: 'https://maps.apple.com/maps/?q=2550+Windy+Hill+Road+SE+Marietta+GA+30667',
       phoneLink: 'tel:4703087485',
       phone: '(470) 308-7485',
-      teamURL: '/about-restore-first-health/',
+      teamURL: '/about-restore-first-health/marietta-ga',
     },
   ],
   newJersey: [

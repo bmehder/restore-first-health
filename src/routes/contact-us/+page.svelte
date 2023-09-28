@@ -13,7 +13,7 @@
 
 <h1 class="title">Contact Us</h1>
 
-<p class="h3">Call us with any questions or to schedule a consultation.</p>
+<p>Call us with any questions or to schedule a consultation.</p>
 
 <div class="flow">
   <section class="flow">
