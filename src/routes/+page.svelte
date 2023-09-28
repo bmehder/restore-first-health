@@ -13,7 +13,7 @@
 
 <section>
   <p class="description h2 balance">
-    Partnerships and Collaborations with Home Health, Assisted Living, Health Systems, and
+    Partnerships and Collaboration with Home Health, Assisted Living, Health Systems, and
     patients in the community in need of at-home chronic wound care.
   </p>
 
