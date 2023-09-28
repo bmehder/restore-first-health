@@ -115,7 +115,7 @@
     <div class="flex swap">
       <div>
         <img
-          src="https://restorefirsthealth.com/wp-content/uploads/2023/02/wound-care-travel.jpg"
+          src="/wound-care-travel.jpg"
           alt="wound care traveling doctor in car"
         />
       </div>
