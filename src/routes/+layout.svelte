@@ -14,6 +14,10 @@
   const mobileThreshold = 960
 </script>
 
+<svelte:head>
+  <script defer data-domain="restorefirsthealth.com" src="https://plausible.io/js/script.js"></script>
+</svelte:head>
+
 <!-- <aside>This is a notice area!</aside> -->
 <aside />
 <div class="wrapper">
