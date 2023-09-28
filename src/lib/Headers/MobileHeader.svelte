@@ -19,13 +19,13 @@
       <div class="logo">
         <a on:click={closeMenu} href="/">{@html logo}</a>
       </div>
-      <button class="trigger" on:click={toggleMenu}>
+      <div class="trigger">
         {#if isOpen}
-          <Close />
+          <Close on:click={toggleMenu} />
         {:else}
-          <Hamburger />
+          <Hamburger on:click={toggleMenu} />
         {/if}
-      </button>
+      </div>
     </div>
     {#if isOpen}
       <nav id="header-nav" aria-label="Main Navigation" transition:slide>
@@ -104,16 +104,6 @@
 
   a[aria-current='true'] {
     color: var(--highlight);
-  }
-
-  button {
-    all: unset;
-  }
-
-  button:is(:focus-visible) {
-    outline: 2px solid white;
-    outline-offset: 0.25em;
-    border-radius: 2px;
   }
 
   /* :global(body:has(.isOpen)) {

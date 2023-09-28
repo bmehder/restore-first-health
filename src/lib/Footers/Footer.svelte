@@ -12,23 +12,23 @@
     <nav>
       <ul class="flex">
         <li>
-          <a href="https://www.facebook.com/RestoreFirstHealth" target="_blank"
+          <a href="https://www.facebook.com/RestoreFirstHealth" target="_blank" aria-label="Facebook"
             ><Facebook /></a
           >
         </li>
         <li>
-          <a href="https://www.instagram.com/restorefirsthealth/" target="_blank"
+          <a href="https://www.instagram.com/restorefirsthealth/" target="_blank" aria-label="Instagram"
             ><Instagram /></a
           >
         </li>
         <li>
           <a
             href="https://www.youtube.com/channel/UCV7KVHZbCWypAi4nsYphVIQ"
-            target="_blank"><Youtube /></a
+            target="_blank" aria-label="Youtube"><Youtube /></a
           >
         </li>
         <li>
-          <a href="https://www.linkedin.com/company/restore-first-health/" target="_blank"
+          <a href="https://www.linkedin.com/company/restore-first-health/" target="_blank" aria-label="LinkedIn"
             ><LinkedIn /></a
           >
         </li>
