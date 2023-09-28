@@ -51,11 +51,5 @@
     { "src": "/knee-pain/", "status": 410 },
     { "src": "/physical-therapy", "status": 410 },
     { "src": "/physical-therapy/", "status": 410 }
-  ],
-  "rewrites": [
-    {
-      "source": "/blog/:path*",
-      "destination": "https://restorefirsthealth.com/:path*"
-    }
   ]
 }
