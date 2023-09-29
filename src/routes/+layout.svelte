@@ -7,6 +7,7 @@
   import HomeHero from '$lib/HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
+  import Notice from '$lib/Notice.svelte'
   // import Popover from '$lib/Popover.svelte'
 
   // export let data
@@ -18,8 +19,8 @@
   <script defer data-domain="restorefirsthealth.com" src="https://plausible.io/js/script.js"></script>
 </svelte:head>
 
-<!-- <aside>This is a notice area!</aside> -->
-<aside />
+<Notice></Notice>
+
 <div class="wrapper">
   <Header {mobileThreshold} />
 
@@ -50,13 +51,6 @@
 {/if} -->
 
 <style>
-  aside {
-    padding: var(--half-size);
-    background-color: #223;
-    color: var(--highlight);
-    font-weight: 500;
-    text-align: center;
-  }
   .wrapper {
     min-height: 100dvh;
     display: grid;
