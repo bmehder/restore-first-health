@@ -43,13 +43,5 @@
     { "source": "/event/", "destination": "/events/", "permanent": true },
     { "source": "/wound-care", "destination": "/", "permanent": true },
     { "source": "/wound-care/", "destination": "/", "permanent": true }
-  ],
-  "routes": [
-    { "src": "/diabetes-metabolic-dnt-program", "status": 410 },
-    { "src": "/diabetes-metabolic-dnt-program/", "status": 410 },
-    { "src": "/knee-pain", "status": 410 },
-    { "src": "/knee-pain/", "status": 410 },
-    { "src": "/physical-therapy", "status": 410 },
-    { "src": "/physical-therapy/", "status": 410 }
   ]
 }
