@@ -11,7 +11,7 @@
 <h1 class="title">Case Studies</h1>
 
 <section class="flow">
-  <h2>Wound Series I</h2>
+  <!-- <h2>Wound Series I</h2> -->
   <p>Graphic Wound Images. Click on an image to show or blur it.</p>
   <ul class="auto-grid series1">
     {#each series1 as item}
@@ -21,7 +21,7 @@
 </section>
 
 <section class="flow" style="margin-block-start: var(--double-size);">
-  <h2>Wound Series II</h2>
+  <!-- <h2>Wound Series II</h2> -->
   <ul class="auto-grid">
     {#each series2 as item}
       <Wound {item} />
