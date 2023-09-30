@@ -14,6 +14,10 @@ export default [
     ],
   },
   {
+    name: 'Case Studies',
+    url: '/case-studies/',
+  },
+  {
     name: 'Blog',
     url: '/blog/',
   },
