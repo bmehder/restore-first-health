@@ -31,10 +31,8 @@ const createSitemap = ({ site, pages, posts }) => {
   `
 
   const getPageEntries = pages => pages.map(createPageEntry).join('')
-  // const getOtherEntries = pages => pages.map(createPageEntry).join('')
   const getPostEntries = posts => posts.map(createPostEntry).join('')
 
-  console.log(getPageEntries(otherPages))
   return `<?xml version="1.0" encoding="UTF-8" ?>
     <urlset
       xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
