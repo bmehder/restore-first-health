@@ -15,7 +15,10 @@
       <ul>
         {#each menuItems as { name, url, children }}
           <li>
-            <a aria-current={$page.url.pathname === url} href={url}>{name}</a>
+            <a
+              aria-current={$page.url.pathname === url}
+              href={url}>{name}</a
+            >
             {#if children}
               <ul class="flow">
                 {#each children as { name, url }}
@@ -33,6 +36,13 @@
 </header>
 
 <style>
+  li:has(li [aria-current='true']) {
+    text-decoration: underline;
+    text-decoration-color: var(--highlight);
+    text-decoration-thickness: 2px;
+    text-underline-offset: var(--half-size);
+  }
+
   header {
     max-height: 6em;
     background-color: var(--accent);
@@ -49,7 +59,7 @@
     text-underline-offset: calc(var(--half-size) / 2);
     transform: translateY(-300%);
   }
-  
+
   .skip-nav-link:focus {
     transition: transform 200ms ease-in;
     transform: translateY(-120%);
@@ -97,15 +107,15 @@
   a {
     color: var(--light);
     text-underline-offset: var(--half-size);
-    text-decoration-thickness: calc(var(--size) / 12);
+    text-decoration-thickness: 2px;
   }
-  
+
   a:hover:not([aria-current='true']) {
     /* text-decoration-color: var(--secondary); */
     text-decoration: none;
     opacity: 0.9;
   }
-  
+
   a[aria-current='true'] {
     text-decoration: underline;
     text-decoration-color: var(--highlight);

@@ -1,6 +1,4 @@
 <script>
-  import { error } from '@sveltejs/kit';
-
   export let data
 
   const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
