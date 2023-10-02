@@ -1,4 +1,6 @@
 <script>
+  import { error } from '@sveltejs/kit';
+
   export let data
 
   const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
@@ -7,7 +9,7 @@
 </script>
 
 <svelte:head>
-  <title>{data.post[0].title.rendered} - Restore First Health</title>
+  <title>{data?.post[0].title.rendered} - Restore First Health</title>
   <meta name="description" content="{data.post[0].yoast_head_json.description}"/>
 </svelte:head>
 
