@@ -130,8 +130,9 @@ section:last-child {
   .float-right {
     float: right;
     display: inline;
-    width: auto;
-    max-width: var(--max);
+    /* width: auto;
+    max-width: var(--max); */
+    width: 300px;
     margin-block-start: calc(var(--size) + 8px);
     margin-block-end: var(--size);
     margin-inline-start: var(--double-size);

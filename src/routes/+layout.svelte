@@ -12,7 +12,7 @@
 
   // export let data
 
-  const mobileThreshold = 960
+  const mobileThreshold = 1024
 </script>
 
 <svelte:head>
