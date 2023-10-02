@@ -7,7 +7,7 @@ export default [
     name: 'About',
     url: '/about-restore-first-health/',
     children: [
-      { name: 'Frank Curvin, MD', url: '/frank-curvin-md/' },
+      { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
       { name: 'Johns Creek, GA', url: '/about-restore-first-health/johns-creek-ga/' },
       { name: 'Decatur, GA', url: '/about-restore-first-health/decatur-ga/' },
       { name: 'Marietta, GA', url: '/about-restore-first-health/marietta-ga/' },

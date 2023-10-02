@@ -1,7 +1,7 @@
 import menuItems from '$lib/Headers/menuItems'
 
 const otherPages = [
-  { name: 'Frank Curvin, MD', url: '/frank-curvin-md/' },
+  { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
 ]
 
 const createSitemap = ({ site, pages, posts }) => {
