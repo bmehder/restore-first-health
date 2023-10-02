@@ -199,7 +199,7 @@
           If you are a facility looking to learn more about partnerships – Call today!
         </p>
         <ul class="list">
-          <li><a href="tel:4707817510">(470) 781-7510 (Georgia)</a></li>
+          <li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
           <li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
         </ul>
       </div>
