@@ -25,7 +25,7 @@ export default {
       name: 'Marietta, GA',
       address1: '2550 Windy Hill Road SE',
       address2: 'Suite 115',
-      city: 'Marietta, GA 30667',
+      city: 'Marietta, GA 30067',
       mapLink: 'https://maps.apple.com/maps/?q=2550+Windy+Hill+Road+SE+Marietta+GA+30667',
       phoneLink: 'tel:4703087485',
       phone: '(470) 308-7485',
