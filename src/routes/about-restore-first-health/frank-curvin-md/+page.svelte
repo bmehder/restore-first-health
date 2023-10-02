@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>Frank Curvin, MD - Georgia - Restore First Health</title>
+  <meta name="description" content="Dr. Curvin manages all patient care for the practice, overseeing and collaborating in the clinical protocols provided by the Nurse Practitioners."/>
+</svelte:head>
+
 <section class="flow">
   <h1 class="title">Frank Curvin, MD</h1>
   <h2>Georgia</h2>
@@ -31,16 +36,3 @@
     University - Crawford Long Medical Center in Atlanta, GA.
   </p>
 </section>
-
-<style>
-  /* .float-right {
-    max-width: 300px;
-    margin-inline-start: var(--double-size);
-  } */
-
-  /* @media (min-width: 48em) {
-    .float-right img {
-      width: 300px;
-    }
-  } */
-</style>

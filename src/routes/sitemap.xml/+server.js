@@ -1,5 +1,9 @@
 import menuItems from '$lib/Headers/menuItems'
 
+const otherPages = [
+  { name: 'Frank Curvin, MD', url: '/frank-curvin-md/' },
+]
+
 const createSitemap = ({ site, pages, posts }) => {
   const createSiteEntry = site => `
     <url>
@@ -27,8 +31,10 @@ const createSitemap = ({ site, pages, posts }) => {
   `
 
   const getPageEntries = pages => pages.map(createPageEntry).join('')
+  // const getOtherEntries = pages => pages.map(createPageEntry).join('')
   const getPostEntries = posts => posts.map(createPostEntry).join('')
 
+  console.log(getPageEntries(otherPages))
   return `<?xml version="1.0" encoding="UTF-8" ?>
     <urlset
       xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
@@ -51,7 +57,10 @@ const createSitemap = ({ site, pages, posts }) => {
 
 const options = {
   site: 'https://restorefirsthealth.com',
-  pages: menuItems.map(item => item.url.substring(1)).filter(Boolean),
+  pages: [
+    ...menuItems.map(item => item.url.substring(1)).filter(Boolean),
+    ...otherPages.map(item => item.url.substring(1)).filter(Boolean),
+  ],
   posts: [],
 }
 
