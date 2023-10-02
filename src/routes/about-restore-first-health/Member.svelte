@@ -6,9 +6,9 @@
 
 <li>
   <div>
+    <div class="flow">
     <h2 class="balance">{name}</h2>
     <h3>{job}</h3>
-    <div class="flow">
     {#if src}
       <img class="float-right square" {src} alt={name} />
     {:else}
@@ -39,7 +39,7 @@
   }
 
   img {
-    max-width: 16em;
+    /* max-width: 16em; */
     object-position: top;
   }
 

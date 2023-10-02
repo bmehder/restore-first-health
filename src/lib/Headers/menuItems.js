@@ -11,6 +11,8 @@ export default [
       { name: 'Johns Creek, GA', url: '/about-restore-first-health/johns-creek-ga/' },
       { name: 'Decatur, GA', url: '/about-restore-first-health/decatur-ga/' },
       { name: 'Marietta, GA', url: '/about-restore-first-health/marietta-ga/' },
+      { name: 'Riverdale, GA', url: '/about-restore-first-health/riverdale-ga/' },
+      { name: 'Savannah, GA', url: '/about-restore-first-health/savannah-ga/' },
       { name: 'Cranbury, NJ', url: '/about-restore-first-health/cranbury-nj/' },
     ],
   },

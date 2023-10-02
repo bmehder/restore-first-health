@@ -21,4 +21,14 @@ export default [
     
     <p>She is passionate about helping patients improve their health and to live their best lives.</p>`,
   },
+  {
+    src: '/georgia/linda-octavien.jpg',
+    name: 'Linda Octavien, FNP',
+    job: 'Nurse Practitioner',
+    description: `<p>Linda is a Nurse Practitioner with RFH practicing out of the John’s Creek location. She has close to 20 years of healthcare experience always striving to achieve the best outcomes for her patients.</p>
+    
+    <p>She studied nursing at the University of Massachusetts, in Boston, where she obtained a Bachelor of Science Degree. She also received a certificate as a wound nurse from Emory University, prior to graduating from University of South Florida with a master’s degree in public health, with focus on health policy.</p>
+    
+    <p>She later, obtained a 2nd Masters’ Degree in nursing and graduated as a Family Nurse Practitioner, from United States University. As a provider, she focuses on treating the whole patient and providing quality care. She is a member of the American Association of Nurse Practitioners and the WCON association. </p>`,
+  },
 ]

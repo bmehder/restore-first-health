@@ -31,6 +31,28 @@ export default {
       phone: '(470) 308-7485',
       teamURL: '/about-restore-first-health/marietta-ga',
     },
+    {
+      name: 'Riverdale, GA',
+      address1: '34 Upper Riverdale Road',
+      address2: 'Suite 101',
+      city: 'Riverdale, GA 30274',
+      mapLink:
+        'https://maps.apple.com/?address=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101,%20Riverdale,%20GA%20%2030274,%20United%20States&ll=33.577841,-84.387669&q=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101',
+      phoneLink: '',
+      phone: '',
+      teamURL: '/about-restore-first-health/riverdale-ga',
+    },
+    {
+      name: 'Savannah, GA',
+      address1: '25 Chatham Center S',
+      address2: 'Suite 200',
+      city: 'Savannah, GA 31405',
+      mapLink:
+        'https://maps.apple.com/?address=25%20Chatham%20Center%20S,%20Unit%20200,%20Savannah,%20GA%20%2031405,%20United%20States&ll=32.062895,-81.157660&q=25%20Chatham%20Center%20S,%20Unit%20200',
+      phoneLink: '',
+      phone: '',
+      teamURL: '/about-restore-first-health/savannah-ga',
+    },
   ],
   newJersey: [
     {

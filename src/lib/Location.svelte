@@ -18,9 +18,13 @@
     <a href="{mapLink}"
       >View Map</a
     ><br />
+    {#if phoneLink}
     <a href="{phoneLink}">{phone}</a>
+    {/if}
   </p>
+  {#if phone}
   <a href="{teamURL}" class="button">Meet the Team</a>
+  {/if}
 </div>
 
 <style>
