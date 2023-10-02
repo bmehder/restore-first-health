@@ -1,5 +1,14 @@
 import menuItems from '$lib/Headers/menuItems'
 
+const getPosts = async () => {
+  const endpoint = 'https://rfh-api.com/wp-json/wp/v2/posts?_embed&per_page=100'
+
+  const response = await fetch(endpoint)
+  const posts = await response.json()
+
+  return posts 
+}
+
 const otherPages = [
   { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
 ]
@@ -23,9 +32,9 @@ const createSitemap = ({ site, pages, posts }) => {
 
   const createPostEntry = post => `
     <url>
-      <loc>${site}/blog/${post.slug}</loc>
+      <loc>${site}/${post.slug}</loc>
       <changefreq>weekly</changefreq>
-      <lastmod>${post.updatedAt}</lastmod>
+      <lastmod>${post.modified}</lastmod>
       <priority>0.3</priority>
     </url>
   `
@@ -59,7 +68,7 @@ const options = {
     ...menuItems.map(item => item.url.substring(1)).filter(Boolean),
     ...otherPages.map(item => item.url.substring(1)).filter(Boolean),
   ],
-  posts: [],
+  posts: await getPosts(),
 }
 
 /** @type {import('./$types').RequestHandler} */

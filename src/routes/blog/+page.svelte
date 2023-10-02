@@ -14,7 +14,7 @@
     {#each data.posts as post}
       <article class="flow">
         {#if post._embedded['wp:featuredmedia']?.[0]}
-          <a href="/blog/{post.slug}">
+          <a href="/{post.slug}">
             <img
               class="square"
               src={post._embedded['wp:featuredmedia'][0].source_url}
@@ -23,10 +23,10 @@
           </a>
         {/if}
         <div class="flow">
-          <h2><a href="/blog/{post.slug}">{@html post.title.rendered}</a></h2>
+          <h2><a href="/{post.slug}">{@html post.title.rendered}</a></h2>
           <div>{@html post.excerpt.rendered}</div>
         </div>
-        <a href="/blog/{post.slug}" class="button">Read More</a>
+        <a href="/{post.slug}" class="button">Read More</a>
       </article>
     {/each}
   </div>
