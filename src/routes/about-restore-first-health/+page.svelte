@@ -1,8 +1,3 @@
-<script>
-  import locations from '$lib/locations'
-  import Location from '$lib/Location.svelte'
-</script>
-
 <svelte:head>
   <title>About Restore First Health</title>
   <meta name="description" content="Learn about Restore First Health - a specialized medical practice focused on in-home, advanced wound care."/>
@@ -56,46 +51,6 @@
   </p>
 </section>
 
-<div class="flow">
-  <section class="flow">
-    <div class="inner flow">
-      <h2>Georgia Locations</h2>
-      <div class="auto-grid">
-        {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
-          <Location
-            {name}
-            {address1}
-            {address2}
-            {city}
-            {mapLink}
-            {phoneLink}
-            {phone}
-            {teamURL}
-          />
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <section class="flow jersey">
-    <h2>New Jersey Locations</h2>
-    <div class="auto-grid">
-      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
-        <Location
-          {name}
-          {address1}
-          {address2}
-          {city}
-          {mapLink}
-          {phoneLink}
-          {phone}
-          {teamURL}
-        />
-      {/each}
-    </div>
-  </section>
-</div>
-
 <style>
   .float-right {
     max-width: 300px;
@@ -112,12 +67,6 @@
       aspect-ratio: 1;
       object-fit: cover;
       object-position: top;
-    }
-  }
-
-  @media (min-width: 52em) {
-    .jersey {
-      max-width: 17.5em;
     }
   }
 </style>

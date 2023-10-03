@@ -1,6 +1,9 @@
 <script>
+  import FormSparkAsync from '$lib/FormSparkAsync.svelte'
   import locations from '$lib/locations'
-  import Location from '$lib/ContactLocation.svelte'
+  import ContactLocations from '$lib/ContactLocations.svelte'
+
+  const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
 </script>
 
 <svelte:head>
@@ -13,52 +16,35 @@
 
 <h1 class="title">Contact Us</h1>
 
-<p>Call us with any questions or to schedule a consultation.</p>
-
-<div class="flow">
-  <section class="flow">
-    <div class="inner flow">
-      <h2>Georgia Locations</h2>
-      <div class="auto-grid">
-        {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
-          <Location
-            {name}
-            {address1}
-            {address2}
-            {city}
-            {mapLink}
-            {phoneLink}
-            {phone}
-            {teamURL}
-          />
-        {/each}
-      </div>
-    </div>
-  </section>
-
-  <section class="flow jersey">
-    <h2>New Jersey Locations</h2>
-    <div class="auto-grid">
-      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
-        <Location
-          {name}
-          {address1}
-          {address2}
-          {city}
-          {mapLink}
-          {phoneLink}
-          {phone}
-          {teamURL}
-        />
-      {/each}
-    </div>
-  </section>
+<div class="flex inner">
+  <div style="flex: 2" class="flow">
+    <h2>Send Us a Message</h2>
+    <FormSparkAsync botpoisonKey={BOTPOISON_KEY} />
+  </div>
+  <div class="flow">
+    <h2>Call Us</h2>
+    {#each locations.georgia as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
+    
+    {#each locations.newJersey as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
+  </div>
 </div>
 
 <style>
-  @media (min-width: 52em) {
-    .jersey {
-      max-width: 17.5em;
+  @media (min-width: 48em) {
+    .inner {
+      gap: 6rem;
     }
   }
 </style>

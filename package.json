@@ -15,6 +15,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@botpoison/browser": "^0.1.30",
 		"@fontsource-variable/nunito-sans": "^5.0.9"
 	}
 }

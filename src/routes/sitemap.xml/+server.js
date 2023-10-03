@@ -10,7 +10,7 @@ const getPosts = async () => {
 }
 
 const otherPages = [
-  { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
+  // { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
 ]
 
 const createSitemap = ({ site, pages, posts }) => {

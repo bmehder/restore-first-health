@@ -6,7 +6,6 @@
   export let mapLink
   export let phoneLink
   export let phone
-  export let teamURL
 </script>
 
 <div class="half-flow bg-light">
@@ -17,13 +16,10 @@
     {city}<br />
     <a href="{mapLink}"
       >View Map</a
-    ><br />
-    {#if phoneLink}
-    <a href="{phoneLink}">{phone}</a>
-    {/if}
+    >
   </p>
-  {#if phone}
-  <a href="{teamURL}" class="button">Meet the Team</a>
+  {#if phoneLink}
+    <a class="button" href="{phoneLink}">{phone}</a>
   {/if}
 </div>
 
