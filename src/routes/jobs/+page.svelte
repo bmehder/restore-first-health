@@ -26,7 +26,8 @@
     <div class="flow flex">
       <p>
         <strong>Certified Medical Assistant</strong><br />
-        New Jersey (Central)<br />&nbsp;
+        New Jersey (Central)<br />
+        $21.00 - $22.00 per hour
       </p>
       <a
         class="button"
@@ -38,7 +39,8 @@
     <div class="flow flex">
       <p>
         <strong>Certified Medical Assistant</strong><br />
-        New Jersey (North)<br />&nbsp;
+        New Jersey (North)<br />
+        $22.00 - $23.00 per hour
       </p>
       <a
         class="button"
