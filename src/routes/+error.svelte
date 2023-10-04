@@ -2,10 +2,6 @@
   import { page } from '$app/stores'
 </script>
 
-<svelte:head>
-  <meta name="robots" content="noindex" />
-</svelte:head>
-
 <div class="flow center">
   <h1>{$page.status} – Page {$page.error.message}</h1>
 </div>
