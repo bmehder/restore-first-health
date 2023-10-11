@@ -21,7 +21,9 @@ export default {
         
         <p>After earning her Bachelor of Science degree in Nursing from Drexel University in Philadelphia, Pennsylvania, Maribel earned her Master of Science degree in Nursing from The College of New Jersey in Ewing, New Jersey.
 
-        <p>Prior to joining Restore First Health, Maribel worked at local hospitals in various medical settings, including gastroenterology, intensive/critical care, medical oncology, OB/GYN, emergency medicine, and surgical and telemetry units. Maribel is fluent in Spanish.</p>`,
+        <p>Prior to joining Restore First Health, Maribel worked at local hospitals in various medical settings, including gastroenterology, intensive/critical care, medical oncology, OB/GYN, emergency medicine, and surgical and telemetry units.</p>
+        
+        <p>Maribel is fluent in Spanish.</p>`,
     },
     {
       src: '/new-jersey/lizette-lorenzo-betancourt.jpg',
