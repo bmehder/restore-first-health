@@ -13,6 +13,17 @@ export default {
     <p>Pinky lives in Freehold, NJ, and enjoys traveling and going to the beach with her family.</p>`,
     },
     {
+      src: '/new-jersey/maribel-martinez.jpg',
+      name: 'Maribel Martinez, NP',
+      job: 'Nurse Practitioner',
+      description: `<p>
+        Maribel is a Board Certified Adult-Gerontology Primary Care Nurse Practitioner with more than 20 years of clinical experience.</p>
+        
+        <p>After earning her Bachelor of Science degree in Nursing from Drexel University in Philadelphia, Pennsylvania, Maribel earned her Master of Science degree in Nursing from The College of New Jersey in Ewing, New Jersey.
+
+        <p>Prior to joining Restore First Health, Maribel worked at local hospitals in various medical settings, including gastroenterology, intensive/critical care, medical oncology, OB/GYN, emergency medicine, and surgical and telemetry units. Maribel is fluent in Spanish.</p>`,
+    },
+    {
       src: '/new-jersey/lizette-lorenzo-betancourt.jpg',
       name: 'Lizette Lorenzo-Betancourt',
       job: 'Director of Operations, NJ',
