@@ -14,12 +14,10 @@
     {address1}<br />
     {address2}<br />
     {city}<br />
-    <a href="{mapLink}"
-      >View Map</a
-    >
+    <a href={mapLink}>View Map</a>
   </p>
   {#if phoneLink}
-    <a class="button" href="{phoneLink}">{phone}</a>
+    <a class="button" href={phoneLink}>{phone}</a>
   {/if}
 </div>
 

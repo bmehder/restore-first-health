@@ -13,6 +13,7 @@
 
   let firstName = ''
   let lastName = ''
+  let company = ''
   let email = ''
   let phone = ''
   // let requestEvaluation = false
@@ -43,6 +44,7 @@
         body: JSON.stringify({
           firstName,
           lastName,
+          company,
           email,
           phone,
           message,
@@ -127,6 +129,12 @@
         />
         <label for="request-evaluation"> I would like to request an evaluation. </label>
       </div> -->
+      <div class="columns">
+        <div>
+          <label for="company">Company</label>
+          <input type="text" id="company" name="company" bind:value={company} />
+        </div>
+      </div>
       <div>
         <label for="message">Message <span>*</span></label>
         <textarea bind:value={message} rows="10" id="message" name="message" required />

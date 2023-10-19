@@ -10,6 +10,7 @@
 
 <li class="flow">
   <h3>{heading}</h3>
+  <!-- TODO: Wrap in a <button> -->
   <img
     class="square"
     class:isBlurred
