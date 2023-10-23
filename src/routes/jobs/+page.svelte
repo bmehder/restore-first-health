@@ -77,6 +77,18 @@
         target="_blank">Apply Now</a
       >
     </div>
+    <div class="flow flex">
+      <p>
+        <strong>Certified Medical Assistant</strong><br />
+        Savannah, GA<br />
+        $23 - $26 per hour - Full-time
+      </p>
+      <a
+        class="button"
+        href="https://restorefirsthealthduluth.applytojob.com/apply/7EJZf2sjL3/Certified-Medical-Assistant-Wound-Care"
+        target="_blank">Apply Now</a
+      >
+    </div>
   </div>
 
   <h2>Pennsylvania</h2>
@@ -108,8 +120,11 @@
   }
 
   @media (min-width: 52em) {
-    .pennsylvania, .georgia {
+    .pennsylvania {
       max-width: 17.5em;
+    }
+    .georgia {
+      max-width: 38em;
     }
   }
 </style>

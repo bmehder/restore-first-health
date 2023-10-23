@@ -129,11 +129,9 @@
         />
         <label for="request-evaluation"> I would like to request an evaluation. </label>
       </div> -->
-      <div class="columns">
-        <div>
-          <label for="company">Company</label>
-          <input type="text" id="company" name="company" bind:value={company} />
-        </div>
+      <div>
+        <label for="company">Company</label>
+        <input type="text" id="company" name="company" bind:value={company} />
       </div>
       <div>
         <label for="message">Message <span>*</span></label>
