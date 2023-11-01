@@ -28,7 +28,7 @@
   <div class="inner flow">
     <h2>Georgia Locations</h2>
     <div class="auto-grid">
-      {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
+      {#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone }}
         <Location
           {name}
           {address1}
@@ -37,7 +37,6 @@
           {mapLink}
           {phoneLink}
           {phone}
-          {teamURL}
         />
       {/each}
     </div>
@@ -49,7 +48,7 @@
   <div class="inner flow">
     <h2>New Jersey Locations</h2>
     <div class="auto-grid">
-      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, teamURL }}
+      {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone }}
         <Location
           {name}
           {address1}
@@ -58,7 +57,6 @@
           {mapLink}
           {phoneLink}
           {phone}
-          {teamURL}
         />
       {/each}
     </div>

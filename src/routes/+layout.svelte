@@ -16,10 +16,19 @@
 </script>
 
 <svelte:head>
-  <script defer data-domain="restorefirsthealth.com" src="https://plausible.io/js/script.js"></script>
+  <script
+    defer
+    data-domain="restorefirsthealth.com"
+    src="https://plausible.io/js/script.js"
+  ></script>
+
+  <meta
+    name="google-site-verification"
+    content="z9Ar6P1i0M4D3658ZhmtcgEa1Lb3qHKidFGHVfQe9NA"
+  />
 </svelte:head>
 
-<Notice></Notice>
+<Notice />
 
 <div class="wrapper">
   <Header {mobileThreshold} />
@@ -51,7 +60,7 @@
 {/if} -->
 
 <style>
- .wrapper {
+  .wrapper {
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
