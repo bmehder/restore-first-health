@@ -6,7 +6,7 @@
 <div class="hero" style="background-image: url({image})">
   <div class="inner balance flex swap">
     <div class="video">
-      <Sveltetube id="ogjAuvUw0UM" />
+      <Sveltetube id="ogjAuvUw0UM" shadow="0 1rem 2rem rgba(0,0,0,0.2)" radius="0.5rem" />
     </div>
     <div class="half-flow">
       <div class="h2">Restore First Health </div>
