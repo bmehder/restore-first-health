@@ -34,11 +34,11 @@
 <div class="wrapper">
   <Header {mobileThreshold} />
 
-  {#if $page.route.id === '/'}
+  <!-- {#if $page.route.id === '/'}
     <HomeHero image="/hero-1.jpg" />
-  {/if}
+  {/if} -->
   
-  {#if $page.route.id === '/dev'}
+  {#if $page.route.id === '/'}
     <NewHero image="/hero-1.jpg" />
   {/if}
 
