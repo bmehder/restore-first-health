@@ -8,6 +8,7 @@
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
   import Notice from '$lib/Notice.svelte'
+	import NewHero from '$lib/NewHero.svelte'
   // import Popover from '$lib/Popover.svelte'
 
   // export let data
@@ -35,6 +36,10 @@
 
   {#if $page.route.id === '/'}
     <HomeHero image="/hero-1.jpg" />
+  {/if}
+  
+  {#if $page.route.id === '/dev'}
+    <NewHero image="/hero-1.jpg" />
   {/if}
 
   <main id="main-content" class="flow">

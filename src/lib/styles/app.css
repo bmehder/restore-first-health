@@ -107,6 +107,10 @@ section:last-child {
   flex: 1;
 }
 
+.align-center {
+  align-items: center;
+}
+
 .column {
   flex-direction: column;
 }
@@ -175,8 +179,9 @@ section:last-child {
 
 .video {
   position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
+  /* padding-bottom: 56.25%; */
+  aspect-ratio: 16 /9 ;
+  /* height: 0; */
   overflow: hidden;
 }
 
