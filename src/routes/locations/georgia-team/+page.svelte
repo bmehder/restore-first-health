@@ -55,12 +55,12 @@
     {/each}
   </ul>
 
-  <hr />
+  <!-- <hr />
 
   <h2>Riverdale, GA</h2>
   <ul class="flow">
     {#each teamMembers.riverdale as item}
       <Member {item} />
     {/each}
-  </ul>
+  </ul> -->
 </section>

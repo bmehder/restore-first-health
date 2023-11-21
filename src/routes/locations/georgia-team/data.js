@@ -125,16 +125,16 @@ export default {
     
     <p>When not treating patients or volunteering John enjoys attending his children’s sporting events with his wife, and attending college and professional sporting events as a family.</p>`,
     },
-    {
-      src: '/georgia/diedre-anthony.jpg',
-      name: 'Diedre Anthony',
-      job: 'Nurse Practitioner',
-      description: `<p>Diedre Anthony is a nurse practitioners in the John's Creek office. She has been working in healthcare for almost 20 years. Diedre started her career as a physical therapy aide at Northside Hospital before switching to nursing. She completed a BS degree in Exercise Physiology then enrolled to start nursing school immediately after graduation.</p>
+    // {
+    //   src: '/georgia/diedre-anthony.jpg',
+    //   name: 'Diedre Anthony',
+    //   job: 'Nurse Practitioner',
+    //   description: `<p>Diedre Anthony is a nurse practitioners in the John's Creek office. She has been working in healthcare for almost 20 years. Diedre started her career as a physical therapy aide at Northside Hospital before switching to nursing. She completed a BS degree in Exercise Physiology then enrolled to start nursing school immediately after graduation.</p>
     
-    <p>Throughout nursing school, she worked on the orthopedics and Gastrointestinal floor. After graduating, she spent almost 11 years as a labor and delivery nurse. She has now been a nurse practitioner for over 6 years working in a primary care clinic as well as providing primary care in-home which is where she began to see the need for chronic wound care.</p>
+    // <p>Throughout nursing school, she worked on the orthopedics and Gastrointestinal floor. After graduating, she spent almost 11 years as a labor and delivery nurse. She has now been a nurse practitioner for over 6 years working in a primary care clinic as well as providing primary care in-home which is where she began to see the need for chronic wound care.</p>
     
-    <p>She is passionate about helping patients improve their health and to live their best lives.</p>`,
-    },
+    // <p>She is passionate about helping patients improve their health and to live their best lives.</p>`,
+    // },
     {
       src: '/georgia/linda-octavien.jpg',
       name: 'Linda Octavien, FNP',
@@ -161,17 +161,17 @@ export default {
     },
   ],
   riverdale: [
-    {
-      src: '/georgia/kareen-davy.jpg',
-      name: 'Kareen Davy, FNP-C',
-      job: 'Nurse Practitioner',
-      description: `<p>Kareen Carty-Davy, FNP-C is a Board-Certified Family Nurse Practitioner with over 15 years of healthcare experience and over 7 years of experience as a nurse practitioner.</p>
+    // {
+    //   src: '/georgia/kareen-davy.jpg',
+    //   name: 'Kareen Davy, FNP-C',
+    //   job: 'Nurse Practitioner',
+    //   description: `<p>Kareen Carty-Davy, FNP-C is a Board-Certified Family Nurse Practitioner with over 15 years of healthcare experience and over 7 years of experience as a nurse practitioner.</p>
 
-    <p>Kareen received her Bachelor of Science in Nursing degree from Georgia Baptist College of Nursing at Mercer University in Atlanta, Georgia. Kareen is particularly interested in helping patients living with chronic disorders improve their quality of life. Because of this interest, Kareen decided to pursue a Master of Science in Nursing degree at Walden University after several years of service in both the hospital setting and as a travel nurse.</p>
+    // <p>Kareen received her Bachelor of Science in Nursing degree from Georgia Baptist College of Nursing at Mercer University in Atlanta, Georgia. Kareen is particularly interested in helping patients living with chronic disorders improve their quality of life. Because of this interest, Kareen decided to pursue a Master of Science in Nursing degree at Walden University after several years of service in both the hospital setting and as a travel nurse.</p>
 
-    <p>Kareen is a member of Sigma Theta Tau International Honor Society of Nursing, the American Academy of Nurse Practitioners and a member of the American Academy of Allergy, Asthma and Immunology. In 2011, Kareen was recognized as Travel Nurse of the Year.</p>
+    // <p>Kareen is a member of Sigma Theta Tau International Honor Society of Nursing, the American Academy of Nurse Practitioners and a member of the American Academy of Allergy, Asthma and Immunology. In 2011, Kareen was recognized as Travel Nurse of the Year.</p>
 
-    <p>When she is not at the office, she enjoys spending time with her family, cooking, going to the beach and watching a good movie.</p>`,
-    },
+    // <p>When she is not at the office, she enjoys spending time with her family, cooking, going to the beach and watching a good movie.</p>`,
+    // },
   ],
 }
