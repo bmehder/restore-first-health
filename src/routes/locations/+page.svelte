@@ -74,7 +74,8 @@
 <style>
   @media (min-width: 52em) {
     .jersey {
-      max-width: 17.5em;
+      /* max-width: 17.5em; */
+      max-width: 38em;
     }
   }
 </style>
