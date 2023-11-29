@@ -2,8 +2,8 @@ export default {
 	cranbury: [
 		{
 			src: '/new-jersey/pinky-adda.jpg',
-			name: 'Pinky C. Adda, APN-C',
-			job: 'Nurse Practitioner',
+			name: 'Pinky C. Adda, APN-C, CWS',
+			job: 'Nurse Practitioner, Certified Wound Specialist',
 			description: `<p>Pinky is a Board Certified Adult-Gerontology Primary Care Nurse Practitioner with a background in general and plastic surgery, long-term care, and assisted living facilities. She specializes in advanced wound treatment at Restore First Health.</p>
 
     <p>Pinky began her clinical career as Registered Nurse 13 years ago in an acute care setting taking care of post-surgical patients. She transitioned to the outpatient setting at a plastic surgery center for about 6 years and worked in home care as a Clinical Nurse Supervisor while completing her advanced degree. She worked for a wound care company when she became a Nurse Practitioner, providing wound care to patients in long-term care and assisted living facilities.</p>
