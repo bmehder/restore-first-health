@@ -79,6 +79,18 @@
     </div>
     <div class="flow flex">
       <p>
+        <strong>Nurse Practitioner</strong><br />
+        Marietta, GA<br />
+        Salary $130k - $150k Annually
+      </p>
+      <a
+        class="button"
+        href="https://restorefirsthealthduluth.applytojob.com/apply/zvshbZZVuM/Nurse-Practitioner-Wound-Care"
+        target="_blank">Apply Now</a
+      >
+    </div>
+    <div class="flow flex">
+      <p>
         <strong>Certified Medical Assistant</strong><br />
         Savannah, GA<br />
         $23 - $26 per hour - Full-time
@@ -86,6 +98,42 @@
       <a
         class="button"
         href="https://restorefirsthealthduluth.applytojob.com/apply/7EJZf2sjL3/Certified-Medical-Assistant-Wound-Care"
+        target="_blank">Apply Now</a
+      >
+    </div>
+    <div class="flow flex">
+      <p>
+        <strong>Certified Medical Assistant</strong><br />
+        Marietta, GA<br />
+        $22 - $25 per hour - Full-time
+      </p>
+      <a
+        class="button"
+        href="https://restorefirsthealthduluth.applytojob.com/apply/WHs57DwJEX/Certified-Medical-Assistant-Wound-Care"
+        target="_blank">Apply Now</a
+      >
+    </div>
+    <div class="flow flex">
+      <p>
+        <strong>Certified Medical Assistant</strong><br />
+        Decatur, GA<br />
+        $22 - $25 per hour - Full-time
+      </p>
+      <a
+        class="button"
+        href="https://restorefirsthealthduluth.applytojob.com/apply/XGYjf8SJRy/Certified-Medical-Assistant-Wound-Care"
+        target="_blank">Apply Now</a
+      >
+    </div>
+    <div class="flow flex">
+      <p>
+        <strong>Wound Care Coordinator</strong><br />
+        Johns Creek, GA<br />
+        Salary $130k - $150k Annually
+      </p>
+      <a
+        class="button"
+        href="https://restorefirsthealthduluth.applytojob.com/apply/nAV6Zcjo1f/Wound-Care-Coordinator"
         target="_blank">Apply Now</a
       >
     </div>
@@ -123,8 +171,8 @@
     .pennsylvania {
       max-width: 17.5em;
     }
-    .georgia {
+    /* .georgia {
       max-width: 38em;
-    }
+    } */
   }
 </style>
