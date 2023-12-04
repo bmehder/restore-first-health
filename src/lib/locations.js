@@ -62,6 +62,7 @@ export default {
 		{
 			name: 'Bloomfield, NJ',
 			address1: '300 Broadacres Drive',
+			address2: 'Suite 425',
 			city: 'Bloomfield, NJ 07003',
 			mapLink:
 				'https://maps.apple.com/?address=300%20Broadacres%20Dr,%20Bloomfield,%20NJ%20%2007003,%20United%20States&ll=40.838806,-74.182453&q=300%20Broadacres%20Dr',
