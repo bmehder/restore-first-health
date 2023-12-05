@@ -1,55 +1,67 @@
 export const series1 = [
-  {
-    heading: 'Top',
-    src: '/studies/top/toe-before.jpg',
-    description: 'Toe Day 1',
-    alt: 'Toe Day 1',
-  },
-  {
-    heading: 'Bottom',
-    src: '/studies/top/toe-after.jpg',
-    description: 'Toe after 6 weeks of therapy',
-    alt: 'Toe after 6 weeks of therapy',
-  },
-  {
-    heading: 'Top',
-    src: '/studies/top/patient-1-left-leg-before.jpg',
-    description:
-      'Patient M. left leg after 5 years of treatment with traditional methods.',
-    alt: 'Left leg after 5 years of treatment',
-  },
-  {
-    heading: 'Bottom',
-    src: '/studies/top/patient-1-left-leg-after.jpg',
-    description: 'Patient M. left leg after 21 days with Restore First Health.',
-    alt: 'Left leg after 21 days of treatment with Restore First Health',
-  },
-  {
-    heading: 'Top',
-    src: '/studies/top/patient-1-right-leg-before.jpg',
-    description:
-      'Patient M. right leg after 5 years of treatment with traditional methods.',
-    alt: 'Right leg after 5 years of treatment',
-  },
-  {
-    heading: 'Bottom',
-    src: '/studies/top/patient-1-right-leg-after.jpg',
-    description: 'Patient M. right leg after 21 days with Restore First Health.',
-    alt: 'Right after 21 days of treatment with Restore First Health',
-  },
-  {
-    heading: 'Top',
-    src: '/studies/top/patient-1-before.jpg',
-    description:
-      '6.5CM wide persistent wound unable to be healed with traditional treatments.',
-    alt: '6.5CM wide persistent wound',
-  },
-  {
-    heading: 'Bottom',
-    src: '/studies/top/patient-1-after.jpg',
-    description: "After 7 weeks of treatment using Restore First Health's protocol.",
-    alt: "Wound after 7 weeks of treatment using Restore First Health's protocol",
-  },
+	{
+		heading: 'Top',
+		src: '/studies/top/sacral-wound-old.jpg',
+		description: '7/25/23',
+		alt: '7/25/23',
+	},
+	{
+		heading: 'Bottom',
+		src: '/studies/top/sacral-wound-new.jpg',
+		description: ' 11/30/2023',
+		alt: ' 11/30/2023',
+	},
+	{
+		heading: 'Top',
+		src: '/studies/top/toe-before.jpg',
+		description: 'Toe Day 1',
+		alt: 'Toe Day 1',
+	},
+	{
+		heading: 'Bottom',
+		src: '/studies/top/toe-after.jpg',
+		description: 'Toe after 6 weeks of therapy',
+		alt: 'Toe after 6 weeks of therapy',
+	},
+	{
+		heading: 'Top',
+		src: '/studies/top/patient-1-left-leg-before.jpg',
+		description:
+			'Patient M. left leg after 5 years of treatment with traditional methods.',
+		alt: 'Left leg after 5 years of treatment',
+	},
+	{
+		heading: 'Bottom',
+		src: '/studies/top/patient-1-left-leg-after.jpg',
+		description: 'Patient M. left leg after 21 days with Restore First Health.',
+		alt: 'Left leg after 21 days of treatment with Restore First Health',
+	},
+	{
+		heading: 'Top',
+		src: '/studies/top/patient-1-right-leg-before.jpg',
+		description:
+			'Patient M. right leg after 5 years of treatment with traditional methods.',
+		alt: 'Right leg after 5 years of treatment',
+	},
+	{
+		heading: 'Bottom',
+		src: '/studies/top/patient-1-right-leg-after.jpg',
+		description: 'Patient M. right leg after 21 days with Restore First Health.',
+		alt: 'Right after 21 days of treatment with Restore First Health',
+	},
+	{
+		heading: 'Top',
+		src: '/studies/top/patient-1-before.jpg',
+		description:
+			'6.5CM wide persistent wound unable to be healed with traditional treatments.',
+		alt: '6.5CM wide persistent wound',
+	},
+	{
+		heading: 'Bottom',
+		src: '/studies/top/patient-1-after.jpg',
+		description: "After 7 weeks of treatment using Restore First Health's protocol.",
+		alt: "Wound after 7 weeks of treatment using Restore First Health's protocol",
+	},
 ]
 
 export const series2 = [
