@@ -2,14 +2,14 @@ export const series1 = [
 	{
 		heading: 'Top',
 		src: '/studies/top/sacral-wound-old.jpg',
-		description: '7/25/23',
-		alt: '7/25/23',
+		description: 'Sacral Wound 7/25/23',
+		alt: 'Sacral Wound 7/25/23',
 	},
 	{
 		heading: 'Bottom',
 		src: '/studies/top/sacral-wound-new.jpg',
-		description: ' 11/30/2023',
-		alt: ' 11/30/2023',
+		description: 'Sacral Wound 11/30/2023',
+		alt: 'Sacral Wound 11/30/2023',
 	},
 	{
 		heading: 'Top',
