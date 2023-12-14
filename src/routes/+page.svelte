@@ -68,7 +68,7 @@
 
 <section class="full-bleed bg-accent">
   <div class="inner flow">
-    <h2>Local Clinical Resources</h2>
+    <h2>Patient/Family Testimonials</h2>
     <p>
       We are local community members - partnering with local home health, assisted living,
       and long term care. We also welcome patients who care for themselves or loved ones
@@ -88,14 +88,14 @@
       </div>
       <div class="flow">
         <Sveltetube
-          id="9xOxp9Cw2ZM"
-          title="Chronic Wound Care at Restore First Health"
-          poster="https://img.youtube.com/vi/9xOxp9Cw2ZM/maxresdefault.jpg"
+          id="ZakmuV-jxVM"
+          title="Restore First Health - Family See's Hope"
+          poster="https://img.youtube.com/vi/ZakmuV-jxVM/maxresdefault.jpg"
           radius="2px"
           shadow="0 5px 10px rgb(0 0 0 / 20%)"
           color="#eee"
         />
-        <p class="h3 center">Advanced Wound Care Protocols</p>
+        <p class="h3 center">Family Sees Hope</p>
       </div>
     </div>
   </div>
