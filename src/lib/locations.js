@@ -70,4 +70,16 @@ export default {
 			phone: '(862) 314-7030',
 		},
 	],
+	pennsylvania: [
+		{
+			name: 'Plymouth Meeting',
+			address1: '2250 Hickory Road',
+			address2: 'Suite 140',
+			city: 'Plymouth Meeting, PA 19462',
+			mapLink:
+				'https://maps.apple.com/?address=2250%20Hickory%20Rd,%20Plymouth%20Meeting,%20PA%20%2019462,%20United%20States&ll=40.119465,-75.281150&q=2250%20Hickory%20Rd',
+			phoneLink: '',
+			phone: 'TBD',
+		},
+	],
 }

@@ -23,6 +23,14 @@
   </div>
   <div class="flow">
     <h2>Call Us</h2>
+     {#each locations.pennsylvania as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
+
     {#each locations.georgia as { name, phoneLink, phone }}
       <ContactLocations
         {name}

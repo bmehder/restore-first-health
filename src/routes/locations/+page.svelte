@@ -67,7 +67,20 @@
 <section class="flow pennsylvania">
   <div class="inner flow">
     <h2>Pennsylvania Locations</h2>
-    <h3>Coming Soon...</h3>
+    <div class="auto-grid">
+      {#each locations.pennsylvania as { name, address1, address2, city, mapLink, phoneLink, phone }}
+        <Location
+          {name}
+          {address1}
+          {address2}
+          {city}
+          {mapLink}
+          {phoneLink}
+          {phone}
+        />
+      {/each}
+    </div>
+    <!-- <p class="h3"><a href="/locations/georgia-team/">Meet the Georgia Team &raquo;</a></p> -->
   </div>
 </section>
 
@@ -76,6 +89,12 @@
     .jersey {
       /* max-width: 17.5em; */
       max-width: 38em;
+    }
+  }
+
+  @media (min-width: 48em) {
+    .pennsylvania {
+      max-width: 17.5em;
     }
   }
 </style>
