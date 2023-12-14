@@ -68,7 +68,7 @@
 
 <section class="full-bleed bg-accent">
   <div class="inner flow">
-    <h2>Patient/Family Testimonials</h2>
+    <h2>Patient / Family Testimonials</h2>
     <p>
       We are local community members - partnering with local home health, assisted living,
       and long term care. We also welcome patients who care for themselves or loved ones
