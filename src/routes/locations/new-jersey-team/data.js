@@ -47,5 +47,16 @@ export default {
         
         <p>She resides in NJ with her husband and children and enjoys spending time cheering her son on the baseball field, eating donuts and going on hikes with her fur babies.</p>`,
 		},
+		{
+			src: '/new-jersey/christine-meny.jpg',
+			name: 'Christine Meny, BSN, RN',
+			job: 'Director of Provider Relations',
+			description: `<p>
+        Christine comes to RFH with 20+ years of home care experience. Christine is an RN and has various roles in the home care field including a certified wound nurse. She has experience with program development, transitional leadership, home care operations, strategic growth and business development.</p>
+				
+				<p>Her most recent role was the Director of Clinical Development at the Home Care & Hospice Association of NJ where she was directly involved with state and federal advocacy, regulatory guidance and business development.</p>
+				
+				<p>Christine is currently a member of the <a href="https://www.oonl.org/" target="_blank">Organization of Nurse Leaders</a>, and a member of NJCCN Advisory Board. Christine is a graduate of DeSales University with a B.S. in Nursing and is ANCC Board Certified as a Nurse Executive.</p>`,
+		},
 	],
 }
