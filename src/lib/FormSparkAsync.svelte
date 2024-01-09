@@ -138,7 +138,7 @@
 					bind:checked={isConfirmSMS}
 				/>
 				<label for="confirm-sms"
-					>By clicking this box, you agree to receive SMS from Restore First Health <span
+					>By clicking this box, you agree to receive SMS from Restore First Health. <span
 						>*</span
 					></label
 				>
