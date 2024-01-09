@@ -49,6 +49,7 @@
 					email,
 					phone,
 					message,
+          isConfirmSMS,
 					_botpoison: solution,
 					_email: {
 						from: 'Restore First Health',
