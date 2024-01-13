@@ -1,5 +1,5 @@
 export default {
-	cranbury: [
+	eastWindsor: [
 		{
 			src: '/new-jersey/pinky-adda.jpg',
 			name: 'Pinky C. Adda, APN-C, CWS',

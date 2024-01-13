@@ -149,6 +149,10 @@ section:last-child {
   text-align: center;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .balance {
   text-wrap: balance;
 }

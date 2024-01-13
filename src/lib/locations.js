@@ -51,11 +51,12 @@ export default {
 	],
 	newJersey: [
 		{
-			name: 'Cranbury, NJ',
-			address1: '2650 RT 130',
-			address2: 'Suite L',
-			city: 'Cranbury, NJ 08512',
-			mapLink: 'https://maps.apple.com/maps/?q=2650+RT+130+Suite+L+Cranberry+NJ+08512',
+			name: 'East Windsor, NJ',
+			address1: '300B Princeton-Hightstown Road',
+			address2: 'Suite 202',
+			city: 'East Windsor, NJ 08512',
+			mapLink:
+				'https://maps.apple.com/maps/?q=300B+Princeton-Hightstown+Road+Suite+202+East+Windsor+NJ+08512',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
 		},

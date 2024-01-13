@@ -47,6 +47,10 @@
 <section class="flow jersey">
   <div class="inner flow">
     <h2>New Jersey Locations</h2>
+    <div class="half-flow italic">
+      <h3>We've moved in New Jersey!</h3>
+      <p>Our Cranbury office is now located in East Windsor, NJ!</p>
+    </div>
     <div class="auto-grid">
       {#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone }}
         <Location

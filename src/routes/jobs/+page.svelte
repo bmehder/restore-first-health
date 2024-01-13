@@ -13,7 +13,7 @@
     <div class="flow flex">
       <p>
         <strong>Nurse Practitioner</strong><br />
-        Cranbury, NJ<br />
+        East Windsor, NJ<br />
         Salary: $140k - $150K - Full-time
       </p>
       <a

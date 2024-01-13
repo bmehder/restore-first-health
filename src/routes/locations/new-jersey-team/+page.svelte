@@ -21,9 +21,9 @@
 
   <p>You deserve better health, and we are here to help you get there!</p>
 
-  <h2>Cranbury, NJ</h2>
+  <h2>East Windsor, NJ</h2>
   <ul class="flow">
-    {#each teamMembers.cranbury as item}
+    {#each teamMembers.eastWindsor as item}
       <Member {item} />
     {/each}
   </ul>
