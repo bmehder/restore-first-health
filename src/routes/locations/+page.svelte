@@ -84,7 +84,7 @@
         />
       {/each}
     </div>
-    <!-- <p class="h3"><a href="/locations/georgia-team/">Meet the Georgia Team &raquo;</a></p> -->
+    <p class="h3"><a href="/locations/pennsylvania-team/">Meet the Pennsylvania Team &raquo;</a></p>
   </div>
 </section>
 
