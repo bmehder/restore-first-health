@@ -201,6 +201,7 @@
         <ul class="list">
           <li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
           <li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
+          <li><a href="tel:6103792904">(610) 379-2904 (Pennsylvania)</a></li>
         </ul>
       </div>
       <div class="flow">
@@ -220,6 +221,12 @@
             <a
               href="/wound-care-referral-form-nj.pdf" target="_blank"
               >Download Patient Referral Form – New Jersey [PDF]</a
+            >
+          </li>
+          <li>
+            <a
+              href="/wound-care-referral-form-pa.pdf" target="_blank"
+              >Download Patient Referral Form – Pennsylvania [PDF]</a
             >
           </li>
         </ul>
