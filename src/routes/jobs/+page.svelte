@@ -125,7 +125,7 @@
         target="_blank">Apply Now</a
       >
     </div>
-    <div class="flow flex">
+    <!-- <div class="flow flex">
       <p>
         <strong>Wound Care Coordinator</strong><br />
         Johns Creek, GA<br />
@@ -136,7 +136,7 @@
         href="https://restorefirsthealthduluth.applytojob.com/apply/nAV6Zcjo1f/Wound-Care-Coordinator"
         target="_blank">Apply Now</a
       >
-    </div>
+    </div> -->
   </div>
 
   <h2>Pennsylvania</h2>
