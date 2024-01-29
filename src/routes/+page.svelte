@@ -57,7 +57,7 @@
 			</p>
 		</div>
 		<div class="flow">
-			<h3 class="center">Qualified patients have a wound that is...</h3>
+			<h3 class="center">Qualified patients have a wound that...</h3>
 			<QualifiedWounds />
 		</div>
 	</div>
