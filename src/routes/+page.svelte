@@ -56,7 +56,7 @@
 				teams to bring our specialized therapy.
 			</p>
 		</div>
-		<div class="flow">
+		<div class="flow qualified">
 			<h3 class="center">Qualified patients have a wound that...</h3>
 			<QualifiedWounds />
 		</div>
@@ -258,6 +258,12 @@
 		padding-inline: var(--half-size);
 		margin-inline-start: calc(var(--size) * 1.5);
 		list-style-image: url(/icons/check.svg);
+	}
+
+	.qualified {
+		padding: var(--size);
+		background-color: var(--secondary);
+		border-radius: var(--half-size);
 	}
 
 	@media (max-width: 48em) {

@@ -50,14 +50,16 @@
   .wound-qualifications {
 		text-align: center;
     border-radius: var(--size);
+		text-wrap: balance;
 	}
 	
 	.wound-qualifications .item {
+		display: grid;
+		place-content: center;
 		padding: 1.5rem;
 		background-color: var(--accent);
 		color: white;
 		border-radius: 0.5rem;
-		text-wrap: balance;
 	}
 
 	.wound-qualifications .arrow {
@@ -73,7 +75,7 @@
 	@container (min-width: 24rem) {
 		.wound-qualifications {
 			display: grid;
-			place-items: center;
+			place-content: center;
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(3, 1fr);
 		}
