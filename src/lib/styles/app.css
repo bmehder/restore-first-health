@@ -144,6 +144,10 @@ section:last-child {
   }
 }
 
+.container {
+  container-type: inline-size;
+}
+
 .center {
   margin-inline: auto;
   text-align: center;
