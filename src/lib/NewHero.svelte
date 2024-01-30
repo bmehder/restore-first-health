@@ -71,9 +71,16 @@
   .video {
     padding: var(--size);
   }
+
   @media (min-width: 48em) {
     .flex {
       align-items: center;
+    }
+  }
+  
+  @media (min-width: 74em) {
+    .video {
+      padding: 0;
     }
   }
 </style>
