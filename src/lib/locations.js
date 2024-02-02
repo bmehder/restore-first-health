@@ -45,8 +45,8 @@ export default {
 			city: 'Savannah, GA 31405',
 			mapLink:
 				'https://maps.apple.com/?address=25%20Chatham%20Center%20S,%20Unit%20200,%20Savannah,%20GA%20%2031405,%20United%20States&ll=32.062895,-81.157660&q=25%20Chatham%20Center%20S,%20Unit%20200',
-			phoneLink: '',
-			phone: 'TBD',
+			phoneLink: 'tel:9129121148',
+			phone: '(912) 912-1148',
 		},
 	],
 	newJersey: [
