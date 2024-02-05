@@ -1,5 +1,4 @@
 <script>
-	import Qualified from '$lib/Qualified.svelte'
 	import QualifiedWounds from '$lib/QualifiedWounds.svelte'
 	import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
