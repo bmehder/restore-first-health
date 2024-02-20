@@ -99,18 +99,18 @@ export default {
     
     <p>She resides in Metro Atlanta enjoying traveling and spending time with her four children, husband and friends.</p>`,
 		},
-		{
-			src: '/georgia/tonya-vogel.jpg',
-			name: 'Tonya Vogel, NP',
-			job: 'Nurse Practitioner',
-			description: `<p>Tonya is a Nurse Practitioner in the Decatur, GA office working with our chronic wound patients in the region. Prior to joining RFH, she was a registered nurse for over 12-years working in high-risk labor and delivery with the St. Louis University obstetrics residency program.</p>
+		// {
+		// 	src: '/georgia/tonya-vogel.jpg',
+		// 	name: 'Tonya Vogel, NP',
+		// 	job: 'Nurse Practitioner',
+		// 	description: `<p>Tonya is a Nurse Practitioner in the Decatur, GA office working with our chronic wound patients in the region. Prior to joining RFH, she was a registered nurse for over 12-years working in high-risk labor and delivery with the St. Louis University obstetrics residency program.</p>
 
-    <p>She moved to Florida in 2012 and completed her advanced nurse practitioner program at Chamberlain College of Nursing while raising two teenagers and working for CVS as an Infusion Specialist. Eventually, she joined a Wound Care Company where she worked with patients utlizing conventional therapies.</p>
+    // <p>She moved to Florida in 2012 and completed her advanced nurse practitioner program at Chamberlain College of Nursing while raising two teenagers and working for CVS as an Infusion Specialist. Eventually, she joined a Wound Care Company where she worked with patients utlizing conventional therapies.</p>
 
-    <p>In 2021, she relocated to the Atlanta area where she enjoys the change of seasons, the water activities, and all the beauty that Georgia has to offer. Her children have completed college and have both moved to Georgia to be closer to her and her husband.</p>
+    // <p>In 2021, she relocated to the Atlanta area where she enjoys the change of seasons, the water activities, and all the beauty that Georgia has to offer. Her children have completed college and have both moved to Georgia to be closer to her and her husband.</p>
 
-    <p>Professionally, she is happy to have found RFH, where she can broaden her knowledge base in wound care and play a role in providing the best service possible to our clients.</p>`,
-		},
+    // <p>Professionally, she is happy to have found RFH, where she can broaden her knowledge base in wound care and play a role in providing the best service possible to our clients.</p>`,
+		// },
 	],
 	johnsCreek: [
 		{
