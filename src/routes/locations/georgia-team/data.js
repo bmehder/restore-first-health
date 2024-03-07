@@ -1,5 +1,25 @@
 export default [
 	{
+		src: '/georgia/frank-curvin-medical-director-restore-first-health.jpg',
+		name: 'Frank Curvin, MD',
+		job: 'Medical Director',
+		description: `<p>Dr. Curvin has over 20 years experience serving as a medical director and clinician for post-acute care practices in Georgia. As Medical Director at Restore First Health, Dr. Curvin manages all patient care for the practice, overseeing and collaborating in the clinical protocols provided by the Nurse Practitioners. Before joining Restore First Health in 2022, he was regional medical director for Institutional Special Needs Program and Housecall & Telemedicine Practice for <a href="https://heal.com/" target="_blank">Heal Doctors</a> in Atlanta, GA.</p>
+    <p>Dr. Curvin has a passion for patient care focused on medically proven therapies that bring greater quality of life to his patients. With over two decades in family medicine and managing complex care for patients, he continues to connect with his patients and their families to understand barriers to their care, and present collaborative solutions for improved health to all his patients.</p>
+    <p>He is a graduate of New Jersey Medical School at The University of Medicine and Dentistry in Newark, NJ. Dr. Curvin completed his Family Medicine internship at Harbor - UCLA Medical Center in Torrance, CA and residency training and fellowship at Emory University - Crawford Long Medical Center in Atlanta, GA.</p>
+    `,
+	},
+	{
+		src: '/georgia/jason-agran.jpg',
+		name: 'Jason Agran, M.D., Ph.D.',
+		job: 'Medical Director',
+		description: `<p>Jason Agran, M.D., Ph.D., joined RFH in 2024 as Medical Director in Georgia. He has been working in wound care and emergency medicine for several years before joining the RFH team.</p>
+		<p>He completed his medical, research, and post-doctoral training at the University of Illinois in Urbana-Champaign, studying memory, attention modulation, and novel neuroimaging techniques at the Beckman Institute for Advanced Science and Technology. He entered residency training in Neurosurgery, completing four years and a year of Clinical Fellowship in Functional Neurosurgery, before being recruited to lead the Research and Development team at Medtronic Neuro.</p>
+		<p>As the Director of Global Research for the Restorative Therapies Group, he was responsible for all Neuromodulation and Neuro-targeted drug delivery R&D activities and his department developed and refined novel technologies for the treatment of neurologic dysfunction, degeneration, and pain in cellar, animal, and human pre-clinical studies.</p>
+		<p>He completed additional training on the frontlines of Emergency Medicine, completing a second residency at the University of Florida and serving as Chief Resident.</p>
+		<p>Dr. Agran is board-certified in Emergency Medicine.</p>
+    `,
+	},
+	{
 		src: '/georgia/felecia-paul-gray.jpg',
 		name: 'Felecia Paul-Gray MSN, APRN, FNP-C, CME',
 		job: 'Certified Family Nurse Practitioner',
