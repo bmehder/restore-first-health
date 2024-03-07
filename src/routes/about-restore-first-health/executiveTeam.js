@@ -9,6 +9,13 @@ export default [
     `,
 	},
 	{
+		src: '/georgia/jason-agran.jpg',
+		name: 'Jason Agran, M.D., Ph.D.',
+		job: 'Medical Director',
+		description: `<p>Jason Agran, M.D., Ph.D., joined RFH in 2024 as Medical Director in Georgia. He has been working in wound care and emergency medicine for several years before joining the RFH team. He completed his medical, research, and post-doctoral training at the University of Illinois in Urbana-Champaign, studying memory, attention modulation, and novel neuroimaging techniques at the Beckman Institute for Advanced Science and Technology.  He entered residency training in Neurosurgery, completing four years and a year of Clinical Fellowship in Functional Neurosurgery, before being recruited to lead the Research and Development team at Medtronic Neuro.  As the Director of Global Research for the Restorative Therapies Group, he was responsible for all Neuromodulation and Neuro-targeted drug delivery R&D activities and his department developed and refined novel technologies for the treatment of neurologic dysfunction, degeneration, and pain in cellar, animal, and human pre-clinical studies.  He completed additional training on the frontlines of Emergency Medicine, completing a second residency at the University of Florida and serving as Chief Resident.  Dr. Agran is board-certified in Emergency Medicine.</p>
+    `,
+	},
+	{
 		src: '/georgia/randall-haupt-regional-practice-manager-restore-first-health.jpg',
 		name: 'Randall Haupt',
 		job: 'Vice President of Strategy & Growth',
