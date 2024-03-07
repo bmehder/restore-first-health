@@ -9,6 +9,7 @@
   import Notice from '$lib/Notice.svelte'
 	import NewHero from '$lib/NewHero.svelte'
   import Modal from '$lib/Modal.svelte'
+  import ViewTransition from '$lib/ViewTransition.svelte'
 
   export let data
 
@@ -27,6 +28,8 @@
     content="z9Ar6P1i0M4D3658ZhmtcgEa1Lb3qHKidFGHVfQe9NA"
   />
 </svelte:head>
+
+<ViewTransition />
 
 <Notice />
 
