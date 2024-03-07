@@ -1,6 +1,6 @@
 <script>
 	import ModalCard from '$lib/ModalCard.svelte'
-	import georgiaTeam from './executiveTeam.js'
+	import data from './data.js'
 </script>
 
 <svelte:head>
@@ -62,8 +62,8 @@
 <section>
 	<div class="flow">
 		<h2>Executive Team</h2>
-		<div class="auto-grid team">
-			{#each georgiaTeam as { name, description, job, src }}
+		<div class="auto-grid">
+			{#each data as { name, description, job, src }}
 				<ModalCard {name} {job} {src} {description} />
 			{/each}
 		</div>

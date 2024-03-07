@@ -1,12 +1,6 @@
 <script>
 	import locations from '$lib/locations'
 	import Location from '$lib/Location.svelte'
-	import ModalCard from '$lib/ModalCard.svelte'
-	import georgiaTeam from './georgiaTeam.js'
-	import newJerseyTeam from './newJerseyTeam.js'
-	import pennsylvaniaTeam from './pennsylvaniaTeam.js'
-	import kansasTeam from './kansasTeam.js'
-	import coloradoTeam from './coloradoTeam.js'
 </script>
 
 <svelte:head>
@@ -33,8 +27,7 @@
 <div>
 	<section class="flow georgia sep" id="georgia">
 		<div class="inner flow">
-			<h2>Georgia</h2>
-			<h3>Georgia Locations</h3>
+			<h2>Georgia Locations</h2>
 			<div class="auto-grid locations">
 				{#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
@@ -49,23 +42,15 @@
 					/>
 				{/each}
 			</div>
-			<h3>Georgia Team</h3>
-			<div class="auto-grid team">
-				{#each georgiaTeam as { name, description, job, src }}
-					<ModalCard {name} {job} {src} {description} />
-				{/each}
-			</div>
+			<p class="h3">
+				<a href="/locations/georgia-team/">Meet the Georgia Team &raquo;</a>
+			</p>
 		</div>
 	</section>
 
 	<section class="flow sep jersey" id="jersey">
 		<div class="inner flow">
-			<h2>New Jersey</h2>
-			<h3>New Jersey Locations</h3>
-			<!-- <div class="half-flow italic">
-				<h3>We've moved in New Jersey!</h3>
-				<p>Our Cranbury office is now located in East Windsor, NJ!</p>
-			</div> -->
+			<h2>New Jersey Locations</h2>
 			<div class="auto-grid locations">
 				{#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
@@ -80,19 +65,15 @@
 					/>
 				{/each}
 			</div>
-			<h3>New Jersey Team</h3>
-			<div class="auto-grid team">
-				{#each newJerseyTeam as { name, description, job, src }}
-					<ModalCard {name} {job} {src} {description} />
-				{/each}
-			</div>
+			<p class="h3">
+				<a href="/locations/new-jersey-team/">Meet the New Jersey Team &raquo;</a>
+			</p>
 		</div>
 	</section>
 
 	<section class="flow sep pennsylvania" id="pennsylvania">
 		<div class="inner flow">
-			<h2>Pennsylvania</h2>
-			<h3>Pennsylvania Locations</h3>
+			<h2>Pennsylvania Locations</h2>
 			<div class="auto-grid locations">
 				{#each locations.pennsylvania as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
@@ -107,19 +88,15 @@
 					/>
 				{/each}
 			</div>
-			<h3>Pennsylvania Team</h3>
-			<div class="auto-grid team">
-				{#each pennsylvaniaTeam as { name, description, job, src }}
-					<ModalCard {name} {job} {src} {description} />
-				{/each}
-			</div>
+			<p class="h3">
+				<a href="/locations/pennsylvania-team/">Meet the Pennsylvania Team &raquo;</a>
+			</p>
 		</div>
 	</section>
 
 	<section class="flow sep kansas" id="kansas">
 		<div class="inner flow">
-			<h2>Kansas</h2>
-			<h3>Kansas Locations</h3>
+			<h2>Kansas Locations</h2>
 			<div class="auto-grid locations">
 				{#each locations.kansas as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
@@ -134,19 +111,15 @@
 					/>
 				{/each}
 			</div>
-			<h3>Kansas Team</h3>
-			<div class="auto-grid team">
-				{#each kansasTeam as { name, description, job, src }}
-					<ModalCard {name} {job} {src} {description} />
-				{/each}
-			</div>
+			<p class="h3">
+				<a href="/locations/kansas-team/">Meet the Kansas Team &raquo;</a>
+			</p>
 		</div>
 	</section>
 
 	<section class="flow colorado" id="colorado">
 		<div class="inner flow">
-			<h2>Colorado</h2>
-			<h3>Colorado Locations</h3>
+			<h2>Colorado Locations</h2>
 			<div class="auto-grid locations">
 				{#each locations.colorado as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
@@ -161,12 +134,9 @@
 					/>
 				{/each}
 			</div>
-			<h3>Colorado Team</h3>
-			<div class="auto-grid team">
-				{#each coloradoTeam as { name, description, job, src }}
-					<ModalCard {name} {job} {src} {description} />
-				{/each}
-			</div>
+			<p class="h3">
+				<a href="/locations/colorado-team/">Meet the Colorado Team &raquo;</a>
+			</p>
 		</div>
 	</section>
 </div>
@@ -174,10 +144,6 @@
 <style>
 	@media (min-width: 42rem) {
 		.locations {
-			--max: 16rem;
-		}
-
-		.team {
 			--max: 16rem;
 		}
 	}
