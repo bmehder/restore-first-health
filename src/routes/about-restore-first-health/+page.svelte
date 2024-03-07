@@ -1,8 +1,3 @@
-<script>
-	import ModalCard from '$lib/ModalCard.svelte'
-	import data from './data.js'
-</script>
-
 <svelte:head>
 	<title>About Restore First Health</title>
 	<meta
@@ -57,17 +52,6 @@
 		Restore First Health is poised to help more patients throughout our communities get
 		the collaborative care they deserve.
 	</p>
-</section>
-
-<section>
-	<div class="flow">
-		<h2>Executive Team</h2>
-		<div class="auto-grid">
-			{#each data as { name, description, job, src }}
-				<ModalCard {name} {job} {src} {description} />
-			{/each}
-		</div>
-	</div>
 </section>
 
 <style>
