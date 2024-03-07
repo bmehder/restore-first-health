@@ -43,6 +43,12 @@
 		padding: var(--size);
 	}
 
+	button:is(:focus-visible) {
+		background-color: var(--highlight);
+		outline: none;
+		color: white;
+	}
+
   @keyframes fade {
     0% {
       opacity: 0;
