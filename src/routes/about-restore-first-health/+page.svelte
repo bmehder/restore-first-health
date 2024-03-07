@@ -60,11 +60,13 @@
 </section>
 
 <section>
-	<h3>Executive Team</h3>
-	<div class="auto-grid team">
-		{#each georgiaTeam as { name, description, job, src }}
-			<ModalCard {name} {job} {src} {description} />
-		{/each}
+	<div class="flow">
+		<h2>Executive Team</h2>
+		<div class="auto-grid team">
+			{#each georgiaTeam as { name, description, job, src }}
+				<ModalCard {name} {job} {src} {description} />
+			{/each}
+		</div>
 	</div>
 </section>
 
