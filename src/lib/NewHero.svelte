@@ -10,6 +10,7 @@
     </div>
     <div class="half-flow">
       <div class="h2">Restore First Health </div>
+      <div class="h3">In-Home (Bedside)</div>
       <div class="h3">Advanced Care for Chronic Wounds</div>
       <p class="locations">Serving Georgia, Pennsylvania & New Jersey</p>
       <div>
@@ -42,10 +43,10 @@
   }
   .h3 {
     color: var(--light);
-    font-size: calc(var(--size) + 0.5rem);
+    font-size: calc(var(--size));
   }
   .locations {
-    font-size: var(--size);
+    font-weight: normal;
   }
   .button {
     display: inline-block;

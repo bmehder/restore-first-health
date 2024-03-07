@@ -4,14 +4,13 @@
   import '$lib/styles/theme.css'
   import { page } from '$app/stores'
   import Header from '$lib/Headers/Header.svelte'
-  import HomeHero from '$lib/HomeHero.svelte'
   import Footer from '$lib/Footers/Footer.svelte'
   import BackToTop from '$lib/BackToTop.svelte'
   import Notice from '$lib/Notice.svelte'
 	import NewHero from '$lib/NewHero.svelte'
-  // import Popover from '$lib/Popover.svelte'
+  import Modal from '$lib/Modal.svelte'
 
-  // export let data
+  export let data
 
   const mobileThreshold = 1180
 </script>
@@ -33,10 +32,6 @@
 
 <div class="wrapper">
   <Header {mobileThreshold} />
-
-  <!-- {#if $page.route.id === '/'}
-    <HomeHero image="/hero-1.jpg" />
-  {/if} -->
   
   {#if $page.route.id === '/'}
     <NewHero image="/hero-1.jpg" />
@@ -51,18 +46,14 @@
 
 <BackToTop />
 
-<!-- {#if !data.rfhPopup}
-  <Popover delay="2000">
-    <h2>My content</h2>
-    <p>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat nam dignissimos
-      asperiores, neque eaque sequi pariatur ex blanditiis accusantium iusto eveniet dolor
-      nihil molestias autem soluta dicta doloribus eius voluptates officia rerum placeat
-      mollitia deleniti ab facilis? Quam mollitia exercitationem officia, perspiciatis
-      nihil iste fugiat eum tenetur nemo debitis magni.
+{#if !data.rfhPopup}
+  <Modal delay="2000">
+    <h2>Restore First Health Now Seeing Patients in Colorado and Kansas!</h2>
+    <p class="h3">
+      Formerly Restore Wound and Restore Medical Group NOW Join Restore First Health: Advanced Care for Chronic Wounds.
     </p>
-  </Popover>
-{/if} -->
+  </Modal>
+{/if}
 
 <style>
   .wrapper {

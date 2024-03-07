@@ -102,9 +102,9 @@ textarea {
 }
 
 /* Utilities */
-.title {
+.title, .sep {
   padding-bottom: var(--size);
-  border-bottom: 1px solid;
+  border-bottom: 1px solid var(--accent);
 }
 
 .underline {

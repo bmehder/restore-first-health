@@ -10,11 +10,11 @@ export default [
 	{
 		name: 'Locations',
 		url: '/locations/',
-		children: [
-			{ name: 'Georgia Team', url: '/locations/georgia-team' },
-			{ name: 'New Jersey Team', url: '/locations/new-jersey-team' },
-			{ name: 'Pennsylvania Team', url: '/locations/pennsylvania-team' },
-		],
+		// children: [
+		// 	{ name: 'Georgia Team', url: '/locations/georgia-team' },
+		// 	{ name: 'New Jersey Team', url: '/locations/new-jersey-team' },
+		// 	{ name: 'Pennsylvania Team', url: '/locations/pennsylvania-team' },
+		// ],
 	},
 	{
 		name: 'Case Studies',
