@@ -5,6 +5,7 @@ const getPosts = async () => {
 
   const response = await fetch(endpoint)
   const posts = await response.json()
+  console.log(posts)
 
   return posts 
 }
@@ -34,7 +35,7 @@ const createSitemap = ({ site, pages, posts }) => {
     <url>
       <loc>${site}/${post.slug}</loc>
       <changefreq>weekly</changefreq>
-      <lastmod>${post.modified}</lastmod>
+      <lastmod>${post.modified.slice(0, 10)}</lastmod>
       <priority>0.3</priority>
     </url>
   `
