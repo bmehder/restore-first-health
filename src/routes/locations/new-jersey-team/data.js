@@ -36,6 +36,19 @@ export default [
         <p>Suela lives in New Jersey and enjoys traveling, cooking, and spending time with her family.</p>`,
 	},
 	{
+		src: '/new-jersey/yuliya-albu.jpg',
+		name: 'Yuliya Albu, NP',
+		job: 'Nurse Practitioner',
+		description: `<p>
+        Yuliya is a Board-Certified Adult - Gerontology Primary Care Nurse Practitioner working for several years in primary care, long term and home care. She specializes in advance wound treatment at Restore First Health.</p>
+				
+				<p>Yuliya began her clinical career as a Registered Nurse in 2012 as a Public Acute Health Nurse at Visiting Nurse of NYC by providing wound care to patients at home.</p>
+				
+				<p>She has a Bachelor of Science degree in Nursing from Purdue University, Indiana and a Master of Science in Nursing as an Adult – Gerontology Primary Care Nurse Practitioner from Long Island University. She is licensed to practice in New York and New Jersey.</p>
+				
+				<p>Yuliya lives in Millstone, New Jersy. She is a hockey mom who enjoys hiking and traveling with her family. She spends some quality time at her family’s apiary where her beekeeper husband does magic with bees and honey.</p>`,
+	},
+	{
 		src: '/new-jersey/lizette-lorenzo-betancourt.jpg',
 		name: 'Lizette Lorenzo-Betancourt',
 		job: 'Director of Operations, NJ',
