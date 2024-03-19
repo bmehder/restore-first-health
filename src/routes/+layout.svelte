@@ -49,14 +49,14 @@
 
 <BackToTop />
 
-{#if !data.rfhModal}
+<!-- {#if !data.rfhModal}
   <Modal delay="2000">
     <h2>Restore First Health Now Seeing Patients in Colorado and Kansas!</h2>
     <p class="h3">
       Formerly Restore Wound and Restore Medical Group NOW Join Restore First Health: Advanced Care for Chronic Wounds.
     </p>
   </Modal>
-{/if}
+{/if} -->
 
 <style>
   .wrapper {

@@ -139,6 +139,29 @@
 			</p>
 		</div>
 	</section>
+	
+	<!-- <section class="flow texas" id="texas">
+		<div class="inner flow">
+			<h2>Texas Locations</h2>
+			<div class="auto-grid locations">
+				{#each locations.texas as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
+					<Location
+						{name}
+						{address1}
+						{address2}
+						{city}
+						{mapLink}
+						{phoneLink}
+						{phone}
+						{fax}
+					/>
+				{/each}
+			</div>
+			<p class="h3">
+				<a href="/locations/colorado-team/">Meet the Texas Team &raquo;</a>
+			</p>
+		</div>
+	</section> -->
 </div>
 
 <style>

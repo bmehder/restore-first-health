@@ -109,4 +109,17 @@ export default {
 			fax: '(720) 678-9860',
 		},
 	],
+	texas: [
+		{
+			name: 'Kingwood, TX',
+			address1: '201 Kingwood Medical Dr.',
+			address2: 'Suite A200',
+			city: 'Kingwood, TX 77339',
+			mapLink:
+				'https://maps.apple.com/?address=201%20Kingwood%20Medical%20Dr,%20Ste%20A200,%20Kingwood,%20TX%20%2077339,%20United%20States&ll=30.046602,-95.256876&q=201%20Kingwood%20Medical%20Dr,%20Ste%20A200',
+			phoneLink: 'tel:3463452092',
+			phone: '(346) 345-2092',
+			fax: '(281) 883-4395',
+		},
+	],
 }
