@@ -19,16 +19,16 @@ export default [
 		<p>Dr. Agran is board-certified in Emergency Medicine.</p>
     `,
 	},
-	{
-		src: '/georgia/felecia-paul-gray.jpg',
-		name: 'Felecia Paul-Gray MSN, APRN, FNP-C, CME',
-		job: 'Certified Family Nurse Practitioner',
-		description: `<p>Felecia has over 20 years of professional nursing experience. She began her nursing career in long-term nursing care and has worked in several areas of nursing while being in the healthcare industry.</p>
+	// {
+	// 	src: '/georgia/felecia-paul-gray.jpg',
+	// 	name: 'Felecia Paul-Gray MSN, APRN, FNP-C, CME',
+	// 	job: 'Certified Family Nurse Practitioner',
+	// 	description: `<p>Felecia has over 20 years of professional nursing experience. She began her nursing career in long-term nursing care and has worked in several areas of nursing while being in the healthcare industry.</p>
 
-    <p>In addition to long-term care, she has worked in the areas of Critical Care Nursing, Disease Management & Prevention, Director of Nursing in a Residential treatment facility and a Manager of the Home Health Authorization Dept. She also has experience working with a large Managed Care Organization with the Medicare population and has served as their Manager of Staff Development and Training.</p>
+  //   <p>In addition to long-term care, she has worked in the areas of Critical Care Nursing, Disease Management & Prevention, Director of Nursing in a Residential treatment facility and a Manager of the Home Health Authorization Dept. She also has experience working with a large Managed Care Organization with the Medicare population and has served as their Manager of Staff Development and Training.</p>
     
-    <p>Felecia is a proud member of AANP (American Association of Nurse Practitioner) and GSLA (Georgia Senior Living Association). Felecia is truly honored to work with Adult Population as a Family Nurse Practitioner with a focus on integrity, treating the whole patient, and making a meaningful impact in the lives of her clients.</p>`,
-	},
+  //   <p>Felecia is a proud member of AANP (American Association of Nurse Practitioner) and GSLA (Georgia Senior Living Association). Felecia is truly honored to work with Adult Population as a Family Nurse Practitioner with a focus on integrity, treating the whole patient, and making a meaningful impact in the lives of her clients.</p>`,
+	// },
 	{
 		src: '/georgia/katrina-robertson-restore-first-health.jpg',
 		name: 'Katrina Robertson, APRN, FNP-BC',
@@ -51,16 +51,16 @@ export default [
     
     <p>When not treating patients or volunteering John enjoys attending his children’s sporting events with his wife, and attending college and professional sporting events as a family.</p>`,
 	},
-	{
-		src: '/georgia/linda-octavien.jpg',
-		name: 'Linda Octavien, FNP',
-		job: 'Nurse Practitioner',
-		description: `<p>Linda is a Nurse Practitioner with RFH practicing out of the John’s Creek location. She has close to 20 years of healthcare experience always striving to achieve the best outcomes for her patients.</p>
+	// {
+	// 	src: '/georgia/linda-octavien.jpg',
+	// 	name: 'Linda Octavien, FNP',
+	// 	job: 'Nurse Practitioner',
+	// 	description: `<p>Linda is a Nurse Practitioner with RFH practicing out of the John’s Creek location. She has close to 20 years of healthcare experience always striving to achieve the best outcomes for her patients.</p>
     
-    <p>She studied nursing at the University of Massachusetts, in Boston, where she obtained a Bachelor of Science Degree. She also received a certificate as a wound nurse from Emory University, prior to graduating from University of South Florida with a master’s degree in public health, with focus on health policy.</p>
+  //   <p>She studied nursing at the University of Massachusetts, in Boston, where she obtained a Bachelor of Science Degree. She also received a certificate as a wound nurse from Emory University, prior to graduating from University of South Florida with a master’s degree in public health, with focus on health policy.</p>
     
-    <p>She later, obtained a 2nd Masters’ Degree in nursing and graduated as a Family Nurse Practitioner, from United States University. As a provider, she focuses on treating the whole patient and providing quality care. She is a member of the American Association of Nurse Practitioners and the WCON association. </p>`,
-	},
+  //   <p>She later, obtained a 2nd Masters’ Degree in nursing and graduated as a Family Nurse Practitioner, from United States University. As a provider, she focuses on treating the whole patient and providing quality care. She is a member of the American Association of Nurse Practitioners and the WCON association. </p>`,
+	// },
 	{
 		src: '/georgia/julia-choe.jpg',
 		name: 'Julia Choe',
