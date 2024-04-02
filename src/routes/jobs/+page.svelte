@@ -65,7 +65,7 @@
 
   <h2>Georgia</h2>
   <div class="auto-grid georgia">
-    <div class="flow flex">
+    <!-- <div class="flow flex">
       <p>
         <strong>Nurse Practitioner</strong><br />
         Savannah, GA<br />
@@ -76,8 +76,8 @@
         href="https://restorefirsthealthduluth.applytojob.com/apply/3sAyKIkP2Z/Wound-Care-Nurse-Practitioner"
         target="_blank">Apply Now</a
       >
-    </div>
-    <div class="flow flex">
+    </div> -->
+    <!-- <div class="flow flex">
       <p>
         <strong>Nurse Practitioner</strong><br />
         Marietta, GA<br />
@@ -88,8 +88,8 @@
         href="https://restorefirsthealthduluth.applytojob.com/apply/zvshbZZVuM/Nurse-Practitioner-Wound-Care"
         target="_blank">Apply Now</a
       >
-    </div>
-    <div class="flow flex">
+    </div> -->
+    <!-- <div class="flow flex">
       <p>
         <strong>Certified Medical Assistant</strong><br />
         Savannah, GA<br />
@@ -100,7 +100,7 @@
         href="https://restorefirsthealthduluth.applytojob.com/apply/7EJZf2sjL3/Certified-Medical-Assistant-Wound-Care"
         target="_blank">Apply Now</a
       >
-    </div>
+    </div> -->
     <div class="flow flex">
       <p>
         <strong>Certified Medical Assistant</strong><br />
@@ -113,7 +113,7 @@
         target="_blank">Apply Now</a
       >
     </div>
-    <div class="flow flex">
+    <!-- <div class="flow flex">
       <p>
         <strong>Certified Medical Assistant</strong><br />
         Decatur, GA<br />
@@ -124,7 +124,7 @@
         href="https://restorefirsthealthduluth.applytojob.com/apply/XGYjf8SJRy/Certified-Medical-Assistant-Wound-Care"
         target="_blank">Apply Now</a
       >
-    </div>
+    </div> -->
     <!-- <div class="flow flex">
       <p>
         <strong>Wound Care Coordinator</strong><br />
@@ -168,7 +168,7 @@
   }
 
   @media (min-width: 52em) {
-    .pennsylvania {
+    .pennsylvania, .georgia {
       max-width: 17.5em;
     }
     /* .georgia {
