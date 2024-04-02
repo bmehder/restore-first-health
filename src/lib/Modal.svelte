@@ -21,15 +21,18 @@
 >
 	<div class="inner flow">
 		<slot>Fallback content</slot>
-		<form method="dialog" on:submit={() => goto('/locations/')}>
+		<!-- <form method="dialog" on:submit={() => goto('/access-to-advanced-wound-care-at-the-bedside-expands-across-us/')}>
 			<button>Learn More</button>
+		</form> -->
+		<form method="dialog">
+			<button>Close</button>
 		</form>
 	</div>
 </dialog>
 
 <style>
 	dialog {
-		width: min(80%, 48rem);
+		/* width: min(80%, 48rem); */
 		padding: 0;
     animation-delay: 400ms;
     animation: slideDown 400ms;

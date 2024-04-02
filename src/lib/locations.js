@@ -122,4 +122,15 @@ export default {
 			fax: '(281) 883-4395',
 		},
 	],
+	florida: [
+		{
+			name: 'Jacksonville, FL',
+			address1: '4811 Beach Blvd.',
+			address2: 'Suite 300',
+			city: 'Jacksonville, FL 32207',
+			mapLink:
+				'https://maps.apple.com/?address=4811%20Beach%20Blvd,%20Ste%20300,%20Jacksonville,%20FL%20%2032207,%20United%20States&ll=30.298152,-81.617252&q=4811%20Beach%20Blvd,%20Ste%20300',
+			phone: 'TBD',
+		},
+	],
 }

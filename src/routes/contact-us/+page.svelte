@@ -46,6 +46,30 @@
         {phone}
       />
     {/each}
+    
+    {#each locations.kansas as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
+    
+    {#each locations.colorado as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
+    
+    {#each locations.texas as { name, phoneLink, phone }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+      />
+    {/each}
   </div>
 </div>
 

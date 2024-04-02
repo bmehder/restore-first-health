@@ -47,6 +47,7 @@
   footer {
     line-height: 1.5;
   }
+  
   .inner {
     width: var(--width);
     justify-content: space-between;

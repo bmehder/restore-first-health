@@ -195,6 +195,9 @@
 					<li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
 					<li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
 					<li><a href="tel:6103792904">(610) 379-2904 (Pennsylvania)</a></li>
+					<li><a href="tel:7206789868">(720) 678-9868 (Colorado)</a></li>
+					<li><a href="tel:3163305353">(316) 330-5353 (Kansas)</a></li>
+					<li><a href="tel:3463452092">(346) 345-2092 (Texas)</a></li>
 				</ul>
 			</div>
 			<div class="flow">
@@ -222,6 +225,16 @@
 					<li>
 						<a href="/wound-care-referral-form-pa.pdf" target="_blank"
 							>Patient Referral Form – Pennsylvania [PDF]</a
+						>
+					</li>
+					<li>
+						<a href="/wound-care-referral-form-co.pdf" target="_blank"
+							>Patient Referral Form – Colorado [PDF]</a
+						>
+					</li>
+					<li>
+						<a href="/wound-care-referral-form-ks.pdf" target="_blank"
+							>Patient Referral Form – Kansas [PDF]</a
 						>
 					</li>
 				</ul>

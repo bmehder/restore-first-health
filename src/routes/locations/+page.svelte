@@ -117,7 +117,7 @@
 		</div>
 	</section>
 
-	<section class="flow colorado" id="colorado">
+	<section class="flow sep colorado" id="colorado">
 		<div class="inner flow">
 			<h2>Colorado Locations</h2>
 			<div class="auto-grid locations">
@@ -140,7 +140,7 @@
 		</div>
 	</section>
 	
-	<!-- <section class="flow texas" id="texas">
+	<section class="flow sep texas" id="texas">
 		<div class="inner flow">
 			<h2>Texas Locations</h2>
 			<div class="auto-grid locations">
@@ -157,11 +157,37 @@
 					/>
 				{/each}
 			</div>
-			<p class="h3">
-				<a href="/locations/colorado-team/">Meet the Texas Team &raquo;</a>
-			</p>
+			<!-- <p class="h3">
+				<a href="/locations/texas-team/">Meet the Texas Team &raquo;</a>
+			</p> -->
 		</div>
-	</section> -->
+	</section>
+
+	<section class="flow sep florida" id="florida">
+		<div class="inner flow">
+			<div>
+				<h2>Florida Locations</h2>
+				<p class="h3">(<em>Coming Soon!</em>)</p>
+			</div>
+			<div class="auto-grid locations">
+				{#each locations.florida as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
+					<Location
+						{name}
+						{address1}
+						{address2}
+						{city}
+						{mapLink}
+						{phoneLink}
+						{phone}
+						{fax}
+					/>
+				{/each}
+			</div>
+			<!-- <p class="h3">
+				<a href="/locations/florida-team/">Meet the Florida Team &raquo;</a>
+			</p> -->
+		</div>
+	</section>
 </div>
 
 <style>

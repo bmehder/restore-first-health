@@ -15,11 +15,13 @@
   <article class="flow">
     <h1 class="title">{@html data.post[0].title.rendered}</h1>
     <p>{date}</p>
+    {#if data.post[0]._embedded['wp:featuredmedia']?.[0]}
     <img
-      class="square"
+      class="wide"
       src={data.post[0]._embedded['wp:featuredmedia'][0].source_url}
       alt="{data.post[0].title.rendered}"
     />
+    {/if}
     <div>{@html data.post[0].content.rendered}</div>
   </article>
 </section>
@@ -27,6 +29,11 @@
 <style>
   article {
     max-width: 42em;
+  }
+
+  article .wide {
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
   }
 
   article div :global(> * + *) {
