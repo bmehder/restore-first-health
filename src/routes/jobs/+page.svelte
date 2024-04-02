@@ -2,6 +2,8 @@
 	import Job from '$lib/Job.svelte'
 
 	export let data
+
+  console.log(data)
 </script>
 
 <svelte:head>
