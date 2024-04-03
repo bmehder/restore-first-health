@@ -25,9 +25,9 @@ export default [
 	// 	job: 'Certified Family Nurse Practitioner',
 	// 	description: `<p>Felecia has over 20 years of professional nursing experience. She began her nursing career in long-term nursing care and has worked in several areas of nursing while being in the healthcare industry.</p>
 
-  //   <p>In addition to long-term care, she has worked in the areas of Critical Care Nursing, Disease Management & Prevention, Director of Nursing in a Residential treatment facility and a Manager of the Home Health Authorization Dept. She also has experience working with a large Managed Care Organization with the Medicare population and has served as their Manager of Staff Development and Training.</p>
-    
-  //   <p>Felecia is a proud member of AANP (American Association of Nurse Practitioner) and GSLA (Georgia Senior Living Association). Felecia is truly honored to work with Adult Population as a Family Nurse Practitioner with a focus on integrity, treating the whole patient, and making a meaningful impact in the lives of her clients.</p>`,
+	//   <p>In addition to long-term care, she has worked in the areas of Critical Care Nursing, Disease Management & Prevention, Director of Nursing in a Residential treatment facility and a Manager of the Home Health Authorization Dept. She also has experience working with a large Managed Care Organization with the Medicare population and has served as their Manager of Staff Development and Training.</p>
+
+	//   <p>Felecia is a proud member of AANP (American Association of Nurse Practitioner) and GSLA (Georgia Senior Living Association). Felecia is truly honored to work with Adult Population as a Family Nurse Practitioner with a focus on integrity, treating the whole patient, and making a meaningful impact in the lives of her clients.</p>`,
 	// },
 	{
 		src: '/georgia/katrina-robertson-restore-first-health.jpg',
@@ -56,10 +56,10 @@ export default [
 	// 	name: 'Linda Octavien, FNP',
 	// 	job: 'Nurse Practitioner',
 	// 	description: `<p>Linda is a Nurse Practitioner with RFH practicing out of the John’s Creek location. She has close to 20 years of healthcare experience always striving to achieve the best outcomes for her patients.</p>
-    
-  //   <p>She studied nursing at the University of Massachusetts, in Boston, where she obtained a Bachelor of Science Degree. She also received a certificate as a wound nurse from Emory University, prior to graduating from University of South Florida with a master’s degree in public health, with focus on health policy.</p>
-    
-  //   <p>She later, obtained a 2nd Masters’ Degree in nursing and graduated as a Family Nurse Practitioner, from United States University. As a provider, she focuses on treating the whole patient and providing quality care. She is a member of the American Association of Nurse Practitioners and the WCON association. </p>`,
+
+	//   <p>She studied nursing at the University of Massachusetts, in Boston, where she obtained a Bachelor of Science Degree. She also received a certificate as a wound nurse from Emory University, prior to graduating from University of South Florida with a master’s degree in public health, with focus on health policy.</p>
+
+	//   <p>She later, obtained a 2nd Masters’ Degree in nursing and graduated as a Family Nurse Practitioner, from United States University. As a provider, she focuses on treating the whole patient and providing quality care. She is a member of the American Association of Nurse Practitioners and the WCON association. </p>`,
 	// },
 	{
 		src: '/georgia/julia-choe.jpg',
@@ -72,5 +72,17 @@ export default [
     <p>Julia earned her MSN from Kennesaw State University in 2014. She worked as a nurse practitioner at Emory University Hospital in the transplant hepatology department and simultaneously worked in aesthetics, performing multiple procedures.</p>
 
     <p>She has a passion for caring for others, which prompted her to go into nursing. She currently resides in Atlanta area.</p>`,
+	},
+	{
+		src: '/georgia/amy-beckner.jpg',
+		name: 'Amy Beckner, FNP-BC',
+		job: 'Nurse Practitioner',
+		description: `<p>Amy is a board-certified Family Nurse Practitioner. She earned her BSN from Johns Hopkins University and MSN from Simmons University. Additionally, she holds a BA in Criminal Justice.</p>
+		
+		<p>She began her nursing career in 2013, starting in adult acute care, followed by several years in home care providing wound care, chronic disease management, and palliative care. Amy believes in providing holistic, compassionate care with an emphasis on patient education and involvement. She feels that in-home care provides the perfect opportunity to bring high quality care to the place where the patient is the most comfortable.</p>
+
+    <p>Katrina earned her nursing degree from St Vincent's College and her masters of science degree from Quinnipiac University. She also holds a bachelors of art in Psychology from University of Connecticut.</p>
+    
+    <p>She resides in Metro Atlanta enjoying traveling and spending time with her four children, husband and friends.</p>`,
 	},
 ]
