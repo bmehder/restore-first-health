@@ -80,9 +80,7 @@ export default [
 		description: `<p>Amy is a board-certified Family Nurse Practitioner. She earned her BSN from Johns Hopkins University and MSN from Simmons University. Additionally, she holds a BA in Criminal Justice.</p>
 		
 		<p>She began her nursing career in 2013, starting in adult acute care, followed by several years in home care providing wound care, chronic disease management, and palliative care. Amy believes in providing holistic, compassionate care with an emphasis on patient education and involvement. She feels that in-home care provides the perfect opportunity to bring high quality care to the place where the patient is the most comfortable.</p>
-
-    <p>Katrina earned her nursing degree from St Vincent's College and her masters of science degree from Quinnipiac University. She also holds a bachelors of art in Psychology from University of Connecticut.</p>
-    
-    <p>She resides in Metro Atlanta enjoying traveling and spending time with her four children, husband and friends.</p>`,
+		
+		<p>During her spare time, Amy enjoys doing all things outdoors with her husband, 2 children, and 2 dogs. She has lived in multiple locations due to her husband’s military career and is excited to set roots in the Savannah area following his retirement.</p>`,
 	},
 ]
