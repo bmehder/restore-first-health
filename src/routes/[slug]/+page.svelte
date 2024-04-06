@@ -4,7 +4,6 @@
   const date = new Date(data.post[0].date).toLocaleDateString('en-US', {
     dateStyle: 'full',
   })
-  console.log(data)
 </script>
 
 <svelte:head>

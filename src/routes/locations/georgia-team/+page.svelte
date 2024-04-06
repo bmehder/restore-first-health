@@ -3,8 +3,6 @@
 	import ModalCard from '$lib/ModalCard.svelte'
 
   export let data
-
-  console.log(data)
 </script>
 
 <svelte:head>
