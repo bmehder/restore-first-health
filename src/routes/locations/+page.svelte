@@ -25,10 +25,10 @@
 </section>
 
 <div>
-	<section class="flow georgia sep" id="georgia">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Georgia Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.georgia as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -48,10 +48,10 @@
 		</div>
 	</section>
 
-	<section class="flow sep jersey" id="jersey">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>New Jersey Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.newJersey as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -71,10 +71,10 @@
 		</div>
 	</section>
 
-	<section class="flow sep pennsylvania" id="pennsylvania">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Pennsylvania Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.pennsylvania as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -94,10 +94,10 @@
 		</div>
 	</section>
 
-	<section class="flow sep kansas" id="kansas">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Kansas Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.kansas as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -117,10 +117,10 @@
 		</div>
 	</section>
 
-	<section class="flow sep colorado" id="colorado">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Colorado Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.colorado as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -140,10 +140,10 @@
 		</div>
 	</section>
 	
-	<section class="flow sep texas" id="texas">
+	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Texas Locations</h2>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.texas as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -163,13 +163,13 @@
 		</div>
 	</section>
 
-	<section class="flow sep florida" id="florida">
+	<section class="flow sep florida">
 		<div class="inner flow">
 			<div>
 				<h2>Florida Locations</h2>
 				<p class="h3">(<em>Coming Soon!</em>)</p>
 			</div>
-			<div class="auto-grid locations">
+			<div class="items">
 				{#each locations.florida as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
 					<Location
 						{name}
@@ -189,11 +189,3 @@
 		</div>
 	</section>
 </div>
-
-<style>
-	@media (min-width: 42rem) {
-		.locations {
-			--max: 16rem;
-		}
-	}
-</style>

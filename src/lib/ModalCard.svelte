@@ -1,9 +1,5 @@
 <script>
-	export let id = ''
-	export let name = ''
-	export let description = ''
-	export let job = ''
-	export let src = ''
+	export let item
 
 	let dialogElement
 
@@ -13,11 +9,15 @@
 
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <!-- svelte-ignore a11y-no-static-element-interactions -->
-<div on:click={showModal} on:keydown {id} class="card flow">
-	<img class="square" {src} alt={name} />
+<div on:click={showModal} on:keydown class="card flow">
+	<img
+		class="square"
+		src={item._embedded['wp:featuredmedia'][0].source_url}
+		alt={item.title.rendered}
+	/>
 	<div class="half-flow content">
-		<p><strong>{name}</strong></p>
-		<p>{job}</p>
+		<p><strong>{@html item.title.rendered}</strong></p>
+		<p>{item.position}</p>
 	</div>
 	<button on:click={showModal}>Read More</button>
 </div>
@@ -26,11 +26,14 @@
 <dialog bind:this={dialogElement} on:click|self={closeModal} on:keypress>
 	<div class="inner">
 		<div class="flow">
-			<img {src} alt={name} />
-			<h3>{name}</h3>
-			<p><strong>{job}</strong></p>
+			<img
+				src={item._embedded['wp:featuredmedia'][0].source_url}
+				alt={item.title.rendered}
+			/>
+			<h3>{@html item.title.rendered}</h3>
+			<p><strong>{item.position}</strong></p>
 		</div>
-		<div class="flow">{@html description}</div>
+		<div class="flow">{@html item.content.rendered}</div>
 		<form method="dialog">
 			<button>X</button>
 		</form>
@@ -69,8 +72,8 @@
 		padding: 0;
 		border: 1px solid var(--accent);
 		border-radius: 18px;
-    animation-delay: 400ms;
-    animation: slideDown 400ms;
+		animation-delay: 400ms;
+		animation: slideDown 400ms;
 	}
 
 	dialog::backdrop {
@@ -94,7 +97,7 @@
 		top: var(--half-size);
 		right: var(--half-size);
 	}
-	
+
 	dialog form button {
 		padding: var(--half-size);
 		line-height: 0;

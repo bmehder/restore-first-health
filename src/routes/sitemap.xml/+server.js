@@ -5,7 +5,6 @@ const getPosts = async () => {
 
   const response = await fetch(endpoint)
   const posts = await response.json()
-  console.log(posts)
 
   return posts 
 }

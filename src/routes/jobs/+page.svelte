@@ -2,8 +2,6 @@
 	import Job from '$lib/Job.svelte'
 
 	export let data
-
-  console.log(data)
 </script>
 
 <svelte:head>
@@ -17,30 +15,14 @@
 <section class="flow">
 	<h1 class="title">Job Opportunities</h1>
 
-	<h2>Florida</h2>
-	<div class="auto-grid florida">
-		{#each data.jobs.florida as { position, salary, city, state, href }}
-			<Job {position} {salary} {city} {state} {href} />
-		{/each}
-	</div>
-
-	<h2>Georgia</h2>
-	<div class="auto-grid georgia">
-		{#each data.jobs.georgia as { position, salary, city, state, href }}
-			<Job {position} {salary} {city} {state} {href} />
-		{/each}
-	</div>
-
-	<h2>New Jersey</h2>
-	<div class="auto-grid new-jersey">
-		{#each data.jobs.newJersey as { position, salary, city, state, href }}
-			<Job {position} {salary} {city} {state} {href} />
-		{/each}
-	</div>
-	<h2>Pennsylvania</h2>
-	<div class="auto-grid pennsylvania">
-		{#each data.jobs.pennsylvania as { position, salary, city, state, href }}
-			<Job {position} {salary} {city} {state} {href} />
-		{/each}
-	</div>
+	{#each data.jobsByRegions as items, idx}
+		{#if data.jobsByRegions[idx].length}
+			<h2>{data.regions[idx].name}</h2>
+			<div class="items">
+				{#each items as item}
+					<Job {item} />
+				{/each}
+			</div>
+		{/if}
+	{/each}
 </section>

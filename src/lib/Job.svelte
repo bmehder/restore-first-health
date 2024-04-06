@@ -1,21 +1,17 @@
 <script>
-	export let position = ''
-	export let city = ''
-	export let state = ''
-	export let salary = ''
-	export let href = ''
+	export let item
 </script>
 
-{#if position}
+<!-- {#if item.title.rendered} -->
 	<div class="outer half-flow">
-		<h3>{position}</h3>
-		<p>{city}, {state}</p>
-		<p>{salary}</p>
-		<a class="button" {href} target="_blank">Apply Now</a>
+		<h3>{@html item.title.rendered}</h3>
+		<p>{item.meta._bd_jobs_city}, {item.meta._bd_jobs_state_abbrev}</p>
+		<p>{item.meta._bd_jobs_salary}</p>
+		<a class="button" href={item.meta._bd_jobs_href} target="_blank">Apply Now</a>
 	</div>
-{:else}
+<!-- {:else}
 	<span></span>
-{/if}
+{/if} -->
 
 <style>
 	.outer {

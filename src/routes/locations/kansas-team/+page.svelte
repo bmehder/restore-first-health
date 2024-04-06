@@ -1,6 +1,8 @@
 <script>
-	import data from './data.js'
+	// import data from './data.js'
 	import ModalCard from '$lib/ModalCard.svelte'
+
+  export let data
 </script>
 
 <svelte:head>
@@ -14,9 +16,9 @@
 <h1 class="title">Kansas Team</h1>
 
 <section>
-  <div class="auto-grid team">
-    {#each data as { name, description, job, src }}
-      <ModalCard {name} {job} {src} {description} />
+  <div class="items">
+    {#each data.teamMembers as item}
+      <ModalCard {item} />
     {/each}
   </div>
 </section>

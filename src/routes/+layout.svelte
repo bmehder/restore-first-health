@@ -4,10 +4,10 @@
 	import '$lib/styles/theme.css'
 	import { page } from '$app/stores'
 	import Header from '$lib/Headers/Header.svelte'
-	import Footer from '$lib/Footers/Footer2.svelte'
+	import Footer from '$lib/Footers/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
 	import Notice from '$lib/Notice.svelte'
-	import NewHero from '$lib/NewHero.svelte'
+	import Hero from '$lib/Hero.svelte'
 	import Modal from '$lib/Modal.svelte'
 	import ViewTransition from '$lib/ViewTransition.svelte'
 
@@ -43,7 +43,7 @@
 	<Header {mobileThreshold} />
 
 	{#if $page.route.id === '/'}
-		<NewHero image="/hero-1.jpg" />
+		<Hero image="/hero-1.jpg" />
 	{/if}
 
 	<main id="main-content" class="flow">
