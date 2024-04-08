@@ -16,7 +16,7 @@
 	<h1 class="title">Job Opportunities</h1>
 
 	{#each data.jobsByRegions as items, idx}
-		{#if data.jobsByRegions[idx].length}
+		{#if items.length}
 			<h2>{data.regions[idx].name}</h2>
 			<div class="items">
 				{#each items as item}

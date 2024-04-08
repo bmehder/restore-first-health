@@ -106,25 +106,11 @@
 
   a {
     color: var(--light);
-    /* text-underline-offset: var(--half-size); */
-    /* text-decoration-thickness: 2px; */
   }
 
   a:hover {
     text-decoration: none;
   }
-
-  /* a:hover:not([aria-current='true']) {
-    text-decoration: none;
-    opacity: 0.9;
-  } */
-  
-  /* a[aria-current='true'] {
-    text-decoration: underline;
-    text-decoration-color: var(--highlight);
-    text-decoration-thickness: 2px;
-    view-transition-name: active-page;
-  } */
 
   a[aria-current='true']::after {
 		content: '';

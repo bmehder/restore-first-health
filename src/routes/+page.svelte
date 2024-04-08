@@ -266,7 +266,6 @@
 		padding: var(--double-size);
 		padding-block-start: calc(var(--double-size) + var(--half-size));
 		background-color: var(--secondary);
-		/* line-height: 1.5; */
 		text-align: center;
 	}
 

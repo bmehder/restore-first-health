@@ -45,7 +45,6 @@
 	</div>
 </div>
 
-
 <style>
   .wound-qualifications {
 		text-align: center;
