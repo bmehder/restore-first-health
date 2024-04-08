@@ -25,8 +25,10 @@
 </script>
 
 <svelte:head>
-  <title>{data.event[0].title.rendered} - Restore First Health</title>
-  <meta name="description" content="{data.event[0].yoast_head_json.description}"/>
+  {#if data?.event[0]?.yoast_head_json}
+    <title>{data.event[0].title.rendered} - Restore First Health</title>
+    <meta name="description" content="{data.event[0].yoast_head_json.description}"/>
+  {/if}
 </svelte:head>
 
 <h1 class="title">
