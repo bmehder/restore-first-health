@@ -23,51 +23,57 @@
   </div>
   <div class="flow">
     <h2>Call Us</h2>
-     {#each locations.pennsylvania as { name, phoneLink, phone }}
+     {#each locations.pennsylvania as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
 
-    {#each locations.georgia as { name, phoneLink, phone }}
+    {#each locations.georgia as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
     
-    {#each locations.newJersey as { name, phoneLink, phone }}
+    {#each locations.newJersey as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
     
-    {#each locations.kansas as { name, phoneLink, phone }}
+    {#each locations.kansas as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
     
-    {#each locations.colorado as { name, phoneLink, phone }}
+    {#each locations.colorado as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
     
-    {#each locations.texas as { name, phoneLink, phone }}
+    {#each locations.texas as { name, phoneLink, phone, fax }}
       <ContactLocations
         {name}
         {phoneLink}
         {phone}
+        {fax}
       />
     {/each}
   </div>

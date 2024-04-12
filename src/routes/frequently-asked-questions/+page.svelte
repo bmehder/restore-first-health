@@ -1,8 +1,9 @@
 <script>
-  import faqs from './wound'
   import Faq from '$lib/FAQ.svelte'
   import CaretDown from '$lib/icons/CaretDown.svelte'
   import CaretRight from '$lib/icons/CaretRight.svelte'
+
+  export let data
 
   let isOpen = false
 
@@ -22,7 +23,7 @@
 
   <button on:click={handleClick}>{isOpen ? 'Close All' : 'Expand All'}</button>
 
-  {#each faqs as { question, answer }}
+  {#each data.faqs as { question, answer }}
     <Faq {question} {answer} openIcon={CaretRight} closeIcon={CaretDown} {isOpen} />
   {/each}
 </section>

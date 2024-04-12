@@ -9,6 +9,7 @@ export default {
 				'https://maps.apple.com/maps/?q=10680+Medlock+Bridge+Road+Johns+Creek+GA+30097',
 			phoneLink: 'tel:4702923820',
 			phone: '(470) 292-3820',
+			fax: '(470) 201-2473',
 		},
 		{
 			name: 'Decatur, GA',
@@ -18,6 +19,7 @@ export default {
 			mapLink: 'https://maps.apple.com/maps/?q=2680+Lawrenceville+Hwy+Decatur+GA+30033',
 			phoneLink: 'tel:6785802684',
 			phone: '(678) 580-2684',
+			fax: '(470) 201-2473',
 		},
 		{
 			name: 'Marietta, GA',
@@ -27,6 +29,7 @@ export default {
 			mapLink: 'https://maps.apple.com/maps/?q=2550+Windy+Hill+Road+SE+Marietta+GA+30667',
 			phoneLink: 'tel:4703087485',
 			phone: '(470) 308-7485',
+			fax: '(470) 201-2473',
 		},
 		{
 			name: 'Riverdale, GA',
@@ -37,6 +40,7 @@ export default {
 				'https://maps.apple.com/?address=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101,%20Riverdale,%20GA%20%2030274,%20United%20States&ll=33.577841,-84.387669&q=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101',
 			phoneLink: '',
 			phone: 'TBD',
+			fax: '(470) 201-2473',
 		},
 		{
 			name: 'Savannah, GA',
@@ -47,6 +51,7 @@ export default {
 				'https://maps.apple.com/?address=25%20Chatham%20Center%20S,%20Unit%20200,%20Savannah,%20GA%20%2031405,%20United%20States&ll=32.062895,-81.157660&q=25%20Chatham%20Center%20S,%20Unit%20200',
 			phoneLink: 'tel:9129121148',
 			phone: '(912) 912-1148',
+			fax: '(912) 436-0844',
 		},
 	],
 	newJersey: [
@@ -59,6 +64,7 @@ export default {
 				'https://maps.apple.com/maps/?q=300B+Princeton-Hightstown+Road+Suite+202+East+Windsor+NJ+08512',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
+			fax: '(732) 647-1133',
 		},
 		{
 			name: 'Bloomfield, NJ',
@@ -69,6 +75,7 @@ export default {
 				'https://maps.apple.com/?address=300%20Broadacres%20Dr,%20Bloomfield,%20NJ%20%2007003,%20United%20States&ll=40.838806,-74.182453&q=300%20Broadacres%20Dr',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
+			fax: '(732) 647-1133',
 		},
 	],
 	pennsylvania: [
@@ -81,6 +88,7 @@ export default {
 				'https://maps.apple.com/?address=2250%20Hickory%20Rd,%20Plymouth%20Meeting,%20PA%20%2019462,%20United%20States&ll=40.119465,-75.281150&q=2250%20Hickory%20Rd',
 			phoneLink: 'tel:6103792904',
 			phone: '(610) 379-2904',
+			fax: '(610) 840-0528',
 		},
 	],
 	kansas: [

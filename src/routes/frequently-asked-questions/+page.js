@@ -1,27 +1,28 @@
-export default [
-  {
-    question:
-      'How much does it cost to receive Allographic Wound Care at Restore First Health?',
-    answer:
-      '<p>Our advanced wound care utilizing FDA approved allograph techniques is fully covered by Medicare Part B.</p>',
-  },
-  {
-    question: 'How often are my appointments?',
-    answer: '<p>Typically wound care appointments are every 1-2 weeks.</p>',
-  },
-  {
-    question: 'Is the wound care painful?',
-    answer:
-      '<p>We work very gently and cleanse each wound with a non-abrasive cleanser and take care avoid causing the patient any further pain.</p>',
-  },
-  {
-    question: 'Should I continue using other creams and ointments?',
-    answer:
-      '<p>We encourage all patients to be forthcoming with their wound care regimen. Other creams, gels, and ointments can counteract the wonderful results in our proven treatment program.</p>',
-  },
-  {
-    question: 'Comorbidities, Diabetes and Wound Care',
-    answer: `<p>
+export async function load() {
+  const faqs = [
+		{
+			question:
+				'How much does it cost to receive Allographic Wound Care at Restore First Health?',
+			answer:
+				'<p>Our advanced wound care utilizing FDA approved allograph techniques is fully covered by Medicare Part B.</p>',
+		},
+		{
+			question: 'How often are my appointments?',
+			answer: '<p>Typically wound care appointments are every 1-2 weeks.</p>',
+		},
+		{
+			question: 'Is the wound care painful?',
+			answer:
+				'<p>We work very gently and cleanse each wound with a non-abrasive cleanser and take care avoid causing the patient any further pain.</p>',
+		},
+		{
+			question: 'Should I continue using other creams and ointments?',
+			answer:
+				'<p>We encourage all patients to be forthcoming with their wound care regimen. Other creams, gels, and ointments can counteract the wonderful results in our proven treatment program.</p>',
+		},
+		{
+			question: 'Comorbidities, Diabetes and Wound Care',
+			answer: `<p>
         When a person is diagnosed with two or more diseases, this is called Comorbidities. There is
         usually a significant impact on the patient's health and opportunity for healing when
         comorbidities exist.
@@ -44,10 +45,10 @@ export default [
       <p style="margin-top: 2rem;">
         <a class="button" href="https://restorefirsthealth.com/request-appointment/">Schedule an appointment</a>
       </p>`,
-  },
-  {
-    question: 'Can Nutrition Impact My Wound Care?',
-    answer: `<p>
+		},
+		{
+			question: 'Can Nutrition Impact My Wound Care?',
+			answer: `<p>
         Did you know that a high protein diet can actually help a patient heal faster? Protein helps
         the body build muscle and skin. If patients have a low level of protein in their diet, this
         can inhibit, or prevent the proper healing. There are many foods that are high in protein to
@@ -88,10 +89,10 @@ export default [
         Always check with your Restore First Health clinical team for more nutritional information
         and questions regarding how to enhance healing.
       </p>`,
-  },
-  {
-    question: 'How Can I Help my Loved One with their Severe Wound?',
-    answer: `<p>
+		},
+		{
+			question: 'How Can I Help my Loved One with their Severe Wound?',
+			answer: `<p>
         People who suffer from chronic wounds often need assistance at home or mobilizing into the
         community. We are often asked by a patient's caregiver:
         <em>"How can I help them make improvements in their wound."</em>
@@ -118,5 +119,10 @@ export default [
           </ul>
         </li>
       </ol>`,
-  },
-]
+		},
+  ]
+  
+  return {
+    faqs
+  }
+}
