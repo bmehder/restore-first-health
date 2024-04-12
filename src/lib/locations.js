@@ -109,7 +109,7 @@ export default {
 			name: 'Thornton, CO',
 			address1: '9195 Grant Street, ',
 			address2: 'Suite 301',
-			city: 'Thorton, CO 80229',
+			city: 'Thornton, CO 80229',
 			mapLink:
 				'https://maps.apple.com/?address=9195%20Grant%20St,%20Ste%20301,%20Thornton,%20CO%20%2080229,%20United%20States&ll=39.864134,-104.986352&q=9195%20Grant%20St,%20Ste%20301',
 			phoneLink: 'tel:7206789868',
