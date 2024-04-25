@@ -1,7 +1,5 @@
-export async function load({ fetch }) {
-	const regions = await fetch('https://rfh-api.com/wp-json/wp/v2/regions')
-		.then(x => x.json())
-		.catch(console.error)
+export async function load({ fetch, parent }) {
+	const { regions } = await parent()
 
 	const jobsByRegions = Promise.all(
 		regions.map(({ id }) =>
@@ -12,7 +10,6 @@ export async function load({ fetch }) {
 	)
 
 	return {
-		regions,
 		jobsByRegions,
 	}
 }
