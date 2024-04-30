@@ -16,6 +16,7 @@ export default [
 			{ name: 'Pennsylvania Team', url: '/locations/pennsylvania-team' },
 			{ name: 'Kansas Team', url: '/locations/kansas-team' },
 			{ name: 'Colorado Team', url: '/locations/colorado-team' },
+			{ name: 'Texas Team', url: '/locations/texas-team' },
 		],
 	},
 	{
