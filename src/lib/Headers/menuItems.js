@@ -6,6 +6,7 @@ export default [
 	{
 		name: 'About',
 		url: '/about-restore-first-health/',
+		children: [{ name: 'Leadership Team', url: '/about-restore-first-health#leadership-team' }],
 	},
 	{
 		name: 'Locations',

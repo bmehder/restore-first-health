@@ -60,8 +60,8 @@
 	</p>
 </section>
 
-<section class="flow">
-	<h2>Executive Team</h2>
+<section class="flow" id="leadership-team">
+	<h2>Leadership Team</h2>
   <div class="items">
     {#each data.exectutives as item}
       <ModalCard {item} />
