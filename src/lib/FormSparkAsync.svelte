@@ -240,8 +240,11 @@
 		width: min(100%, 42em);
 	}
 
-	.columns {
-		gap: var(--size);
+	@media (min-width: 52rem) {
+		.columns {
+			grid-template-columns: repeat(2, 1fr);
+			gap: var(--size);
+		}
 	}
 
 	div {

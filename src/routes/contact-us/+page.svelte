@@ -80,7 +80,7 @@
 </div>
 
 <style>
-  @media (min-width: 48em) {
+  @media (min-width: 52em) {
     .inner {
       gap: 6rem;
     }

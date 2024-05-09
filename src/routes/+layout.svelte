@@ -8,10 +8,10 @@
 	import BackToTop from '$lib/BackToTop.svelte'
 	import Notice from '$lib/Notice.svelte'
 	import Hero from '$lib/Hero.svelte'
-	import Modal from '$lib/Modal.svelte'
+	// import Modal from '$lib/Modal.svelte'
 	import ViewTransition from '$lib/ViewTransition.svelte'
 
-	export let data
+	// export let data
 
 	const mobileThreshold = 1180
 </script>
@@ -55,7 +55,7 @@
 
 <BackToTop />
 
-{#if !data.rfhModal}
+<!-- {#if !data.rfhModal}
 	<Modal delay="2000">
 		<img
 			style="max-width: 32rem;"
@@ -63,7 +63,7 @@
 			alt="Restore Wound Care is now Restore First Health"
 		/>
 	</Modal>
-{/if}
+{/if} -->
 
 <style>
 	.wrapper {

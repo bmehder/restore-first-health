@@ -126,6 +126,12 @@
 	</div>
 </section>
 
+<!-- <section class="full-bleed bg-accent">
+	<div class="inner flow">
+		<p>The NP's notes are comprehensive and easy to read. She always keeps the team informed of the care. The patient has been so happy with all of our work. We are so glad RFH brough Maribel to us!</p>
+	</div>
+</section> -->
+
 <section class="flow">
 	<h2>The RFH Difference</h2>
 
