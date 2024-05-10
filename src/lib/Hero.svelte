@@ -12,7 +12,7 @@
       <div class="h2">Restore First Health </div>
       <div class="h3">In-Home (Bedside)</div>
       <div class="h3">Advanced Care for Chronic Wounds</div>
-      <p class="locations">Serving Georgia, Pennsylvania, New Jersey, Kansas, Colorado, and Texas</p>
+      <p class="locations">Serving Georgia, Pennsylvania, New Jersey, Kansas, Colorado, Texas, and Florida</p>
       <div>
         <a class="button" aria-label="Request Appointment" href="/contact-us/"
           >Request Consultation</a

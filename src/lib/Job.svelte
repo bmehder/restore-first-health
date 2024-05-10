@@ -4,7 +4,11 @@
 
 <div class="outer half-flow">
 	<h3>{@html item.title.rendered}</h3>
-	<p>{item.meta._bd_jobs_city}, {item.meta._bd_jobs_state_abbrev}</p>
+	{#if item.meta._bd_jobs_state_abbrev}
+		<p>{item.meta._bd_jobs_city}, {item.meta._bd_jobs_state_abbrev}</p>
+	{:else}
+		<p>{item.meta._bd_jobs_city}</p>
+	{/if}
 	<p>{item.meta._bd_jobs_salary}</p>
 	<a class="button" href={item.meta._bd_jobs_href} target="_blank">Apply Now</a>
 </div>
