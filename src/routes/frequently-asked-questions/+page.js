@@ -2,9 +2,9 @@ export async function load() {
   const faqs = [
 		{
 			question:
-				'How much does it cost to receive Allographic Wound Care at Restore First Health?',
+				'How much does it cost to receive Advanced Wound Care at Restore First Health?',
 			answer:
-				'<p>Our advanced wound care utilizing FDA approved allograph techniques is fully covered by Medicare Part B.</p>',
+				'<p>Our advanced wound care program can assist patients with Medicare and various advantage plans depending on your location throughout the US.</p>',
 		},
 		{
 			question: 'How often are my appointments?',
@@ -120,7 +120,7 @@ export async function load() {
         </li>
       </ol>`,
 		},
-  ]
+	]
   
   return {
     faqs
