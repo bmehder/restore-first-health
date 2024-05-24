@@ -3,8 +3,8 @@
 
   console.log(data.events)
 
-  const getStartDate = x =>
-    new Date(data.events[x]._bd_events_datetime).toLocaleDateString('en-US', {
+  const getUpcommingStartDate = x =>
+    new Date(upcomingEvents[x]._bd_events_datetime).toLocaleDateString('en-US', {
       year: 'numeric',
       month: '2-digit',
       day: '2-digit',
@@ -12,8 +12,26 @@
       minute: '2-digit',
     })
 
-  const getEndDate = x =>
-    new Date(data.events[x]._bd_events_datetime_end).toLocaleDateString('en-US', {
+  const getUpcommingEndDate = x =>
+    new Date(upcomingEvents[x]._bd_events_datetime_end).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    })
+  
+    const getPastStartDate = x =>
+    new Date(pastEvents[x]._bd_events_datetime).toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    })
+
+  const getPastEndDate = x =>
+    new Date(pastEvents[x]._bd_events_datetime_end).toLocaleDateString('en-US', {
       year: 'numeric',
       month: '2-digit',
       day: '2-digit',
@@ -32,7 +50,8 @@
 
   const pastEvents = [...data.events]
     .sort(sortDescByDate)
-    .filter(x => new Date(x._bd_events_datetime_end || x._bd_events_datetime) < today)
+    // .filter(x => new Date(x._bd_events_datetime_end || x._bd_events_datetime) < today)
+    .filter(x => new Date(x._bd_events_datetime) < today)
 
   $: if (pastEvents.length > 6) pastEvents.length = 6
 </script>
@@ -67,10 +86,10 @@
             <h2><a href="/events/{event.slug}">{@html event.title.rendered}</a></h2>
             <p>
               <a class="date" href="/events/{event.slug}">
-                <time>{getStartDate(idx)}</time><br />
+                <time>{getUpcommingStartDate(idx)}</time><br />
                 {#if event._bd_events_datetime_end}
                   <small>to</small><br />
-                  <time>{getEndDate(idx)}</time>
+                  <time>{getUpcommingEndDate(idx)}</time>
                 {/if}
               </a>
             </p>
@@ -85,9 +104,9 @@
   {/if}
 </section>
 
-<!-- <hr /> -->
+<hr />
 
-<!-- <section class="flow">
+<section class="flow">
   <h2>Past Events</h2>
 
   {#if pastEvents.length > 0}
@@ -107,10 +126,10 @@
             <h2><a href="/events/{event.slug}">{@html event.title.rendered}</a></h2>
             <p>
               <a class="date" href="/events/{event.slug}">
-                <time>{getStartDate(idx)}</time><br />
+                <time>{getPastStartDate(idx)}</time><br />
                 {#if event._bd_events_datetime_end}
                   <small>to</small><br />
-                  <time>{getEndDate(idx)}</time>
+                  <time>{getPastEndDate(idx)}</time>
                 {/if}
               </a>
             </p>
@@ -123,7 +142,7 @@
   {:else}
     <h3>No past events</h3>
   {/if}
-</section> -->
+</section>
 
 <style>
   section {
