@@ -1,6 +1,8 @@
 <script>
   export let data
 
+  console.log(data.events)
+
   const getStartDate = x =>
     new Date(data.events[x]._bd_events_datetime).toLocaleDateString('en-US', {
       year: 'numeric',
@@ -83,9 +85,9 @@
   {/if}
 </section>
 
-<hr />
+<!-- <hr /> -->
 
-<section class="flow">
+<!-- <section class="flow">
   <h2>Past Events</h2>
 
   {#if pastEvents.length > 0}
@@ -121,9 +123,12 @@
   {:else}
     <h3>No past events</h3>
   {/if}
-</section>
+</section> -->
 
 <style>
+  section {
+    padding-block-end: var(--double-size);
+  }
   article {
     display: flex;
     flex-direction: column;
