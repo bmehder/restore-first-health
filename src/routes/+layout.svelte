@@ -6,7 +6,7 @@
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footers/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
-	import Notice from '$lib/Notice.svelte'
+	// import Notice from '$lib/Notice.svelte'
 	import Hero from '$lib/Hero.svelte'
 	// import Modal from '$lib/Modal.svelte'
 	import ViewTransition from '$lib/ViewTransition.svelte'
@@ -31,13 +31,13 @@
 
 <ViewTransition />
 
-<Notice>
+<!-- <Notice>
 	<p>
 		<a href="/access-to-advanced-wound-care-at-the-bedside-expands-across-us"
 			>Restore Wound Care is now Restore First Health!</a
 		>
 	</p>
-</Notice>
+</Notice> -->
 
 <div class="wrapper">
 	<Header {mobileThreshold} />
