@@ -38,8 +38,8 @@ export default {
 			city: 'Riverdale, GA 30274',
 			mapLink:
 				'https://maps.apple.com/?address=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101,%20Riverdale,%20GA%20%2030274,%20United%20States&ll=33.577841,-84.387669&q=34%20Upper%20Riverdale%20Rd%20SE,%20Unit%20101',
-			phoneLink: '',
-			phone: 'TBD',
+			phoneLink: 'tel:4702923820',
+			phone: '(470) 292-3820',
 			fax: '(470) 201-2473',
 		},
 		{
