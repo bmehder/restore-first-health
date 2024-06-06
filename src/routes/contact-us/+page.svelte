@@ -76,6 +76,15 @@
         {fax}
       />
     {/each}
+    
+    {#each locations.florida as { name, phoneLink, phone, fax }}
+      <ContactLocations
+        {name}
+        {phoneLink}
+        {phone}
+        {fax}
+      />
+    {/each}
   </div>
 </div>
 

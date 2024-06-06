@@ -138,7 +138,9 @@ export default {
 			city: 'Jacksonville, FL 32207',
 			mapLink:
 				'https://maps.apple.com/?address=4811%20Beach%20Blvd,%20Ste%20300,%20Jacksonville,%20FL%20%2032207,%20United%20States&ll=30.298152,-81.617252&q=4811%20Beach%20Blvd,%20Ste%20300',
-			phone: 'TBD',
+			phoneLink: 'tel:9043285035',
+			phone: '(904) 328-5035',
+			fax: '(904) 485-8710',
 		},
 	],
 }

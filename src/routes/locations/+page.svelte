@@ -167,7 +167,6 @@
 		<div class="inner flow">
 			<div>
 				<h2>Florida Locations</h2>
-				<p class="h3">(<em>Coming Soon!</em>)</p>
 			</div>
 			<div class="items">
 				{#each locations.florida as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
