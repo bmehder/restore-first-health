@@ -1,6 +1,7 @@
 <script>
 	import ModalCard from '$lib/ModalCard.svelte'
-	
+	import Sveltetube from '$lib/Sveltetube.svelte'
+
 	export let data
 </script>
 
@@ -8,8 +9,7 @@
 	<title>About Restore First Health</title>
 	<meta
 		name="description"
-		content="Learn about Restore First Health - a specialized medical practice focused on in-home, advanced wound care."
-	/>
+		content="Learn about Restore First Health - a specialized medical practice focused on in-home, advanced wound care." />
 </svelte:head>
 
 <section class="flow">
@@ -26,9 +26,10 @@
 
 	<h3>Our Story</h3>
 
-	<div class="float-right center half-flow">
-		<img src="/john-fish.jpg" alt="John Fish - CEO, Restore First Health" />
-		<p><strong>John Fish, CEO</strong></p>
+	<div class="float-right video">
+		<!-- <img src="/john-fish.jpg" alt="John Fish - CEO, Restore First Health" />
+		<p><strong>John Fish, CEO</strong></p> -->
+		<Sveltetube id="54NXJamW9dc" />
 	</div>
 
 	<p>
@@ -41,10 +42,9 @@
 	<p>
 		In September of 2023, Restore First Health realigned its strategic positioning in the
 		healthcare field with the expansion and sole focus on <a href="/"
-			>chronic wound care</a
-		> for communities across the country. Our program focuses on collaboration, communication
-		and care coordination to bring the best possible outcomes for bedside wound care to our
-		patients, and their adjunct providers.
+			>chronic wound care</a> for communities across the country. Our program focuses on collaboration,
+		communication and care coordination to bring the best possible outcomes for bedside wound
+		care to our patients, and their adjunct providers.
 	</p>
 
 	<p>
@@ -62,29 +62,23 @@
 
 <section class="flow" id="leadership-team">
 	<h2>Leadership Team</h2>
-  <div class="items">
-    {#each data.exectutives as item}
-      <ModalCard {item} />
-    {/each}
-  </div>
+	<div class="items">
+		{#each data.exectutives as item}
+			<ModalCard {item} />
+		{/each}
+	</div>
 </section>
 
 <style>
 	.float-right {
-		max-width: 300px;
+		min-width: 32rem;
 		margin-inline-start: var(--double-size);
 	}
 
 	@media (max-width: 49em) {
 		.float-right {
-			max-width: 100%;
+			min-width: 100%;
 			margin-inline-start: 0;
-		}
-
-		img {
-			aspect-ratio: 1;
-			object-fit: cover;
-			object-position: top;
 		}
 	}
 </style>
