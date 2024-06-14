@@ -128,12 +128,6 @@
 	</div>
 </section>
 
-<!-- <section class="full-bleed bg-accent">
-	<div class="inner flow">
-		<p>The NP's notes are comprehensive and easy to read. She always keeps the team informed of the care. The patient has been so happy with all of our work. We are so glad RFH brough Maribel to us!</p>
-	</div>
-</section> -->
-
 <section class="flow">
 	<h2>The RFH Difference</h2>
 
@@ -209,61 +203,20 @@
 				</ul>
 			</div>
 			<div class="flow">
-				<h2>Patient Referral Forms</h2>
+				<h2>Wound Care Info Sheet</h2>
+
 				<p>
-					Download the patient referral form or call directly, and we will take the
-					info over the phone or by fax!
+					Download and share our Chronic Wound Care Information Sheet with your teams
+					and learn more about our process. We pride ourselves on making it easy and
+					transparent to get the care patients deserve.
 				</p>
-				<ul class="list">
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-ga.pdf" target="_blank"
-							>Patient Referral Form – Georgia (Atlanta) [PDF]</a>
-					</li>
-					<li>
-						<a
-							href="/referral-forms/wound-care-referral-form-savannah-ga.pdf"
-							target="_blank">Patient Referral Form – Georgia (Savannah) [PDF]</a>
-					</li>
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-nj.pdf" target="_blank"
-							>Patient Referral Form – New Jersey [PDF]</a>
-					</li>
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-pa.pdf" target="_blank"
-							>Patient Referral Form – Pennsylvania [PDF]</a>
-					</li>
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-co.pdf" target="_blank"
-							>Patient Referral Form – Colorado [PDF]</a>
-					</li>
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-ks.pdf" target="_blank"
-							>Patient Referral Form – Kansas [PDF]</a>
-					</li>
-					<li>
-						<a href="/referral-forms/wound-care-referral-form-fl.pdf" target="_blank"
-							>Patient Referral Form – Florida [PDF]</a>
-					</li>
-				</ul>
+
+				<a
+					href="/chronic-wound-theapy-restore-first-health.pdf"
+					class="button"
+					target="_blank">DOWNLOAD PRINTABLE PDF</a>
 			</div>
 		</div>
-	</div>
-</section>
-
-<section>
-	<div class="inner flow">
-		<h2>Wound Care Info Sheet</h2>
-
-		<p>
-			Download and share our Chronic Wound Care Information Sheet with your teams and
-			learn more about our process. We pride ourselves on making it easy and
-			transparent to get the care patients deserve.
-		</p>
-
-		<a
-			href="/chronic-wound-theapy-restore-first-health.pdf"
-			class="button"
-			target="_blank">DOWNLOAD PRINTABLE PDF</a>
 	</div>
 </section>
 
@@ -280,12 +233,6 @@
 		padding-inline: var(--half-size);
 		margin-inline-start: calc(var(--size) * 1.5);
 		list-style-image: url(/icons/check.svg);
-	}
-
-	.qualified {
-		padding: var(--size);
-		background-color: var(--secondary);
-		border-radius: var(--half-size);
 	}
 
 	@media (max-width: 48em) {
