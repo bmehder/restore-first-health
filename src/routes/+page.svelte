@@ -1,5 +1,4 @@
 <script>
-	import QualifiedWounds from '$lib/QualifiedWounds.svelte'
 	import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
 
@@ -7,29 +6,30 @@
 	<title>Home - Advanced Care for Chronic Wounds - Restore First Health</title>
 	<meta
 		name="description"
-		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care."
-	/>
+		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care." />
 </svelte:head>
 
 <section>
 	<p class="description h2 balance">
-		Partnerships and Collaboration with Home Health, Assisted Living, Health Systems, and
-		patients in the community in need of at-home chronic wound care.
+		Partnerships and Collaboration with Home Health, Assisted Living, Health Systems,
+		and patients in the community in need of at-home chronic wound care.
 	</p>
 
 	<div class="inner flow" style="margin-block-start: var(--double-size);">
 		<h2>A Unique Treatment Solution</h2>
 		<p>
-			Restore First Health offers a proven, advanced therapy for the treatment of chronic
-			wounds. We utilize FDA approved skin substitutes in conjunction with high quality
-			wound care. We help patients who suffer from wounds that show no significant
-			progress toward healing after 30 days documented of conventional treatment.
+			Restore First Health offers a proven, advanced therapy for the treatment of
+			chronic wounds. Our advanced high quality wound care includes utilizing
+			innovative technology and bedside debridement along with other modalities that
+			promote wound healing. Our patients are thoroughly evaluated for co-morbid
+			conditions that may impact their wound healing and utilizes community experts
+			to ensure a holistic approach to care.
 		</p>
 		<p>
-			Our clinical team evaluates, measures, and examines the wounds for infections. Once
-			deemed qualified, our team visits the patients in their home once a week, addresses
-			the wound and places a specialized skin substitute. Patients normally begin to
-			experience healing within the first few applications!
+			Our clinical team evaluates, measures, and examines the wounds, visiting the
+			patients in their home once a week, addressing the not only the wound, but the
+			whole patient. Patients normally begin to experience healing within the first
+			few applications!
 		</p>
 	</div>
 </section>
@@ -39,8 +39,8 @@
 	<div class="flex">
 		<div class="flow">
 			<p>
-				We offer bedside, on-site services and facility partnerships to best coordinate
-				care.
+				We offer bedside, on-site services and facility partnerships to best
+				coordinate care.
 			</p>
 			<ul class="special-list">
 				<li>Diabetic Ulcers</li>
@@ -51,13 +51,12 @@
 				<li>Long term wounds that have not healed…</li>
 			</ul>
 			<p>
-				RFH Clinical Team does not replace traditional wound care. We collaborate with
-				teams to bring our specialized therapy.
+				RFH Clinical Team does not replace traditional wound care. We collaborate
+				with teams to bring our specialized therapy.
 			</p>
 		</div>
-		<div class="flow qualified">
-			<div class="h3 center">Qualified patients have a wound that...</div>
-			<QualifiedWounds />
+		<div class="flow">
+			<Sveltetube id="47wM2njfY-Y" />
 		</div>
 	</div>
 </section>
@@ -66,9 +65,9 @@
 	<div class="inner flow">
 		<h2>Patient / Family Testimonials</h2>
 		<p>
-			We are local community members - partnering with local home health, assisted living,
-			and long term care. We also welcome patients who care for themselves or loved ones
-			at home who need chronic wound care.
+			We are local community members - partnering with local home health, assisted
+			living, and long term care. We also welcome patients who care for themselves or
+			loved ones at home who need chronic wound care.
 		</p>
 		<div class="flex">
 			<div class="flow">
@@ -78,8 +77,7 @@
 					poster="https://img.youtube.com/vi/Tt15F9hmYS8/hqdefault.jpg"
 					radius="2px"
 					shadow="0 5px 10px rgb(0 0 0 / 20%)"
-					color="#eee"
-				/>
+					color="#eee" />
 				<p class="h3 center">Patient Testimonial</p>
 			</div>
 			<div class="flow">
@@ -89,8 +87,7 @@
 					poster="https://img.youtube.com/vi/ZakmuV-jxVM/maxresdefault.jpg"
 					radius="2px"
 					shadow="0 5px 10px rgb(0 0 0 / 20%)"
-					color="#eee"
-				/>
+					color="#eee" />
 				<p class="h3 center">Family Sees Hope</p>
 			</div>
 		</div>
@@ -101,12 +98,13 @@
 	<div class="inner flow">
 		<h2>Care Coordination</h2>
 		<p>
-			The cornerstone to our program is care coordination for every patient and provider.
+			The cornerstone to our program is care coordination for every patient and
+			provider.
 		</p>
 		<p>
-			From the first phone call or referral to our initial at home evaluation and therapy,
-			we inform, communicate and ensure all of our patients and their care providers are
-			on the same page at all times.
+			From the first phone call or referral to our initial at home evaluation and
+			therapy, we inform, communicate and ensure all of our patients and their care
+			providers are on the same page at all times.
 		</p>
 		<div class="flex swap">
 			<div>
@@ -118,8 +116,12 @@
 					<li>Schedules your consultations and appointments</li>
 					<li>Verifies and pre-authorizes insurance</li>
 					<li>Communicates with current care physicians or providers</li>
-					<li>Provides medical updates to authorized providers for continuity of care</li>
-					<li>Checks in regularly to ensure quality of care and positive outcomes</li>
+					<li>
+						Provides medical updates to authorized providers for continuity of care
+					</li>
+					<li>
+						Checks in regularly to ensure quality of care and positive outcomes
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -143,20 +145,20 @@
 		<ul class="special-list difference-list">
 			<li>We come to you for evaluation and treatment.</li>
 			<li>
-				We ensure your insurance is verified and authorized in advance of treatment, so
-				there are no surprise costs.
+				We ensure your insurance is verified and authorized in advance of treatment,
+				so there are no surprise costs.
 			</li>
 			<li>
-				Through the entire process, we coordinate with your PCP or Home Care Provider to
-				work in concert with all of your overall healthcare needs.
+				Through the entire process, we coordinate with your PCP or Home Care Provider
+				to work in concert with all of your overall healthcare needs.
 			</li>
 			<li>
-				We are committed to excellence in wound care and document your progress each step
-				of the way to share with your clinical team.
+				We are committed to excellence in wound care and document your progress each
+				step of the way to share with your clinical team.
 			</li>
 			<li>
-				Your care is what matters most to us, and if we can’t help you - we will help you
-				find a way towards better health.
+				Your care is what matters most to us, and if we can’t help you - we will help
+				you find a way towards better health.
 			</li>
 		</ul>
 
@@ -173,8 +175,7 @@
 			<div>
 				<img
 					src="/lunch-n-learn.jpg"
-					alt="people at a table during a lunch 'n learn presentation"
-				/>
+					alt="people at a table during a lunch 'n learn presentation" />
 			</div>
 			<div class="flow">
 				<h2>Schedule a Lunch-N-Learn</h2>
@@ -195,7 +196,8 @@
 			<div class="flow">
 				<h2>Facility Partnerships</h2>
 				<p>
-					If you are a facility looking to learn more about partnerships – Call today!
+					If you are a facility looking to learn more about partnerships – Call
+					today!
 				</p>
 				<ul class="list">
 					<li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
@@ -209,44 +211,38 @@
 			<div class="flow">
 				<h2>Patient Referral Forms</h2>
 				<p>
-					Download the patient referral form or call directly, and we will take the info
-					over the phone or by fax!
+					Download the patient referral form or call directly, and we will take the
+					info over the phone or by fax!
 				</p>
 				<ul class="list">
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-ga.pdf" target="_blank"
-							>Patient Referral Form – Georgia (Atlanta) [PDF]</a
-						>
+							>Patient Referral Form – Georgia (Atlanta) [PDF]</a>
 					</li>
 					<li>
-						<a href="/referral-forms/wound-care-referral-form-savannah-ga.pdf" target="_blank"
-							>Patient Referral Form – Georgia (Savannah) [PDF]</a
-						>
+						<a
+							href="/referral-forms/wound-care-referral-form-savannah-ga.pdf"
+							target="_blank">Patient Referral Form – Georgia (Savannah) [PDF]</a>
 					</li>
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-nj.pdf" target="_blank"
-							>Patient Referral Form – New Jersey [PDF]</a
-						>
+							>Patient Referral Form – New Jersey [PDF]</a>
 					</li>
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-pa.pdf" target="_blank"
-							>Patient Referral Form – Pennsylvania [PDF]</a
-						>
+							>Patient Referral Form – Pennsylvania [PDF]</a>
 					</li>
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-co.pdf" target="_blank"
-							>Patient Referral Form – Colorado [PDF]</a
-						>
+							>Patient Referral Form – Colorado [PDF]</a>
 					</li>
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-ks.pdf" target="_blank"
-							>Patient Referral Form – Kansas [PDF]</a
-						>
+							>Patient Referral Form – Kansas [PDF]</a>
 					</li>
 					<li>
 						<a href="/referral-forms/wound-care-referral-form-fl.pdf" target="_blank"
-							>Patient Referral Form – Florida [PDF]</a
-						>
+							>Patient Referral Form – Florida [PDF]</a>
 					</li>
 				</ul>
 			</div>
@@ -260,15 +256,14 @@
 
 		<p>
 			Download and share our Chronic Wound Care Information Sheet with your teams and
-			learn more about our process. We pride ourselves on making it easy and transparent
-			to get the care patients deserve.
+			learn more about our process. We pride ourselves on making it easy and
+			transparent to get the care patients deserve.
 		</p>
 
 		<a
 			href="/chronic-wound-theapy-restore-first-health.pdf"
 			class="button"
-			target="_blank">DOWNLOAD PRINTABLE PDF</a
-		>
+			target="_blank">DOWNLOAD PRINTABLE PDF</a>
 	</div>
 </section>
 
