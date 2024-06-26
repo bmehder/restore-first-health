@@ -202,7 +202,7 @@
 					<li><a href="tel:3463452092">(346) 345-2092 (Texas)</a></li>
 				</ul>
 			</div>
-			<div class="flow">
+			<!-- <div class="flow">
 				<h2>Wound Care Info Sheet</h2>
 
 				<p>
@@ -215,7 +215,7 @@
 					href="/chronic-wound-theapy-restore-first-health.pdf"
 					class="button"
 					target="_blank">DOWNLOAD PRINTABLE PDF</a>
-			</div>
+			</div> -->
 		</div>
 	</div>
 </section>
