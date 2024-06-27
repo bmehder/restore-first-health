@@ -1,12 +1,46 @@
 <script>
 	import Sveltetube from '$lib/Sveltetube.svelte'
+	import Quotes from '$lib/Quotes.svelte'
+
+	const quotes = [
+		{
+			content: `Restore First Health is a wonderful service. They are so professional and caring in treating their patient. Maribel and Nellie were wonderful in taking care of my mother’s wound. They showed so much compassion and gentleness. Through their treatment they were able to heal my mom’s wound quickly and painlessly. I also want to thank them for taking time to instruct me how to treat the wound.
+
+				Maribel and Nellie have truly been given a gift and I thank them for sharing that gift. Restore First Health is blessed to have you.`,
+			cite: 'Joan Kirbos',
+		},
+		{
+			content:
+				'Great experience with every visit. Everyone was very professional, friendly, courteous and informative.',
+			cite: 'Marta Segarra',
+		},
+		{
+			content:
+				'Fantastic job!! They really know what they are doing. Knowledgeable, introduced me to a lot of new products that I haven’t seen before.  Very happy with Pinky, Lexi and Nita’s team. They taught me daily maintenance of the wound. 5 star!!!',
+			cite: 'Jim Martindale',
+		},
+		{
+			content:
+				'I am beyond impressed with Restore Health and their Nurse Practitioner Courtney M. She is thorough, dedicated, knowledgeable, compassionate and knows her stuff. I am a RN with a home care company and was having a great deal of difficulty getting a wound healed. Courtney to the rescue. She came in assessed patients circulation and coordinated with vascular MD. Patient had procedure and Courtney came back into the picture to continue working on the wound. Which is healing very nice. She coordinates with patient, family, MD. and current RN on case. Thank you Courtney.',
+			cite: 'Peggy Smargiassi',
+		},
+		{
+			content: `I can’t speak highly enough of Suela, NP she is amazing!!!!! The entire experience since the first day she came to see my dad at the house has been exceptional!!  Suela is very pleasant, informative, she makes you feel comfortable. The staff is incredibly helpful and efficient, Ashley and Diana are amazing! Suela is not only extremely knowledgeable but she also takes the time to address all of our questions and concerns! Suela has been treating my dad’s wound and you can already see the difference in a positive way. We love Restore Health and we highly recommend them!`,
+			cite: 'Frances Pacheco',
+		},
+		{
+			content: `Excellent staff great communication with their patients very attentive they do their due diligence check all the boxes great wound care specialist great work ethic easy going hard workers.`,
+			cite: 'Ken Renee',
+		},
+	]
 </script>
 
 <svelte:head>
 	<title>Home - Advanced Care for Chronic Wounds - Restore First Health</title>
 	<meta
 		name="description"
-		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care." />
+		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care."
+	/>
 </svelte:head>
 
 <section>
@@ -77,7 +111,8 @@
 					poster="https://img.youtube.com/vi/Tt15F9hmYS8/hqdefault.jpg"
 					radius="2px"
 					shadow="0 5px 10px rgb(0 0 0 / 20%)"
-					color="#eee" />
+					color="#eee"
+				/>
 				<p class="h3 center">Patient Testimonial</p>
 			</div>
 			<div class="flow">
@@ -87,7 +122,8 @@
 					poster="https://img.youtube.com/vi/ZakmuV-jxVM/maxresdefault.jpg"
 					radius="2px"
 					shadow="0 5px 10px rgb(0 0 0 / 20%)"
-					color="#eee" />
+					color="#eee"
+				/>
 				<p class="h3 center">Family Sees Hope</p>
 			</div>
 		</div>
@@ -169,7 +205,8 @@
 			<div>
 				<img
 					src="/lunch-n-learn.jpg"
-					alt="people at a table during a lunch 'n learn presentation" />
+					alt="people at a table during a lunch 'n learn presentation"
+				/>
 			</div>
 			<div class="flow">
 				<h2>Schedule a Lunch-N-Learn</h2>
@@ -202,20 +239,10 @@
 					<li><a href="tel:3463452092">(346) 345-2092 (Texas)</a></li>
 				</ul>
 			</div>
-			<!-- <div class="flow">
-				<h2>Wound Care Info Sheet</h2>
-
-				<p>
-					Download and share our Chronic Wound Care Information Sheet with your teams
-					and learn more about our process. We pride ourselves on making it easy and
-					transparent to get the care patients deserve.
-				</p>
-
-				<a
-					href="/chronic-wound-theapy-restore-first-health.pdf"
-					class="button"
-					target="_blank">DOWNLOAD PRINTABLE PDF</a>
-			</div> -->
+			<div class="flow">
+				<h2>Patient Reviews</h2>
+				<Quotes {quotes} autoplay={true} />
+			</div>
 		</div>
 	</div>
 </section>
