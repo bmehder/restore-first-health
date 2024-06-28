@@ -84,6 +84,7 @@
 <style>
 	.quote {
 		padding: var(--size);
+		padding-bottom: var(--triple-size);
 		position: relative;
 		overflow: hidden;
 		border: 1px solid var(--light);
@@ -91,6 +92,7 @@
 
 		@media (min-width: 48rem) {
 			height: 350px;
+			padding-bottom: 0;
 		}
 
 		& .content {
@@ -110,26 +112,22 @@
 		}
 
 		& .prev {
-			display: none;
+			position: absolute;
+			left: var(--half-size);
+			bottom: 0;
 
 			@media (min-width: 48rem) {
-				display: block;
-				position: absolute;
-				top: 50%;
-				translate: 0 -50%;
-				left: var(--size);
+				top: 40%;
 			}
 		}
 
 		& .next {
-			display: none;
+			position: absolute;
+			right: var(--half-size);
+			bottom: 0;
 
 			@media (min-width: 48rem) {
-				display: block;
-				position: absolute;
-				top: 50%;
-				translate: 0 -50%;
-				right: var(--size);
+				top: 40%;
 			}
 		}
 	}
