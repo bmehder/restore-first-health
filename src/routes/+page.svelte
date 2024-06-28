@@ -222,27 +222,27 @@
 </section>
 
 <section>
+	<div class="inner flow">
+		<h2 class="balance">What Our Patients, Families and Providers have to say...</h2>
+		<Quotes {quotes} autoplay={true} />
+	</div>
+</section>
+
+<section>
 	<div class="inner">
-		<div class="flex">
-			<div class="flow">
-				<h2>Facility Partnerships</h2>
-				<p>
-					If you are a facility looking to learn more about partnerships – Call
-					today!
-				</p>
-				<ul class="list">
-					<li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
-					<li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
-					<li><a href="tel:6103792904">(610) 379-2904 (Pennsylvania)</a></li>
-					<li><a href="tel:7206789868">(720) 678-9868 (Colorado)</a></li>
-					<li><a href="tel:3163305353">(316) 330-5353 (Kansas)</a></li>
-					<li><a href="tel:3463452092">(346) 345-2092 (Texas)</a></li>
-				</ul>
-			</div>
-			<div class="flow">
-				<h2>Patient Reviews</h2>
-				<Quotes {quotes} autoplay={true} />
-			</div>
+		<div class="flow">
+			<h2>Facility Partnerships</h2>
+			<p>
+				If you are a facility looking to learn more about partnerships – Call today!
+			</p>
+			<ul class="list">
+				<li><a href="tel:4702923820">(470) 292-3820 (Georgia)</a></li>
+				<li><a href="tel:8623147030">(862) 314-7030 (New Jersey)</a></li>
+				<li><a href="tel:6103792904">(610) 379-2904 (Pennsylvania)</a></li>
+				<li><a href="tel:7206789868">(720) 678-9868 (Colorado)</a></li>
+				<li><a href="tel:3163305353">(316) 330-5353 (Kansas)</a></li>
+				<li><a href="tel:3463452092">(346) 345-2092 (Texas)</a></li>
+			</ul>
 		</div>
 	</div>
 </section>

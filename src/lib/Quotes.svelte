@@ -44,57 +44,93 @@
 	onDestroy(() => clearInterval(intervalId))
 </script>
 
-<div class="quote">
-	<!-- {#key index} -->
-	<!-- <div
-			class="flow"
+<div class="quote bg-light">
+	<div class="prev">
+		<ArrowBackCircleOutline
+			size="48"
+			role="button"
+			ariaLabel="prev icon"
+			on:click={() => handleEvent('prev')}
+			on:keydown={evt => evt.key === 'Enter' && handleEvent('prev')}
+		/>
+	</div>
+	{#key index}
+		<div
+			class="content flow"
 			in:fly={direction === 'forward'
 				? transitions.forward.in
 				: transitions.reverse.in}
 			out:fly={direction === 'reverse'
 				? transitions.reverse.out
 				: transitions.forward.out}
-		> -->
-	<div class="flow">
-		<blockquote class="italic">"{quotes[index].content}"</blockquote>
-		{#if quotes[index].cite}
-			<cite>{'– ' + quotes[index].cite}</cite>
-		{/if}
-	</div>
-	<!-- {/key} -->
-	<div class="controls">
-		{#if autoplay}
-			<ArrowBackCircleOutline
-				size="48"
-				role="button"
-				ariaLabel="prev icon"
-				on:click={() => handleEvent('prev')}
-				on:keydown={evt => evt.key === 'Enter' && handleEvent('prev')}
-			/>
-			<ArrowForwardCircleOutline
-				size="48"
-				role="button"
-				ariaLabel="next icon"
-				on:click={() => handleEvent('next')}
-				on:keydown={evt => evt.key === 'Enter' && handleEvent('next')}
-			/>
-		{/if}
+		>
+			<blockquote class="italic">"{quotes[index].content}"</blockquote>
+			{#if quotes[index].cite}
+				<cite>{'– ' + quotes[index].cite}</cite>
+			{/if}
+		</div>
+	{/key}
+	<div class="next">
+		<ArrowForwardCircleOutline
+			size="48"
+			role="button"
+			ariaLabel="next icon"
+			on:click={() => handleEvent('next')}
+			on:keydown={evt => evt.key === 'Enter' && handleEvent('next')}
+		/>
 	</div>
 </div>
 
 <style>
 	.quote {
-		/* height: 620px; */
-		padding-inline-end: var(--half-size);
+		padding: var(--size);
+		position: relative;
 		overflow: hidden;
+		border: 1px solid var(--light);
+		border-radius: var(--size);
 
-		/* @media (min-width: 32rem) {
-			height: 620px;
-		} */
+		@media (min-width: 48rem) {
+			height: 350px;
+		}
+
+		& .content {
+			height: 100%;
+			display: grid;
+			place-content: center;
+			margin-inline: auto;
+
+			@media (min-width: 48rem) {
+				max-width: 85%;
+			}
+		}
 
 		& cite {
 			display: block;
 			text-align: right;
+		}
+
+		& .prev {
+			display: none;
+
+			@media (min-width: 48rem) {
+				display: block;
+				position: absolute;
+				top: 50%;
+				translate: 0 -50%;
+				left: var(--size);
+			}
+		}
+
+		& .next {
+			display: none;
+
+			@media (min-width: 48rem) {
+				display: block;
+				position: absolute;
+				top: 50%;
+				translate: 0 -50%;
+				right: var(--size);
+			}
 		}
 	}
 </style>
