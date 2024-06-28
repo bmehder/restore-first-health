@@ -112,22 +112,26 @@
 		}
 
 		& .prev {
+			align-content: center;
 			position: absolute;
 			left: var(--half-size);
 			bottom: 0;
 
 			@media (min-width: 48rem) {
-				top: 40%;
+				top: 50%;
+				translate: 0 -50%;
 			}
 		}
 
 		& .next {
+			align-content: center;
 			position: absolute;
 			right: var(--half-size);
 			bottom: 0;
 
 			@media (min-width: 48rem) {
-				top: 40%;
+				top: 50%;
+				translate: 0 -50%;
 			}
 		}
 	}
