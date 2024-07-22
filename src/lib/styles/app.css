@@ -57,7 +57,19 @@ section:last-child {
 }
 
 summary {
+	margin-inline-start: var(--half-size);
+	padding-left: var(--half-size);
+	list-style-position: outside;
 	cursor: pointer;
+}
+
+summary > * {
+	display: inline;
+}
+
+summary::marker {
+	font-weight: bold;
+	font-size: var(--size);
 }
 
 /* Utilities */

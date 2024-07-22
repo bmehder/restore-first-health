@@ -91,7 +91,7 @@
 		border-radius: var(--size);
 
 		@media (min-width: 48rem) {
-			height: 350px;
+			height: 450px;
 			padding-bottom: 0;
 		}
 

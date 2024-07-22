@@ -1,6 +1,10 @@
 <svelte:head>
 	<title>For Providers / Community Partners</title>
-	<meta name="description" content="" />
+	<meta
+		name="description"
+		content="We know the challenges healthcare providers, discharge planners, and social
+				workers face when preparing patients for discharge."
+	/>
 </svelte:head>
 
 <section>
@@ -72,9 +76,6 @@
 		</ul>
 		<div>
 			<a href="#" class="button">Learn More</a>
-		</div>
-		<div>
-			<a href="#" class="button">Download our Checklist for Safe Discharge</a>
 		</div>
 	</div>
 </section>

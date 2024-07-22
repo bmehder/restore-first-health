@@ -32,6 +32,14 @@
 			content: `Excellent staff great communication with their patients very attentive they do their due diligence check all the boxes great wound care specialist great work ethic easy going hard workers.`,
 			cite: 'Ken Renee',
 		},
+		{
+			content: `Chloe Ruschmeyer and Cheyenne are definitely heads above the best. Their care for my husband and his wound was outstanding. They knew exactly what to do for him, so much so that a stage 4 wound is now completely restored. Their knowledge, care, comfort, laughter and humor was fantastic. You can really tell they love their work and care for the client. Thank you.`,
+			cite: 'Kathleen Garland',
+		},
+		{
+			content: `It’s difficult to top Peggy’s previous review of Courtney - NP with Restore First Health! Courtney and I connected (and I’m so glad we did!) after she had sought help for a patient in need… one outside of her realm but who had desperately needed her help and resources and she delivered and then some! She was so communicative, willing to go above and beyond to help this patient out of the sheer kindness in her heart, was able to provide all necessary info for the patient as quickly as possible AND even went the extra mile to be a voice for this patient after his insurance had denied a critical piece of equipment he will so greatly benefit from! Courtney is an absolute rockstar and any patients would be so lucky to have her!`,
+			cite: 'Marni Mancini',
+		},
 	]
 </script>
 

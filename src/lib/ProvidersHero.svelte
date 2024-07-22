@@ -5,7 +5,7 @@
 <div class="hero" style="background-image: url({image})">
 	<div class="inner balance">
 		<div class="flow">
-			<div class="h2">Ensure safe and efficient discharges to the community</div>
+			<div class="h2">Ensure Safe and Efficient Discharges to the Community</div>
 			<div class="h3">
 				Sub-Acute Facilities, Rehab Programs, Discharge Planners, and Social Workers
 				Benefit from Care Coordination at RFH
@@ -13,9 +13,6 @@
 			<div class="h3">Reduce Workload – Improve patient outcomes</div>
 			<div>
 				<a class="button" href="/contact-us/">Contact Us Today</a>
-			</div>
-			<div>
-				<a class="button" href="#">Download our checklist for Safe Discharge</a>
 			</div>
 		</div>
 	</div>

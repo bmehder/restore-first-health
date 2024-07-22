@@ -88,7 +88,7 @@ export default {
 				'https://maps.apple.com/?address=408%20Chris%20Gaupp%20Dr,%20Galloway,%20NJ%20%2008205,%20United%20States&ll=39.471378,-74.542122&q=408%20Chris%20Gaupp%20Dr',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
-			fax: 'Coming soon...',
+			fax: '(732) 647-1133',
 		},
 		{
 			name: 'Marlton, NJ',
@@ -99,7 +99,7 @@ export default {
 				'https://maps.apple.com/?address=975%20Route%2073%20N,%20Marlton,%20NJ%20%2008053,%20United%20States&ll=39.906874,-74.940330&q=975%20Route%2073%20N',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
-			fax: 'Coming soon...',
+			fax: '(732) 647-1133',
 		},
 	],
 	pennsylvania: [
