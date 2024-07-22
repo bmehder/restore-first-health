@@ -7,7 +7,8 @@
 	import Footer from '$lib/Footers/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
 	// import Notice from '$lib/Notice.svelte'
-	import Hero from '$lib/Hero.svelte'
+	import HomeHero from '$lib/HomeHero.svelte'
+	import ProvidersHero from '$lib/ProvidersHero.svelte'
 	// import Modal from '$lib/Modal.svelte'
 	import ViewTransition from '$lib/ViewTransition.svelte'
 
@@ -43,7 +44,11 @@
 	<Header {mobileThreshold} />
 
 	{#if $page.route.id === '/'}
-		<Hero image="/hero-1.jpg" />
+		<HomeHero image="/hero-1.jpg" />
+	{/if}
+
+	{#if $page.route.id === '/about-restore-first-health/for-providers-community-partners'}
+		<ProvidersHero image="/hero-1.jpg" />
 	{/if}
 
 	<main id="main-content" class="flow">

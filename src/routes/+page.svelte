@@ -50,21 +50,81 @@
 	</p>
 
 	<div class="inner flow" style="margin-block-start: var(--double-size);">
-		<h2>A Unique Treatment Solution</h2>
+		<h2>Our Program - What Sets Us Apart</h2>
 		<p>
-			Restore First Health offers a proven, advanced therapy for the treatment of
-			chronic wounds. Our advanced high quality wound care includes utilizing
+			Restore First Health offers a proven, mobile advanced program for the treatment
+			of chronic wounds. Our advanced high quality wound care includes utilizing
 			innovative technology and bedside debridement along with other modalities that
-			promote wound healing. Our patients are thoroughly evaluated for co-morbid
-			conditions that may impact their wound healing and utilizes community experts
-			to ensure a holistic approach to care.
+			promote wound healing.
 		</p>
 		<p>
-			Our clinical team evaluates, measures, and examines the wounds, visiting the
-			patients in their home once a week, addressing the not only the wound, but the
-			whole patient. Patients normally begin to experience healing within the first
-			few applications!
+			Our patients are thoroughly evaluated for co-morbid conditions that may impact
+			their wound healing and utilizes community experts to ensure a holistic
+			approach to care.
 		</p>
+	</div>
+</section>
+
+<section>
+	<div class="inner flow">
+		<h2>What makes our approach different?</h2>
+		<h3>Collaboration</h3>
+		<p>
+			From initial contact to ongoing care, our coordinators handle referrals, family
+			communication, scheduling, insurance, and ensuring a smooth care process.
+		</p>
+		<ul class="flow list">
+			<li>
+				<strong>Seamless Integration:</strong> We collaborate with home health, sub-acute
+				rehab, health systems and patients to create the best possible wound healing experience.
+			</li>
+			<li>
+				<strong>Provider Education:</strong> We share our plan of care with all involved
+				parties to ensure everyone understands the state of the wound and therapy options,
+				acting as an informative partner.
+			</li>
+			<li>
+				<strong>Community Resources:</strong> We extend collaboration to include necessary
+				community resources for overall wellness.
+			</li>
+		</ul>
+
+		<h3>Care Coordination</h3>
+		<p>
+			Our team coordinates with the patient’s PCP, specialists or Home Care Provider
+			to help treat all their health care needs.
+		</p>
+
+		<h3>What to expect from our wound care coordinator:</h3>
+		<ul class="flow special-list">
+			<li>Schedules your consultations and appointments</li>
+			<li>Verifies and pre-authorizes insurance</li>
+			<li>Communicates with current care physicians or providers</li>
+			<li>
+				Provides medical updates to authorized providers for continuity of care
+			</li>
+			<li>Checks in regularly to ensure quality of care and positive outcomes</li>
+		</ul>
+
+		<h3>Communication</h3>
+		<p>
+			Our medical experts offer real-time updates and communication, ensuring all
+			patients and their care providers are alligned.
+		</p>
+		<ul class="flow list">
+			<li>
+				<strong>Continuous Follow-Up:</strong> We follow up before, during, and after
+				appointments to keep everyone informed.
+			</li>
+			<li>
+				<strong>Detailed Reporting:</strong> We provide comprehensive verbal and written
+				reports to all providers involved.
+			</li>
+			<li>
+				<strong>Family Involvement:</strong> We keep families educated and engaged in
+				the care process
+			</li>
+		</ul>
 	</div>
 </section>
 
