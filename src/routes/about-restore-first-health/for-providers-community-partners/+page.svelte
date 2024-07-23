@@ -75,7 +75,7 @@
 			<li>Comprehensive, patient-centered care</li>
 		</ul>
 		<div>
-			<a href="#" class="button">Learn More</a>
+			<a href="/contact-us" class="button">Learn More</a>
 		</div>
 	</div>
 </section>
@@ -117,15 +117,5 @@
 		<div>
 			<a href="/contact-us/" class="button">Contact Us Today</a>
 		</div>
-	</div>
-</section>
-
-<section>
-	<div class="inner flow">
-		<h2>Ready to Improve Your Discharge Process?</h2>
-		<p>
-			Streamline your discharge process and improve patient outcomes with our expert
-			wound care coordination.
-		</p>
 	</div>
 </section>
