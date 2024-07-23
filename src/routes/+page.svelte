@@ -53,8 +53,9 @@
 
 <section>
 	<p class="description h2 balance">
-		Partnerships and Collaboration with Home Health, Assisted Living, Health Systems,
-		and patients in the community in need of at-home chronic wound care.
+		Partnering in Care with Home Health, Health Systems, Social Workers, Specialists,
+		Post Acute Rehab, and patients in the community in need of at-home advanced wound
+		care.
 	</p>
 
 	<div class="inner flow" style="margin-block-start: var(--double-size);">
