@@ -73,7 +73,7 @@
 	</div>
 </section>
 
-<section>
+<section class="full-bleed bg-accent">
 	<div class="inner flow">
 		<h2>What makes our approach different?</h2>
 		<h3>Collaboration</h3>
@@ -81,21 +81,29 @@
 			From initial contact to ongoing care, our coordinators handle referrals, family
 			communication, scheduling, insurance, and ensuring a smooth care process.
 		</p>
-		<ul class="flow list">
-			<li>
-				<strong>Seamless Integration:</strong> We collaborate with home health, sub-acute
-				rehab, health systems and patients to create the best possible wound healing experience.
-			</li>
-			<li>
-				<strong>Provider Education:</strong> We share our plan of care with all involved
-				parties to ensure everyone understands the state of the wound and therapy options,
-				acting as an informative partner.
-			</li>
-			<li>
-				<strong>Community Resources:</strong> We extend collaboration to include necessary
-				community resources for overall wellness.
-			</li>
-		</ul>
+		<div class="flex">
+			<div class="flow">
+				<ul class="flow list">
+					<li>
+						<strong>Seamless Integration:</strong> We collaborate with home health, sub-acute
+						rehab, health systems and patients to create the best possible wound healing
+						experience.
+					</li>
+					<li>
+						<strong>Provider Education:</strong> We share our plan of care with all involved
+						parties to ensure everyone understands the state of the wound and therapy
+						options, acting as an informative partner.
+					</li>
+					<li>
+						<strong>Community Resources:</strong> We extend collaboration to include necessary
+						community resources for overall wellness.
+					</li>
+				</ul>
+			</div>
+			<div class="flow">
+				<Sveltetube id="47wM2njfY-Y" />
+			</div>
+		</div>
 
 		<h3>Care Coordination</h3>
 		<p>
@@ -103,7 +111,7 @@
 			to help treat all their health care needs.
 		</p>
 
-		<h3>What to expect from our wound care coordinator:</h3>
+		<p>What to expect from our wound care coordinator:</p>
 		<ul class="flow special-list">
 			<li>Schedules your consultations and appointments</li>
 			<li>Verifies and pre-authorizes insurance</li>
@@ -136,15 +144,16 @@
 	</div>
 </section>
 
-<section class="flow qualified-wounds">
-	<h2>Wounds We Care For</h2>
-	<div class="flex">
+<section class="qualified-wounds">
+	<div class="inner flow">
+		<h2>Wounds We Care For</h2>
+
 		<div class="flow">
 			<p>
 				We offer bedside, on-site services and facility partnerships to best
 				coordinate care.
 			</p>
-			<ul class="special-list">
+			<ul class="special-list flow">
 				<li>Diabetic Ulcers</li>
 				<li>Sacral Ulcers</li>
 				<li>Arterial Wounds</li>
@@ -156,9 +165,6 @@
 				RFH Clinical Team does not replace traditional wound care. We collaborate
 				with teams to bring our specialized therapy.
 			</p>
-		</div>
-		<div class="flow">
-			<Sveltetube id="47wM2njfY-Y" />
 		</div>
 	</div>
 </section>
@@ -216,7 +222,7 @@
 			</div>
 			<div class="flow">
 				<p>Our dedicated wound care coordinator:</p>
-				<ul class="special-list">
+				<ul class="special-list flow">
 					<li>Schedules your consultations and appointments</li>
 					<li>Verifies and pre-authorizes insurance</li>
 					<li>Communicates with current care physicians or providers</li>
@@ -240,7 +246,7 @@
 			We have vast experience in care coordination and management of chronic wounds
 			providing a one-on-one wound care coordinator.
 		</p>
-		<ul class="special-list difference-list">
+		<ul class="special-list difference-list flow">
 			<li>We come to you for evaluation and treatment.</li>
 			<li>
 				We ensure your insurance is verified and authorized in advance of treatment,
@@ -325,7 +331,7 @@
 	}
 
 	.special-list li {
-		padding-block: calc(var(--half-size) / 2);
+		/* padding-block: calc(var(--half-size) / 2); */
 		padding-inline: var(--half-size);
 		margin-inline-start: calc(var(--size) * 1.5);
 		list-style-image: url(/icons/check.svg);
