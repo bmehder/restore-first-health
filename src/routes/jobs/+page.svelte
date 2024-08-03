@@ -1,16 +1,15 @@
 <script>
-	import { onMount } from 'svelte'
-	// import Job from '$lib/Job.svelte'
+	const init = node => {
+		const config = { attributes: true, childList: true, subtree: true }
 
-	// export let data
+		const callback = (mutationList, observer) => {
+			node.height = node.contentWindow.document.body.scrollHeight + 100
+		}
 
-	let iframe
+		const observer = new MutationObserver(callback)
 
-	onMount(() => {
-		setTimeout(() => {
-			iframe.height = iframe.contentWindow.document.body.scrollHeight + 100
-		}, 2000)
-	})
+		setTimeout(() => observer.observe(node.contentWindow.document, config), 100)
+	}
 </script>
 
 <svelte:head>
@@ -25,8 +24,7 @@
 <section class="flow">
 	<h1 class="title">Job Opportunities</h1>
 
-	<iframe bind:this={iframe} src="/hrjazz/index.html" frameborder="0" title="jobs"
-	></iframe>
+	<iframe use:init src="/hrjazz/index.html" frameborder="0" title="jobs"></iframe>
 
 	<!-- {#each data.jobsByRegions as items, idx}
 		{#if items.length}
