@@ -1,7 +1,7 @@
 <script>
-	import Job from '$lib/Job.svelte'
+	// import Job from '$lib/Job.svelte'
 
-	export let data
+	// export let data
 </script>
 
 <svelte:head>
@@ -10,12 +10,16 @@
 		name="description"
 		content="Learn about job opportunities in wound care at Restore First Health in Florida, Georgia, New Jersey, and Pennsylvania."
 	/>
+	<script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/parent"></script>
 </svelte:head>
 
 <section class="flow">
 	<h1 class="title">Job Opportunities</h1>
 
-	{#each data.jobsByRegions as items, idx}
+	<iframe id="myIframe" src="/hrjazz/index.html" frameborder="0" title="jobs"
+	></iframe>
+
+	<!-- {#each data.jobsByRegions as items, idx}
 		{#if items.length}
 			<h2>{data.regions[idx].name}</h2>
 			<div class="items">
@@ -24,5 +28,11 @@
 				{/each}
 			</div>
 		{/if}
-	{/each}
+	{/each} -->
 </section>
+
+<style>
+	iframe {
+		min-height: 120dvh;
+	}
+</style>
