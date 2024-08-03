@@ -2,7 +2,7 @@
 	const init = node => {
 		const config = { attributes: true, childList: true, subtree: true }
 
-		const callback = (mutationList, observer) => {
+		const callback = () => {
 			node.height = node.contentWindow.document.body.scrollHeight + 100
 		}
 
@@ -18,7 +18,6 @@
 		name="description"
 		content="Learn about job opportunities in wound care at Restore First Health in Florida, Georgia, New Jersey, and Pennsylvania."
 	/>
-	<script src="https://cdn.jsdelivr.net/npm/@iframe-resizer/parent"></script>
 </svelte:head>
 
 <section class="flow">
@@ -37,3 +36,9 @@
 		{/if}
 	{/each} -->
 </section>
+
+<style>
+	iframe {
+		min-height: 100dvh;
+	}
+</style>
