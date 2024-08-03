@@ -1,7 +1,16 @@
 <script>
+	import { onMount } from 'svelte'
 	// import Job from '$lib/Job.svelte'
 
 	// export let data
+
+	let iframe
+
+	onMount(() => {
+		setTimeout(() => {
+			iframe.height = iframe.contentWindow.document.body.scrollHeight + 100
+		}, 2000)
+	})
 </script>
 
 <svelte:head>
@@ -16,7 +25,7 @@
 <section class="flow">
 	<h1 class="title">Job Opportunities</h1>
 
-	<iframe id="myIframe" src="/hrjazz/index.html" frameborder="0" title="jobs"
+	<iframe bind:this={iframe} src="/hrjazz/index.html" frameborder="0" title="jobs"
 	></iframe>
 
 	<!-- {#each data.jobsByRegions as items, idx}
@@ -30,9 +39,3 @@
 		{/if}
 	{/each} -->
 </section>
-
-<style>
-	iframe {
-		min-height: 120dvh;
-	}
-</style>
