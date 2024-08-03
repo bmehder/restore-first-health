@@ -1,5 +1,7 @@
 <script>
-	const init = node => {
+	import { tick } from 'svelte'
+
+	const init = async node => {
 		const config = { attributes: true, childList: true, subtree: true }
 
 		const callback = () => {
@@ -8,7 +10,9 @@
 
 		const observer = new MutationObserver(callback)
 
-		setTimeout(() => observer.observe(node.contentWindow.document, config), 100)
+		await tick().then(
+			setTimeout(() => observer.observe(node.contentWindow.document, config), 100)
+		)
 	}
 </script>
 
@@ -16,7 +20,7 @@
 	<title>Job Opportunities - Restore First Health</title>
 	<meta
 		name="description"
-		content="Learn about job opportunities in wound care at Restore First Health in Florida, Georgia, New Jersey, and Pennsylvania."
+		content="Learn about job opportunities in wound care at Restore First Health in Florida, Georgia, New Jersey, Texas and Pennsylvania."
 	/>
 </svelte:head>
 
