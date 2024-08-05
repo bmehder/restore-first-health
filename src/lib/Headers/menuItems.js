@@ -15,10 +15,6 @@ export default [
 				name: 'For Providers / Community Partners',
 				url: '/about-restore-first-health/for-providers-community-partners',
 			},
-			{
-				name: 'For Patients and Families',
-				url: '/about-restore-first-health/for-patients-and-families',
-			},
 		],
 	},
 	{
