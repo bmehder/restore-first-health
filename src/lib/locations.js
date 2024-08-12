@@ -18,8 +18,8 @@ export default {
 			city: 'Decatur, GA 30033',
 			mapLink:
 				'https://maps.apple.com/maps/?q=2680+Lawrenceville+Hwy+Decatur+GA+30033',
-			phoneLink: 'tel:6785802684',
-			phone: '(678) 580-2684',
+			phoneLink: 'tel:4702923820',
+			phone: '(470) 292-3820',
 			fax: '(470) 201-2473',
 		},
 		{
@@ -29,8 +29,8 @@ export default {
 			city: 'Marietta, GA 30067',
 			mapLink:
 				'https://maps.apple.com/maps/?q=2550+Windy+Hill+Road+SE+Marietta+GA+30667',
-			phoneLink: 'tel:4703087485',
-			phone: '(470) 308-7485',
+			phoneLink: 'tel:4702923820',
+			phone: '(470) 292-3820',
 			fax: '(470) 201-2473',
 		},
 		{
