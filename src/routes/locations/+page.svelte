@@ -7,7 +7,7 @@
 	<title>Locations - Restore First Health</title>
 	<meta
 		name="description"
-		content="Get information about Restore First Health Locations in Georgia, New Jersey and Pennsylvania."
+		content="Get information about Restore First Health Locations in Georgia, New Jersey, Pennsylvania, Kansas and Texas."
 	/>
 </svelte:head>
 
@@ -17,10 +17,11 @@
 	<h2>A Specialized Medical Practice Focused on Chronic Wounds</h2>
 
 	<p>
-		Welcome to Restore First Health, a specialized medical practice focused on in-home,
+		Welcome to Restore First Health, a specialized medical practice focused on
+		in-home,
 		<a href="/">advanced wound care</a>. Our therapy protocols for each of patient
-		utilizes a holistic approach to healing – focused on improving health through advanced
-		practices in wound care.
+		utilizes a holistic approach to healing – focused on improving health through
+		advanced practices in wound care.
 	</p>
 </section>
 
@@ -89,7 +90,8 @@
 				{/each}
 			</div>
 			<p class="h3">
-				<a href="/locations/pennsylvania-team/">Meet the Pennsylvania Team &raquo;</a>
+				<a href="/locations/pennsylvania-team/">Meet the Pennsylvania Team &raquo;</a
+				>
 			</p>
 		</div>
 	</section>
@@ -117,29 +119,6 @@
 		</div>
 	</section>
 
-	<section class="flow sep">
-		<div class="inner flow">
-			<h2>Colorado Locations</h2>
-			<div class="items">
-				{#each locations.colorado as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
-					<Location
-						{name}
-						{address1}
-						{address2}
-						{city}
-						{mapLink}
-						{phoneLink}
-						{phone}
-						{fax}
-					/>
-				{/each}
-			</div>
-			<p class="h3">
-				<a href="/locations/colorado-team/">Meet the Colorado Team &raquo;</a>
-			</p>
-		</div>
-	</section>
-	
 	<section class="flow sep">
 		<div class="inner flow">
 			<h2>Texas Locations</h2>

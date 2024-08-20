@@ -16,8 +16,7 @@
 			<div class="h2">Restore First Health</div>
 			<div class="h3">MOBILE Advanced Care for Chronic Wounds</div>
 			<p class="locations">
-				Serving Georgia, Pennsylvania, New Jersey, Kansas, Colorado, Texas, and
-				Florida
+				Serving Georgia, Pennsylvania, New Jersey, Kansas, Texas, and Florida
 			</p>
 			<div>
 				<a class="button" aria-label="Request Appointment" href="/contact-us/"

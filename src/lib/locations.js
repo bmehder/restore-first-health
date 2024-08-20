@@ -128,19 +128,19 @@ export default {
 			fax: '(316) 330-5353',
 		},
 	],
-	colorado: [
-		{
-			name: 'Thornton, CO',
-			address1: '9195 Grant Street, ',
-			address2: 'Suite 301',
-			city: 'Thornton, CO 80229',
-			mapLink:
-				'https://maps.apple.com/?address=9195%20Grant%20St,%20Ste%20301,%20Thornton,%20CO%20%2080229,%20United%20States&ll=39.864134,-104.986352&q=9195%20Grant%20St,%20Ste%20301',
-			phoneLink: 'tel:7206789868',
-			phone: '(720) 678-9868',
-			fax: '(720) 678-9860',
-		},
-	],
+	// colorado: [
+	// 	{
+	// 		name: 'Thornton, CO',
+	// 		address1: '9195 Grant Street, ',
+	// 		address2: 'Suite 301',
+	// 		city: 'Thornton, CO 80229',
+	// 		mapLink:
+	// 			'https://maps.apple.com/?address=9195%20Grant%20St,%20Ste%20301,%20Thornton,%20CO%20%2080229,%20United%20States&ll=39.864134,-104.986352&q=9195%20Grant%20St,%20Ste%20301',
+	// 		phoneLink: 'tel:7206789868',
+	// 		phone: '(720) 678-9868',
+	// 		fax: '(720) 678-9860',
+	// 	},
+	// ],
 	texas: [
 		{
 			name: 'Kingwood, TX',
