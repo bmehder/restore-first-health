@@ -6,14 +6,14 @@
 </script>
 
 <svelte:head>
-	<title>Texas Team - Restore First Health</title>
+	<title>Florida Team - Restore First Health</title>
 	<meta
 		name="description"
-		content="Meet the Texas Care Team at Restore First Health."
+		content="Meet the Florida Care Team at Restore First Health."
 	/>
 </svelte:head>
 
-<h1 class="title">Texas Team</h1>
+<h1 class="title">Florida Team</h1>
 
 <section>
 	<div class="items">
