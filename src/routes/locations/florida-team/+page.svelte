@@ -1,5 +1,4 @@
 <script>
-	// import data from './data.js'
 	import ModalCard from '$lib/ModalCard.svelte'
 
 	export let data
