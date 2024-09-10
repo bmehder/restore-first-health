@@ -18,7 +18,7 @@
 
 <div class="flex inner">
 	<div style="flex: 2" class="flow">
-		<h2>Want to learn more about Restore First Health? Connect with Us!</h2>
+		<h2>We Can Help! Connect with Us Today!</h2>
 		<FormSparkAsync botpoisonKey={BOTPOISON_KEY} />
 	</div>
 	<div class="flow">
