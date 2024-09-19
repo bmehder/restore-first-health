@@ -1,20 +1,21 @@
 import menuItems from '$lib/Headers/menuItems'
 
 const getPosts = async () => {
-  const endpoint = 'https://rfh-api.com/wp-json/wp/v2/posts?_embed&per_page=100'
+	const endpoint =
+		'https://rfhapi.wpenginepowered.com/wp-json/wp/v2/posts?_embed&per_page=100'
 
-  const response = await fetch(endpoint)
-  const posts = await response.json()
+	const response = await fetch(endpoint)
+	const posts = await response.json()
 
-  return posts 
+	return posts
 }
 
 const otherPages = [
-  // { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
+	// { name: 'Frank Curvin, MD', url: '/about-restore-first-health/frank-curvin-md/' },
 ]
 
 const createSitemap = ({ site, pages, posts }) => {
-  const createSiteEntry = site => `
+	const createSiteEntry = site => `
     <url>
       <loc>${site}</loc>
       <changefreq>monthly</changefreq>
@@ -22,7 +23,7 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const createPageEntry = page => `
+	const createPageEntry = page => `
     <url>
       <loc>${site}/${page}</loc>
       <changefreq>monthly</changefreq>
@@ -30,7 +31,7 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const createPostEntry = post => `
+	const createPostEntry = post => `
     <url>
       <loc>${site}/${post.slug}</loc>
       <changefreq>weekly</changefreq>
@@ -39,10 +40,10 @@ const createSitemap = ({ site, pages, posts }) => {
     </url>
   `
 
-  const getPageEntries = pages => pages.map(createPageEntry).join('')
-  const getPostEntries = posts => posts.map(createPostEntry).join('')
+	const getPageEntries = pages => pages.map(createPageEntry).join('')
+	const getPostEntries = posts => posts.map(createPostEntry).join('')
 
-  return `<?xml version="1.0" encoding="UTF-8" ?>
+	return `<?xml version="1.0" encoding="UTF-8" ?>
     <urlset
       xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"
@@ -63,21 +64,21 @@ const createSitemap = ({ site, pages, posts }) => {
 //list of pages as a string ex. ["about", "blog", "contact"]
 
 const options = {
-  site: 'https://restorefirsthealth.com',
-  pages: [
-    ...menuItems.map(item => item.url.substring(1)).filter(Boolean),
-    ...otherPages.map(item => item.url.substring(1)).filter(Boolean),
-  ],
-  posts: await getPosts(),
+	site: 'https://restorefirsthealth.com',
+	pages: [
+		...menuItems.map(item => item.url.substring(1)).filter(Boolean),
+		...otherPages.map(item => item.url.substring(1)).filter(Boolean),
+	],
+	posts: await getPosts(),
 }
 
 /** @type {import('./$types').RequestHandler} */
 export async function GET() {
-  const body = createSitemap(options)
-  const response = new Response(body)
+	const body = createSitemap(options)
+	const response = new Response(body)
 
-  response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600')
-  response.headers.set('Content-Type', 'application/xml')
+	response.headers.set('Cache-Control', 'max-age=0, s-maxage=3600')
+	response.headers.set('Content-Type', 'application/xml')
 
-  return response
+	return response
 }
