@@ -14,7 +14,8 @@
 		</div>
 		<div class="half-flow">
 			<div class="h2">Restore First Health</div>
-			<div class="h3">MOBILE Advanced Care for Chronic Wounds</div>
+			<!-- <div class="h3">MOBILE Advanced Care for Chronic Wounds</div> -->
+			<div class="h3">MOBILE Advanced Wound Care</div>
 			<p class="locations">
 				Serving Georgia, Pennsylvania, New Jersey, Kansas, Texas, and Florida
 			</p>
