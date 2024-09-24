@@ -22,6 +22,23 @@
 	let isConfirmSMS = false
 	let message = ''
 
+	let isMyself
+	let isLovedOne
+	let isMyPatient
+
+	let isPressureUlcer
+	let isDiabeticUlcer
+	let isVenousUlcer
+	let isOtherUlcer
+	let specifiedOtherUlcer
+
+	let isAtHome
+	let isAcuteRehab
+	let isNursingFacility
+	let isHospital
+	let isOtherLocation
+	let specifiedOtherLocation
+
 	let isSubmitting = false
 	let isSubmitted = false
 	let botpoison = null
@@ -53,7 +70,19 @@
 					city,
 					state,
 					message,
+					isMyself,
+					isLovedOne,
+					isMyPatient,
+					isPressureUlcer,
+					isDiabeticUlcer,
+					isVenousUlcer,
+					specifiedOtherUlcer,
+					isAtHome,
+					isAcuteRehab,
+					isNursingFacility,
+					isHospital,
 					isConfirmSMS,
+					specifiedOtherLocation,
 					_botpoison: solution,
 					_email: {
 						from: 'Restore First Health',
@@ -194,20 +223,139 @@
 			</div>
 			<div>
 				<label for="message">Message <span>*</span></label>
-				<textarea bind:value={message} rows="10" id="message" name="message" required />
-			</div>
-			<div class="confirm-sms">
-				<input
-					type="checkbox"
-					name="confirm-sms"
-					id="confirm-sms"
-					bind:checked={isConfirmSMS}
+				<textarea
+					bind:value={message}
+					rows="10"
+					id="message"
+					name="message"
+					required
 				/>
-				<label for="confirm-sms"
-					>By clicking this box, you agree to receive SMS from Restore First Health. <span
-						>*</span
-					></label
-				>
+			</div>
+			<div class="who-needs-care">
+				<p><strong>Who needs care?</strong></p>
+				<div>
+					<input type="checkbox" name="myself" id="myself" bind:checked={isMyself} />
+					<label for="myself">Myself</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="a-loved-one"
+						id="a-loved-one"
+						bind:checked={isLovedOne}
+					/>
+					<label for="a-loved-one">A Loved One</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="my-patient"
+						id="my-patient"
+						bind:checked={isMyPatient}
+					/>
+					<label for="my-patient">My Patient</label>
+				</div>
+			</div>
+			<div class="type-of-wound">
+				<p><strong>Type of Wound (if known)</strong></p>
+				<div>
+					<input
+						type="checkbox"
+						name="pressure-ulcer"
+						id="pressure-ulcer"
+						bind:checked={isPressureUlcer}
+					/>
+					<label for="pressure-ulcer">Pressure Ulcer</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="diabetic-ulcer"
+						id="diabetic-ulcer"
+						bind:checked={isDiabeticUlcer}
+					/>
+					<label for="diabetic-ulcer">Diabetic Ulcer</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="venous-ulcer"
+						id="venous-ulcer"
+						bind:checked={isVenousUlcer}
+					/>
+					<label for="venous-ulcer">Venous Ulcer</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="other-ulcer"
+						id="other-ulcer"
+						bind:checked={isOtherUlcer}
+					/>
+					<div>
+						<label for="other-ulcer">Other Ulcer <em>(please specify)</em></label>
+						{#if isOtherUlcer}
+							<input type="text" bind:value={specifiedOtherUlcer} />
+						{/if}
+					</div>
+				</div>
+			</div>
+			<div class="current-location">
+				<p><strong>Current Location of Patient</strong></p>
+				<div>
+					<input
+						type="checkbox"
+						name="at-home"
+						id="at-home"
+						bind:checked={isAtHome}
+					/>
+					<label for="at-home">At Home</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="acute-rehab"
+						id="acute-rehab"
+						bind:checked={isAcuteRehab}
+					/>
+					<label for="acute-rehab">Acute Rehab</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="nursing-facility"
+						id="nursing-facility"
+						bind:checked={isNursingFacility}
+					/>
+					<label for="nursing-facility">Skilled Nursing Facility</label>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="hospital"
+						id="hospital"
+						bind:checked={isHospital}
+					/>
+					<div>
+						<label for="other-ulcer">Hospital</label>
+					</div>
+				</div>
+				<div>
+					<input
+						type="checkbox"
+						name="other-location"
+						id="other-location"
+						bind:checked={isOtherLocation}
+					/>
+					<div>
+						<label for="other-location"
+							>Other Location <em>(please specify)</em></label
+						>
+						{#if isOtherLocation}
+							<input type="text" bind:value={specifiedOtherLocation} />
+						{/if}
+					</div>
+				</div>
 			</div>
 			<div style="display: contents;">
 				<input
@@ -226,6 +374,19 @@
 						Submit Message
 					{/if}
 				</button>
+			</div>
+			<div class="confirm-sms">
+				<input
+					type="checkbox"
+					name="confirm-sms"
+					id="confirm-sms"
+					bind:checked={isConfirmSMS}
+				/>
+				<label for="confirm-sms"
+					>By clicking this box, you agree to receive SMS from Restore First Health. <span
+						>*</span
+					></label
+				>
 			</div>
 		</form>
 	{/if}
@@ -262,6 +423,33 @@
 	}
 
 	.confirm-sms input {
+		width: var(--size);
+		height: var(--size);
+	}
+
+	.who-needs-care > div {
+		display: flex;
+	}
+
+	.who-needs-care input {
+		width: var(--size);
+		height: var(--size);
+	}
+
+	.type-of-wound > div {
+		display: flex;
+	}
+
+	.type-of-wound input[type='checkbox'] {
+		width: var(--size);
+		height: var(--size);
+	}
+
+	.current-location > div {
+		display: flex;
+	}
+
+	.current-location input[type='checkbox'] {
 		width: var(--size);
 		height: var(--size);
 	}
