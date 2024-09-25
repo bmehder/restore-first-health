@@ -197,6 +197,10 @@ summary::marker {
 	text-wrap: balance;
 }
 
+.pretty {
+	text-wrap: pretty;
+}
+
 .unset {
 	all: unset;
 }

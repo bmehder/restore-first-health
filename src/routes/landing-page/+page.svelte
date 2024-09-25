@@ -1,0 +1,22 @@
+<script>
+	import Block1 from './Block1.svelte'
+	import Block2 from './Block2.svelte'
+	import Block3 from './Block3.svelte'
+	import Block6 from './Block6.svelte'
+	import Block7 from './Block7.svelte'
+</script>
+
+<svelte:head>
+	<!-- <title>Home - Advanced Care for Chronic Wounds - Restore First Health</title>
+	<meta
+		name="description"
+		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care."
+	/> -->
+	<meta name="robots" content="noindex" />
+</svelte:head>
+
+<Block1 />
+<Block2 />
+<Block3 />
+<Block6 />
+<Block7 />
