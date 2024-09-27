@@ -136,9 +136,9 @@
 					/>
 				{/each}
 			</div>
-			<!-- <p class="h3">
+			<p class="h3">
 				<a href="/locations/texas-team/">Meet the Texas Team &raquo;</a>
-			</p> -->
+			</p>
 		</div>
 	</section>
 
@@ -161,9 +161,9 @@
 					/>
 				{/each}
 			</div>
-			<!-- <p class="h3">
+			<p class="h3">
 				<a href="/locations/florida-team/">Meet the Florida Team &raquo;</a>
-			</p> -->
+			</p>
 		</div>
 	</section>
 </div>
