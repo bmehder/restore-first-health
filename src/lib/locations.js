@@ -143,12 +143,13 @@ export default {
 	// ],
 	texas: [
 		{
-			name: 'Kingwood, TX',
-			address1: '201 Kingwood Medical Dr.',
-			address2: 'Suite A200',
-			city: 'Kingwood, TX 77339',
+			name: 'Cypress, TX',
+			address1: '20320 Northwest Fwy',
+			address2: 'Suite 400A',
+			city: 'Jersey Village, TX 77339',
 			mapLink:
-				'https://maps.apple.com/?address=201%20Kingwood%20Medical%20Dr,%20Ste%20A200,%20Kingwood,%20TX%20%2077339,%20United%20States&ll=30.046602,-95.256876&q=201%20Kingwood%20Medical%20Dr,%20Ste%20A200',
+				'https://maps.apple.com/?address=20320%20Northwest%20Fwy,%20Cypress,%20TX%20%2077429,%20United%20States&ll=29.923892,-95.629305&q=20320%20Northwest%20Fwy',
+
 			phoneLink: 'tel:3463452092',
 			phone: '(346) 345-2092',
 			fax: '(281) 883-4395',
