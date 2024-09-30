@@ -4,7 +4,7 @@
 
 <section
 	class="light-gray full-bleed"
-	style="--background: #f3f3f3; color: var(--text-color)"
+	style="--background: #f6f6f6; color: var(--text-color)"
 >
 	<div class="inner">
 		<div class="heading">
@@ -49,9 +49,5 @@
 			grid-template-columns: repeat(2, 1fr);
 			gap: 4rem;
 		}
-	}
-
-	.light-gray {
-		background-color: #f3f3f3;
 	}
 </style>

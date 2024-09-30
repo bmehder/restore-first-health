@@ -6,14 +6,14 @@
 <section
 	id="form"
 	class="flow light-gray full-bleed"
-	style="--background: #f3f3f3; color: var(--text-color)"
+	style="--background: #f6f6f6; color: var(--text-color)"
 >
 	<div class="inner flow">
 		<div>
 			<p>CONTACT US</p>
 			<h2 class="h1 balance">Ready to Bring Your Loved One Home with Confidence?</h2>
 		</div>
-		<p>Our team is here to help. Fill out the form below.</p>
+		<p class="pretty">Our team is here to help. Fill out the form below.</p>
 	</div>
 	<div class="flow">
 		<h3 class="h2">Let Us Take It From Here</h3>

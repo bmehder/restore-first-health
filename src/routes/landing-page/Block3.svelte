@@ -102,7 +102,7 @@
 	.content {
 		padding: var(--double-size);
 		background-color: var(--light);
-		background-color: #f3f3f3;
+		background-color: #f6f6f6;
 	}
 
 	.button-wrapper {

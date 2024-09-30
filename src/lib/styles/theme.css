@@ -124,6 +124,7 @@ section.full-bleed {
 }
 
 /* Skins */
+
 .bg-light {
 	background-color: var(--secondary);
 	color: var(--dark);
