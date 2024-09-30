@@ -4,7 +4,7 @@
 
 <div class="hero" style="background-image: url({image})">
 	<div class="inner">
-		<div class="content overlay" style="--color: #000d">
+		<div class="content overlay" style="--start: #003a64ee; --end: #0078a1ee;">
 			<h1 class="headline balance">Advanced Mobile Wound Care</h1>
 			<div class="h3 subheadline pretty">
 				Personalized Care Delivered to Your Home.
