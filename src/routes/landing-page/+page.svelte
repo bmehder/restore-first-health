@@ -11,11 +11,11 @@
 </script>
 
 <svelte:head>
-	<!-- <title>Home - Advanced Care for Chronic Wounds - Restore First Health</title>
+	<title>Advanced Care for Chronic Wounds - Restore First Health</title>
 	<meta
 		name="description"
-		content="Restore First Health offers an advanced therapy for the treatment of chronic wounds utilizing an FDA approved skin substitutes and high quality wound care."
-	/> -->
+		content="We get it. Living with a chronic wound can be overwhelming. Restore First Health provides expert wound care in the comfort of the home."
+	/>
 	<meta name="robots" content="noindex" />
 </svelte:head>
 
