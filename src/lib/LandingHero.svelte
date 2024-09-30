@@ -3,10 +3,12 @@
 </script>
 
 <div class="hero" style="background-image: url({image})">
-	<div class="inner balance">
-		<div class="content">
-			<h1 class="headline">Advanced Mobile Wound Care</h1>
-			<div class="h2 subheadline">Personalized Care Delivered to Your Home.</div>
+	<div class="inner">
+		<div class="content overlay" style="--color: #000d">
+			<h1 class="headline balance">Advanced Mobile Wound Care</h1>
+			<div class="h3 subheadline pretty">
+				Personalized Care Delivered to Your Home.
+			</div>
 			<a href="#form" class="button">Get Help Now</a>
 		</div>
 	</div>
@@ -21,17 +23,16 @@
 		background-size: cover;
 		font-weight: bold;
 		line-height: 1.5;
-		/* text-align: center; */
-		/* text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); */
 		letter-spacing: 1px;
 	}
 
 	.content {
 		max-width: 32rem;
+		margin-inline: var(--size);
 		padding: var(--double-size);
-		background-color: var(--secondary);
-		border-radius: var(--half-size);
-		box-shadow: 0 10px 20px 40px rgba(0, 0, 0, 0.2);
+		/* background-color: var(--secondary); */
+		/* border-radius: var(--half-size); */
+		/* box-shadow: 0 10px 20px 20px rgba(0, 0, 0, 0.2); */
 	}
 
 	.content > * + * {
@@ -40,6 +41,11 @@
 
 	.headline,
 	.subheadline {
-		color: var(--accent-light);
+		/* color: var(--accent-light); */
+		color: white;
+	}
+
+	a:hover {
+		color: white;
 	}
 </style>

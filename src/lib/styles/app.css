@@ -245,6 +245,21 @@ summary::marker {
 	hyphens: auto;
 }
 
+.rounded-overlay-container {
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 2rem;
+}
+
+.overlay {
+	--deg: 0deg;
+	--color: #0004;
+	--start: var(--color);
+	--end: var(--color);
+
+	border-image: fill 0 linear-gradient(var(--deg), var(--start), var(--end));
+}
+
 /* Skins */
 .full-bleed {
 	--background: var(--accent);
