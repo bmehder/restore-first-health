@@ -90,7 +90,7 @@
 			{/each}
 		</div>
 		<div class="button-wrapper">
-			<a href="/contact-us" class="button">Get Help Now</a>
+			<a href="#form" class="button">Get Help Now</a>
 		</div>
 	</div>
 </section>

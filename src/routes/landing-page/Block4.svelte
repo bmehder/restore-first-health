@@ -1,8 +1,11 @@
-<section>
+<section
+	class="light-gray full-bleed"
+	style="--background: #f3f3f3; color: var(--text-color)"
+>
 	<div class="inner flow">
 		<div>
 			<p>REVIEWS</p>
-			<h2 class="h1 balance">What Families Are Saying About Restore First Health</h2>
+			<h2 class="h1 balance">What Families Are Saying</h2>
 		</div>
 		<div class="flow">
 			<blockquote>
@@ -21,5 +24,15 @@
 		max-width: 48rem;
 		margin-inline: auto;
 		text-align: center;
+	}
+
+	blockquote {
+		text-align: left;
+		font-size: 1.2rem;
+		font-style: italic;
+	}
+
+	.author {
+		text-align: right;
 	}
 </style>

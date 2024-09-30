@@ -3,7 +3,11 @@
 	const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
 </script>
 
-<section class="flow">
+<section
+	id="form"
+	class="flow light-gray full-bleed"
+	style="--background: #f3f3f3; color: var(--text-color)"
+>
 	<div class="inner flow">
 		<h2 class="h1 balance">Ready to Bring Your Loved One Home with Confidence?</h2>
 		<p>Our team is here to help. Fill out the form below.</p>

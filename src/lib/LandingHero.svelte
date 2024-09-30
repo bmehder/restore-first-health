@@ -7,7 +7,7 @@
 		<div class="content">
 			<h1 class="headline">Advanced Mobile Wound Care</h1>
 			<div class="h2 subheadline">Personalized Care Delivered to Your Home.</div>
-			<a href="/contact-us/" class="button">Get Help Now</a>
+			<a href="#form" class="button">Get Help Now</a>
 		</div>
 	</div>
 </div>

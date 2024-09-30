@@ -10,11 +10,11 @@
 					<p>WE GET IT</p>
 					<h2 class="h1">Living with a chronic wound can be overwhelming.</h2>
 				</div>
-				<p class="pretty">
+				<!-- <p class="pretty">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, a
 					voluptatem!
-				</p>
-				<a href="/contact-us" class="button">Get Help Now</a>
+				</p> -->
+				<a href="#form" class="button">Get Help Now</a>
 			</div>
 			<div class="flow">
 				<Youtube />
@@ -67,6 +67,7 @@
 
 	.two-rows {
 		grid-row: span 2;
+		align-self: center;
 	}
 
 	.two-rows > * + * {
