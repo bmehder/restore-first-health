@@ -49,7 +49,7 @@
 	{/if}
 
 	{#if $page.route.id === '/landing-page'}
-		<LandingHero image="/new-jersey-care-team.jpg" />
+		<LandingHero image="/advanced-mobile-wound-care-hero.jpg" />
 	{/if}
 
 	{#if $page.route.id === '/about-restore-first-health/for-providers-community-partners'}

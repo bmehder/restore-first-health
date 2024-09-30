@@ -221,16 +221,6 @@
 				<label for="company">Company</label>
 				<input type="text" id="company" name="company" bind:value={company} />
 			</div>
-			<div>
-				<label for="message">Message <span>*</span></label>
-				<textarea
-					bind:value={message}
-					rows="10"
-					id="message"
-					name="message"
-					required
-				/>
-			</div>
 			<div class="who-needs-care">
 				<p><strong>Who needs care?</strong></p>
 				<div>
@@ -364,6 +354,16 @@
 					style="display:none"
 					tabindex="-1"
 					autocomplete="off"
+				/>
+			</div>
+			<div>
+				<label for="message">Message <span>*</span></label>
+				<textarea
+					bind:value={message}
+					rows="10"
+					id="message"
+					name="message"
+					required
 				/>
 			</div>
 			<div>

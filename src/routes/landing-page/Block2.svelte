@@ -1,65 +1,31 @@
 <script>
-	import Youtube from '$lib/icons/Youtube.svelte'
 	import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
 
 <section>
 	<div class="inner">
 		<div class="heading">
-			<p class="lead">FEATURES</p>
-			<h2 class="h1">Our Features</h2>
+			<p class="lead">TRUSTED CARE</p>
+			<h2 class="h1">Why Families Trust Restore First Health</h2>
 		</div>
 		<div class="services-grid">
-			<div class="featured-video" style="color: white;">
-				Tall Video
-				<!-- <Sveltetube id="7K0FCZAn1Hs" /> -->
-			</div>
 			<div class="flow">
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-			</div>
+				<p>
+					Restore First Health’s team consists of advanced mobile wound care
+					specialists who have helped hundreds of families transition their loved
+					ones home with confidence. With years of expertise and advanced technology,
+					we ensure your loved one receives the best possible care.
+				</p>
 
-			<div class="flow">
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
-				<div class="feature">
-					<Youtube />
-					<div class="half-flow">
-						<h3>Feature Name</h3>
-						<p>Lorem ipsum</p>
-					</div>
-				</div>
+				<ul class="list">
+					<li>Expert care delivered at home.</li>
+					<li>Seamless discharge and transition support.</li>
+					<li>Ongoing support for the family.</li>
+					<li>Proven results: Faster recovery times and fewer treatments.</li>
+				</ul>
+			</div>
+			<div class="featured-video">
+				<Sveltetube id="7K0FCZAn1Hs" />
 			</div>
 		</div>
 	</div>
@@ -77,19 +43,8 @@
 		align-items: center;
 
 		@media screen and (width > 48rem) {
-			grid-template-columns: repeat(3, 1fr);
+			grid-template-columns: repeat(2, 1fr);
 			gap: 4rem;
 		}
-	}
-
-	.feature {
-		display: grid;
-		grid-template-columns: 1fr 3fr;
-	}
-
-	.featured-video {
-		align-self: center;
-		min-height: 400px;
-		background-color: black;
 	}
 </style>

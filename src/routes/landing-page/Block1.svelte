@@ -7,45 +7,46 @@
 		<div class="services-grid">
 			<div class="two-rows flow">
 				<div>
-					<p>SERVICES</p>
+					<p>WE GET IT</p>
 					<h2 class="h1">Living with a chronic wound can be overwhelming.</h2>
 				</div>
 				<p class="pretty">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, a
 					voluptatem!
 				</p>
-				<a href="/" class="button">Call to Action</a>
+				<a href="/contact-us" class="button">Get Help Now</a>
 			</div>
 			<div class="flow">
 				<Youtube />
-				<h3>Service Name</h3>
+				<!-- <h3>Who</h3> -->
 				<p>
-					Restore First Health provides expert wound care in the comfort of the home.
+					<strong>Restore First Health</strong> provides expert wound care in the comfort
+					of the home.
 				</p>
 			</div>
 			<div class="flow">
 				<Youtube />
-				<h3>Service Name</h3>
+				<!-- <h3>What</h3> -->
 				<p>
-					We ensure a smooth, stress-free transition from care facilities with our
-					specialized wound therapies and care coordination.
+					<strong>We ensure a smooth</strong>, stress-free transition from care
+					facilities with our specialized wound therapies and care coordination.
 				</p>
 			</div>
 			<div class="flow">
 				<Youtube />
-				<h3>Service Name</h3>
+				<!-- <h3>Where</h3> -->
 				<p>
-					Bringing a loved one home with a wound can be scary; managing everything on
-					your own is challenging. You don’t have to do this alone.
+					<strong>Bringing a loved one home</strong> with a wound can be scary; managing
+					everything on your own is challenging. You don’t have to do this alone.
 				</p>
 			</div>
 			<div class="flow">
 				<Youtube />
-				<h3>Service Name</h3>
+				<!-- <h3>How</h3> -->
 				<p>
-					We come to your home, allowing you to focus on your loved one while we
-					handle the logistics of wound care, keeping you informed every step of the
-					way.
+					<strong>We come to your home</strong>, allowing you to focus on your loved
+					one while we handle the logistics of wound care, keeping you informed every
+					step of the way.
 				</p>
 			</div>
 		</div>
@@ -58,7 +59,7 @@
 		gap: 4rem;
 		place-content: center;
 
-		@media screen and (width > 48rem) {
+		@media screen and (width > 64rem) {
 			grid-template-columns: repeat(3, 1fr);
 			grid-template-rows: repeat(2, 1fr);
 		}

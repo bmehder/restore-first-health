@@ -1,70 +1,96 @@
+<script>
+	import Faq from '$lib/FAQ.svelte'
+	import CaretDown from '$lib/icons/CaretDown.svelte'
+	import CaretRight from '$lib/icons/CaretRight.svelte'
+
+	export let faqs
+
+	let isOpen = false
+
+	const handleClick = () => (isOpen = !isOpen)
+</script>
+
 <section>
 	<div class="inner">
 		<div class="heading">
 			<p class="lead">FAQ</p>
 			<h2 class="h1">Frequently Asked Questions</h2>
 		</div>
+		<!-- <div class="services-grid">
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+			<div class="faq">
+				<div class="number">1</div>
+				<div class="flow">
+					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
+					<p>
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
+						Illo, error?
+					</p>
+				</div>
+			</div>
+		</div> -->
 		<div class="services-grid">
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
-			<div class="faq">
-				<div class="number">1</div>
-				<div class="flow">
-					<h3>Lorem ipsum dolor sit amet consectetur.</h3>
-					<p>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis, eveniet!
-						Illo, error?
-					</p>
-				</div>
-			</div>
+			{#each faqs as { question, answer }}
+				<Faq
+					{question}
+					{answer}
+					openIcon={CaretRight}
+					closeIcon={CaretDown}
+					{isOpen}
+				/>
+			{/each}
+		</div>
+		<div class="button-wrapper">
+			<a href="/contact-us" class="button">Get Help Now</a>
 		</div>
 	</div>
 </section>
@@ -80,27 +106,15 @@
 	}
 
 	.services-grid {
+		max-width: 48rem;
+		margin-inline: auto;
 		display: grid;
-		gap: var(--double-size);
-
-		@media screen and (width > 48rem) {
-			grid-template-columns: repeat(2, 1fr);
-		}
+		gap: var(--size);
 	}
 
-	.faq {
-		display: grid;
-		grid-template-columns: 8ch 1fr;
-	}
-
-	.number {
-		align-self: self-start;
-		width: 50px;
-		height: 50px;
-		display: grid;
-		place-items: center;
-		background-color: var(--highlight);
-		color: var(--light);
-		border-radius: 50%;
+	.button-wrapper {
+		margin-block-start: var(--double-size);
+		margin-inline: auto;
+		text-align: center;
 	}
 </style>

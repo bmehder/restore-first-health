@@ -2,7 +2,7 @@
 	<div class="inner">
 		<div class="heading">
 			<p class="lead">STEPS</p>
-			<h2 class="h1">How It Works</h2>
+			<h2 class="h1">How We Make It Easy for You</h2>
 		</div>
 		<div class="services-grid flow">
 			<div class="step">
@@ -11,10 +11,8 @@
 					<p>Step</p>
 				</div>
 				<div class="content flow">
-					<h3>Step Headline</h3>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sit.
-					</p>
+					<h3>Get in Touch:</h3>
+					<p>Fill out the form below or give us a call to start the process.</p>
 				</div>
 			</div>
 			<div class="step">
@@ -23,9 +21,10 @@
 					<p>Step</p>
 				</div>
 				<div class="content flow">
-					<h3>Step Headline</h3>
+					<h3>We Assess Your Needs:</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sit.
+						A care coordinator works with you to understand the patient’s needs,
+						current condition, and the best approach for healing.
 					</p>
 				</div>
 			</div>
@@ -35,12 +34,29 @@
 					<p>Step</p>
 				</div>
 				<div class="content flow">
-					<h3>Step Headline</h3>
+					<h3>Seamless Transition:</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, sit.
+						We collaborate with your hospital, rehab, or nursing facility to plan the
+						best transition home.
 					</p>
 				</div>
 			</div>
+			<div class="step">
+				<div class="number">
+					<div>4</div>
+					<p>Step</p>
+				</div>
+				<div class="content flow">
+					<h3>Ongoing Support:</h3>
+					<p>
+						We visit your loved one wherever they call home, providing advanced care
+						and regular updates to you and their healthcare providers.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="button-wrapper">
+			<a href="/locations" class="button">Find a Location</a>
 		</div>
 	</div>
 </section>
@@ -59,8 +75,10 @@
 	.step {
 		display: grid;
 		gap: 1.5rem;
-		grid-template-columns: 8ch 1fr;
-		gap: var(--size);
+		@media (width > 48rem) {
+			grid-template-columns: 8ch 1fr;
+			gap: var(--size);
+		}
 	}
 
 	.number {
@@ -84,5 +102,12 @@
 	.content {
 		padding: var(--double-size);
 		background-color: var(--light);
+		background-color: #f3f3f3;
+	}
+
+	.button-wrapper {
+		margin-block-start: var(--double-size);
+		margin-inline: auto;
+		text-align: center;
 	}
 </style>

@@ -4,6 +4,8 @@
 	import Block3 from './Block3.svelte'
 	import Block6 from './Block6.svelte'
 	import Block7 from './Block7.svelte'
+
+	export let data
 </script>
 
 <svelte:head>
@@ -18,5 +20,5 @@
 <Block1 />
 <Block2 />
 <Block3 />
-<Block6 />
+<Block6 faqs={data.faqs} />
 <Block7 />
