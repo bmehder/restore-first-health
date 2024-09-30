@@ -1,5 +1,9 @@
 <script>
-	import Youtube from '$lib/icons/Youtube.svelte'
+	// import Youtube from '$lib/icons/Youtube.svelte'
+	import Home from '$lib/icons/Home.svelte'
+	import Expert from '$lib/icons/Expert.svelte'
+	import Family from '$lib/icons/Family.svelte'
+	import Therapy from '$lib/icons/Therapy.svelte'
 </script>
 
 <section>
@@ -17,7 +21,8 @@
 				<a href="#form" class="button">Get Help Now</a>
 			</div>
 			<div class="flow">
-				<Youtube />
+				<!-- <Youtube /> -->
+				<Expert />
 				<!-- <h3>Who</h3> -->
 				<p>
 					<strong>Restore First Health</strong> provides expert wound care in the comfort
@@ -25,7 +30,7 @@
 				</p>
 			</div>
 			<div class="flow">
-				<Youtube />
+				<Therapy />
 				<!-- <h3>What</h3> -->
 				<p>
 					<strong>We ensure a smooth</strong>, stress-free transition from care
@@ -33,7 +38,8 @@
 				</p>
 			</div>
 			<div class="flow">
-				<Youtube />
+				<!-- <Youtube /> -->
+				<Family />
 				<!-- <h3>Where</h3> -->
 				<p>
 					<strong>Bringing a loved one home</strong> with a wound can be scary; managing
@@ -41,7 +47,8 @@
 				</p>
 			</div>
 			<div class="flow">
-				<Youtube />
+				<Home />
+				<!-- <Youtube /> -->
 				<!-- <h3>How</h3> -->
 				<p>
 					<strong>We come to your home</strong>, allowing you to focus on your loved
