@@ -3,6 +3,7 @@
 		<div class="half-flow">
 			<p>REVIEWS</p>
 			<h2 class="h1 balance">What Families Are Saying</h2>
+			<div class="bar"></div>
 		</div>
 		<div class="flow">
 			<blockquote>

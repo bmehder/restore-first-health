@@ -7,8 +7,9 @@
 	<div class="inner">
 		<div class="flow">
 			<h2 class="h1 balance">Ready to Bring Your Loved One Home with Confidence?</h2>
+			<div class="bar"></div>
 			<h3 class="h2">Let Us Take It From Here</h3>
-			<!-- <p class="pretty">Our team is here to help. Fill out the form below.</p> -->
+			<p class="pretty">Our team is here to help. Fill out the form below.</p>
 		</div>
 	</div>
 	<div class="flow">

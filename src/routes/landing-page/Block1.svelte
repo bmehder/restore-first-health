@@ -13,7 +13,7 @@
 				<p>WE GET IT</p>
 				<h2 class="h1 balance">Living with a chronic wound can be overwhelming.</h2>
 			</div>
-			<div class="auto-fit" style="--min: 20rem;">
+			<div class="auto-fit" style="--min: 20rem; margin-block: var(--double-size);">
 				<div class="flow">
 					<Expert />
 					<p>

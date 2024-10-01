@@ -7,6 +7,7 @@
 		<div class="heading half-flow">
 			<p class="lead">TRUSTED CARE</p>
 			<h2 class="h1 balance">Why Families Trust Restore First Health</h2>
+			<div class="bar"></div>
 		</div>
 		<div class="services-grid">
 			<div class="flow">

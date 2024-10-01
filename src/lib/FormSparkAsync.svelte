@@ -25,6 +25,8 @@
 	let isMyself
 	let isLovedOne
 	let isMyPatient
+	let isOtherPatient
+	let specifiedOtherPatient
 
 	let isPressureUlcer
 	let isDiabeticUlcer
@@ -73,6 +75,8 @@
 					isMyself,
 					isLovedOne,
 					isMyPatient,
+					isOtherPatient,
+					specifiedOtherPatient,
 					isPressureUlcer,
 					isDiabeticUlcer,
 					isVenousUlcer,
@@ -251,6 +255,20 @@
 						/>
 						<label for="my-patient">My Patient</label>
 					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="other-patient"
+							id="other-patient"
+							bind:checked={isOtherPatient}
+						/>
+						<div>
+							<label for="other-patient">Other <em>(please specify)</em></label>
+							{#if isOtherPatient}
+								<input type="text" bind:value={specifiedOtherPatient} />
+							{/if}
+						</div>
+					</div>
 				</div>
 				<div class="type-of-wound">
 					<p><strong>Type of Wound (if known)</strong></p>
@@ -378,7 +396,7 @@
 					{#if isSubmitting}
 						<Spinner />
 					{:else}
-						Submit Message
+						Submit
 					{/if}
 				</button>
 			</div>
@@ -436,7 +454,12 @@
 		display: flex;
 	}
 
-	.who-needs-care input {
+	/* .who-needs-care input {
+		width: var(--size);
+		height: var(--size);
+	} */
+
+	.who-needs-care input[type='checkbox'] {
 		width: var(--size);
 		height: var(--size);
 	}
@@ -460,7 +483,7 @@
 	}
 
 	button {
-		padding-block: var(--size);
+		justify-self: start;
 		transition: background-color 100ms;
 	}
 
