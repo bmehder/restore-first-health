@@ -8,7 +8,7 @@
 
 <section>
 	<div class="inner">
-		<div class="heading">
+		<div class="heading half-flow">
 			<p class="lead">FOLLOW US</p>
 			<h2 class="h1 balance">
 				Your Loved One Deserves the Best Care, Right at Home
