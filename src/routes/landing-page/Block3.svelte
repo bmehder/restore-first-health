@@ -8,7 +8,7 @@
 			<div class="step">
 				<div class="number">
 					<div>1</div>
-					<p>Step</p>
+					<!-- <p>Step</p> -->
 				</div>
 				<div class="content flow">
 					<h3>Get in Touch:</h3>
@@ -18,7 +18,7 @@
 			<div class="step">
 				<div class="number">
 					<div>2</div>
-					<p>Step</p>
+					<!-- <p>Step</p> -->
 				</div>
 				<div class="content flow">
 					<h3>We Assess Your Needs:</h3>
@@ -31,7 +31,7 @@
 			<div class="step">
 				<div class="number">
 					<div>3</div>
-					<p>Step</p>
+					<!-- <p>Step</p> -->
 				</div>
 				<div class="content flow">
 					<h3>Seamless Transition:</h3>
@@ -44,7 +44,7 @@
 			<div class="step">
 				<div class="number">
 					<div>4</div>
-					<p>Step</p>
+					<!-- <p>Step</p> -->
 				</div>
 				<div class="content flow">
 					<h3>Ongoing Support:</h3>

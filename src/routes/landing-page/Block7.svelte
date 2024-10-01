@@ -59,4 +59,8 @@
 		align-items: center;
 		gap: var(--size);
 	}
+
+	a:hover {
+		color: var(--accent);
+	}
 </style>

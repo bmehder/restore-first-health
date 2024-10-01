@@ -2,10 +2,7 @@
 	import Sveltetube from '$lib/Sveltetube.svelte'
 </script>
 
-<section
-	class="light-gray full-bleed"
-	style="--background: #f6f6f6; color: var(--text-color)"
->
+<section class="light-gray full-bleed">
 	<div class="inner">
 		<div class="heading">
 			<p class="lead">TRUSTED CARE</p>
@@ -38,6 +35,10 @@
 	.heading {
 		padding-block: var(--double-size);
 		text-align: center;
+	}
+
+	h2 {
+		color: white;
 	}
 
 	.services-grid {

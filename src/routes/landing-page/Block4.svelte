@@ -1,7 +1,4 @@
-<section
-	class="light-gray full-bleed"
-	style="--background: #f6f6f6; color: var(--text-color)"
->
+<section class="light-gray full-bleed">
 	<div class="inner flow">
 		<div>
 			<p>REVIEWS</p>
@@ -24,6 +21,10 @@
 		max-width: 48rem;
 		margin-inline: auto;
 		text-align: center;
+	}
+
+	h2 {
+		color: white;
 	}
 
 	blockquote {

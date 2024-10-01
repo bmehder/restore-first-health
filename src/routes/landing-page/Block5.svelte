@@ -3,11 +3,7 @@
 	const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
 </script>
 
-<section
-	id="form"
-	class="flow light-gray full-bleed"
-	style="--background: #f6f6f6; color: var(--text-color)"
->
+<section id="form" class="flow light-gray full-bleed">
 	<div class="inner flow">
 		<div>
 			<p>CONTACT US</p>
@@ -28,7 +24,9 @@
 	}
 
 	.h1,
+	.h2,
 	p {
+		color: white;
 		text-align: center;
 	}
 </style>
