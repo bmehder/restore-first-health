@@ -28,7 +28,7 @@
 
 	.content {
 		max-width: 32rem;
-		margin-inline: var(--size);
+		/* margin-inline: var(--size); */
 		padding: var(--double-size);
 		/* background-color: var(--secondary); */
 		/* border-radius: var(--half-size); */

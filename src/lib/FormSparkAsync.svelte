@@ -383,9 +383,7 @@
 					bind:checked={isConfirmSMS}
 				/>
 				<label for="confirm-sms"
-					>By clicking this box, you agree to receive SMS from Restore First Health. <span
-						>*</span
-					></label
+					>I agree to receive SMS from Restore First Health. <span>*</span></label
 				>
 			</div>
 		</form>
@@ -414,7 +412,7 @@
 	}
 
 	span {
-		color: red;
+		color: var(--highlight);
 	}
 
 	.confirm-sms {
@@ -460,7 +458,7 @@
 	}
 
 	button:disabled {
-		background-color: lightgray;
+		/* background-color: lightgray; */
 		cursor: not-allowed;
 	}
 </style>

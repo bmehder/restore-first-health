@@ -8,76 +8,67 @@
 
 <section>
 	<div class="inner">
-		<div class="services-grid">
-			<div class="two-rows flow">
-				<div>
-					<p>WE GET IT</p>
-					<h2 class="h1">Living with a chronic wound can be overwhelming.</h2>
+		<div class="flow">
+			<div class="heading half-flow">
+				<p>WE GET IT</p>
+				<h2 class="h1 balance">Living with a chronic wound can be overwhelming.</h2>
+			</div>
+			<div class="auto-fit" style="--min: 20rem;">
+				<div class="flow">
+					<Expert />
+					<p>
+						<strong>Restore First Health</strong> provides expert wound care in the comfort
+						of the home.
+					</p>
 				</div>
-				<!-- <p class="pretty">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, a
-					voluptatem!
-				</p> -->
-				<a href="#form" class="button">Get Help Now</a>
+				<div class="flow">
+					<Therapy />
+					<p>
+						<strong>We ensure a smooth</strong>, stress-free transition from care
+						facilities with our specialized wound therapies and care coordination.
+					</p>
+				</div>
+				<div class="flow">
+					<Family />
+					<p>
+						<strong>Bringing a loved one home</strong> with a wound can be scary; managing
+						everything on your own is challenging. You don’t have to do this alone.
+					</p>
+				</div>
+				<div class="flow">
+					<Home />
+					<p>
+						<strong>We come to your home</strong>, allowing you to focus on your
+						loved one while we handle the logistics of wound care, keeping you
+						informed every step of the way.
+					</p>
+				</div>
 			</div>
-			<div class="flow">
-				<!-- <Youtube /> -->
-				<Expert />
-				<!-- <h3>Who</h3> -->
-				<p>
-					<strong>Restore First Health</strong> provides expert wound care in the comfort
-					of the home.
-				</p>
-			</div>
-			<div class="flow">
-				<Therapy />
-				<!-- <h3>What</h3> -->
-				<p>
-					<strong>We ensure a smooth</strong>, stress-free transition from care
-					facilities with our specialized wound therapies and care coordination.
-				</p>
-			</div>
-			<div class="flow">
-				<!-- <Youtube /> -->
-				<Family />
-				<!-- <h3>Where</h3> -->
-				<p>
-					<strong>Bringing a loved one home</strong> with a wound can be scary; managing
-					everything on your own is challenging. You don’t have to do this alone.
-				</p>
-			</div>
-			<div class="flow">
-				<Home />
-				<!-- <Youtube /> -->
-				<!-- <h3>How</h3> -->
-				<p>
-					<strong>We come to your home</strong>, allowing you to focus on your loved
-					one while we handle the logistics of wound care, keeping you informed every
-					step of the way.
-				</p>
-			</div>
+		</div>
+		<div class="button-wrap">
+			<a href="#form" class="button">Get Help Now</a>
 		</div>
 	</div>
 </section>
 
 <style>
-	.services-grid {
-		display: grid;
-		gap: 4rem;
-		place-content: center;
-
-		@media screen and (width > 64rem) {
-			grid-template-columns: repeat(3, 1fr);
-			grid-template-rows: repeat(2, 1fr);
-		}
+	.heading {
+		text-align: center;
 	}
 
-	.two-rows {
-		grid-row: span 2;
-		align-self: center;
+	.heading p {
+		max-width: unset;
 	}
 
-	.two-rows > * + * {
-		margin-top: var(--double-size);
+	h2 {
+		text-transform: capitalize;
+	}
+	p {
+		max-width: 65ch;
+	}
+
+	.button-wrap {
+		padding-block: var(--double-size);
+		text-align: center;
 	}
 </style>

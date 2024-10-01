@@ -1,6 +1,6 @@
 <section>
 	<div class="inner">
-		<div class="heading">
+		<div class="heading half-flow">
 			<p class="lead">STEPS</p>
 			<h2 class="h1">How We Make It Easy for You</h2>
 		</div>
@@ -77,7 +77,7 @@
 		gap: 1.5rem;
 		@media (width > 48rem) {
 			grid-template-columns: 8ch 1fr;
-			gap: var(--size);
+			gap: var(--half-size);
 		}
 	}
 
@@ -91,8 +91,9 @@
 		display: grid;
 		place-content: center;
 		justify-items: center;
-		width: 70px;
-		height: 70px;
+		width: 50px;
+		height: 50px;
+		margin-top: var(--size);
 		background-color: var(--highlight);
 		color: var(--light);
 		font-size: var(--size);

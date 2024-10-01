@@ -12,7 +12,7 @@
 
 <section>
 	<div class="inner">
-		<div class="heading">
+		<div class="heading half-flow">
 			<p class="lead">FAQ</p>
 			<h2 class="h1">Frequently Asked Questions</h2>
 		</div>

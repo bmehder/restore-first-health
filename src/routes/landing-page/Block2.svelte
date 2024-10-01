@@ -4,9 +4,9 @@
 
 <section class="light-gray full-bleed">
 	<div class="inner">
-		<div class="heading">
+		<div class="heading half-flow">
 			<p class="lead">TRUSTED CARE</p>
-			<h2 class="h1">Why Families Trust Restore First Health</h2>
+			<h2 class="h1 balance">Why Families Trust Restore First Health</h2>
 		</div>
 		<div class="services-grid">
 			<div class="flow">
@@ -44,11 +44,15 @@
 	.services-grid {
 		display: grid;
 		gap: 1.5rem;
-		align-items: center;
+		/* align-items: center; */
 
 		@media screen and (width > 48rem) {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 4rem;
 		}
+	}
+
+	li {
+		text-wrap: pretty;
 	}
 </style>

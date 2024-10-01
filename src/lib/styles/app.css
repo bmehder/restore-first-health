@@ -4,6 +4,8 @@
 	--double-size: calc(var(--size) * 2);
 	--triple-size: calc(var(--size) * 3);
 	--width: min(100% - var(--size), 80%);
+	--max-width: 58rem;
+	/* --max-width: 64rem; */
 	/* --width: 80%; */
 	/* --fonts: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
@@ -88,7 +90,17 @@ summary::marker {
 	padding-block: var(--size);
 }
 
-.auto-grid {
+.auto-fit {
+	--min: 16rem;
+	--gap: var(--double-size);
+
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(var(--min), 100%), 1fr));
+	gap: var(--gap);
+}
+
+.auto-grid,
+.auto-fill {
 	display: grid;
 	grid-template-columns: repeat(
 		auto-fill,

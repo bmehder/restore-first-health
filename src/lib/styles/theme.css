@@ -6,8 +6,9 @@
 	--h3-font-size: calc(var(--size) - 0.25rem);
 	--heading-line-height: 1.25;
 	--flow: 1.5em;
-	--max-width: 58em;
 	/* --max-width: 1240px; */
+	--max-width: 58rem;
+
 	--text-color: #555;
 	--light: #e6e6e6;
 	--accent: #003a64;

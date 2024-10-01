@@ -1,6 +1,6 @@
 <section class="light-gray full-bleed">
 	<div class="inner flow">
-		<div>
+		<div class="half-flow">
 			<p>REVIEWS</p>
 			<h2 class="h1 balance">What Families Are Saying</h2>
 		</div>

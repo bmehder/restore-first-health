@@ -4,15 +4,14 @@
 </script>
 
 <section id="form" class="flow light-gray full-bleed">
-	<div class="inner flow">
-		<div>
-			<p>CONTACT US</p>
+	<div class="inner">
+		<div class="flow">
 			<h2 class="h1 balance">Ready to Bring Your Loved One Home with Confidence?</h2>
+			<h3 class="h2">Let Us Take It From Here</h3>
+			<!-- <p class="pretty">Our team is here to help. Fill out the form below.</p> -->
 		</div>
-		<p class="pretty">Our team is here to help. Fill out the form below.</p>
 	</div>
 	<div class="flow">
-		<h3 class="h2">Let Us Take It From Here</h3>
 		<FormSparkAsync botpoisonKey={BOTPOISON_KEY} />
 	</div>
 </section>
@@ -24,9 +23,13 @@
 	}
 
 	.h1,
-	.h2,
 	p {
 		color: white;
+		text-align: center;
+	}
+
+	.h2 {
+		color: var(--secondary);
 		text-align: center;
 	}
 </style>
