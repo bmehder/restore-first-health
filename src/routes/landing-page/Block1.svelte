@@ -12,6 +12,7 @@
 			<div class="heading half-flow">
 				<p>WE GET IT</p>
 				<h2 class="h1 balance">Living with a chronic wound can be overwhelming.</h2>
+				<div class="bar"></div>
 			</div>
 			<div class="auto-fit" style="--min: 20rem; margin-block: var(--double-size);">
 				<div class="flow">

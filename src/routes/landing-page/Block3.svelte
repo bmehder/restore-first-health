@@ -3,6 +3,7 @@
 		<div class="heading half-flow">
 			<p class="lead">STEPS</p>
 			<h2 class="h1">How We Make It Easy for You</h2>
+			<div class="bar"></div>
 		</div>
 		<div class="services-grid flow">
 			<div class="step">

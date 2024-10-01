@@ -15,6 +15,7 @@
 		<div class="heading half-flow">
 			<p class="lead">FAQ</p>
 			<h2 class="h1">Frequently Asked Questions</h2>
+			<div class="bar"></div>
 		</div>
 		<!-- <div class="services-grid">
 			<div class="faq">

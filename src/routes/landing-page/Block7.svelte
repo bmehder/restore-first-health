@@ -12,6 +12,7 @@
 			<p class="lead">FOLLOW US</p>
 			<h2 class="h1 balance">
 				Your Loved One Deserves the Best Care, Right at Home
+				<div class="bar"></div>
 			</h2>
 		</div>
 		<div class="socials">
@@ -60,7 +61,11 @@
 		gap: var(--size);
 	}
 
+	a {
+		color: var(--highlight);
+	}
+
 	a:hover {
-		color: var(--accent);
+		color: var(--accent-light);
 	}
 </style>
