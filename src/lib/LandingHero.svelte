@@ -19,7 +19,7 @@
 		position: relative;
 		padding-block-start: calc(var(--size) * 6);
 		padding-block-end: calc(var(--size) * 6);
-		background-position: center;
+		background-position: bottom;
 		background-size: cover;
 		font-weight: bold;
 		line-height: 1.5;
