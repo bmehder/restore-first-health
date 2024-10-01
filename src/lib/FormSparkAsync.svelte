@@ -221,7 +221,7 @@
 				<label for="company">Company</label>
 				<input type="text" id="company" name="company" bind:value={company} />
 			</div>
-			<div class="auto-fit" style="gap: var(--size)">
+			<div class="auto-fit" style="align-items: start; gap: var(--size);">
 				<div class="who-needs-care">
 					<p><strong>Who needs care?</strong></p>
 					<div>
