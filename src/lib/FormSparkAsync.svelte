@@ -221,129 +221,136 @@
 				<label for="company">Company</label>
 				<input type="text" id="company" name="company" bind:value={company} />
 			</div>
-			<div class="who-needs-care">
-				<p><strong>Who needs care?</strong></p>
-				<div>
-					<input type="checkbox" name="myself" id="myself" bind:checked={isMyself} />
-					<label for="myself">Myself</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="a-loved-one"
-						id="a-loved-one"
-						bind:checked={isLovedOne}
-					/>
-					<label for="a-loved-one">A Loved One</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="my-patient"
-						id="my-patient"
-						bind:checked={isMyPatient}
-					/>
-					<label for="my-patient">My Patient</label>
-				</div>
-			</div>
-			<div class="type-of-wound">
-				<p><strong>Type of Wound (if known)</strong></p>
-				<div>
-					<input
-						type="checkbox"
-						name="pressure-ulcer"
-						id="pressure-ulcer"
-						bind:checked={isPressureUlcer}
-					/>
-					<label for="pressure-ulcer">Pressure Ulcer</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="diabetic-ulcer"
-						id="diabetic-ulcer"
-						bind:checked={isDiabeticUlcer}
-					/>
-					<label for="diabetic-ulcer">Diabetic Ulcer</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="venous-ulcer"
-						id="venous-ulcer"
-						bind:checked={isVenousUlcer}
-					/>
-					<label for="venous-ulcer">Venous Ulcer</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="other-ulcer"
-						id="other-ulcer"
-						bind:checked={isOtherUlcer}
-					/>
+			<div class="auto-fit" style="gap: var(--size)">
+				<div class="who-needs-care">
+					<p><strong>Who needs care?</strong></p>
 					<div>
-						<label for="other-ulcer">Other Ulcer <em>(please specify)</em></label>
-						{#if isOtherUlcer}
-							<input type="text" bind:value={specifiedOtherUlcer} />
-						{/if}
+						<input
+							type="checkbox"
+							name="myself"
+							id="myself"
+							bind:checked={isMyself}
+						/>
+						<label for="myself">Myself</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="a-loved-one"
+							id="a-loved-one"
+							bind:checked={isLovedOne}
+						/>
+						<label for="a-loved-one">A Loved One</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="my-patient"
+							id="my-patient"
+							bind:checked={isMyPatient}
+						/>
+						<label for="my-patient">My Patient</label>
 					</div>
 				</div>
-			</div>
-			<div class="current-location">
-				<p><strong>Current Location of Patient</strong></p>
-				<div>
-					<input
-						type="checkbox"
-						name="at-home"
-						id="at-home"
-						bind:checked={isAtHome}
-					/>
-					<label for="at-home">At Home</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="acute-rehab"
-						id="acute-rehab"
-						bind:checked={isAcuteRehab}
-					/>
-					<label for="acute-rehab">Acute Rehab</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="nursing-facility"
-						id="nursing-facility"
-						bind:checked={isNursingFacility}
-					/>
-					<label for="nursing-facility">Skilled Nursing Facility</label>
-				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="hospital"
-						id="hospital"
-						bind:checked={isHospital}
-					/>
+				<div class="type-of-wound">
+					<p><strong>Type of Wound (if known)</strong></p>
 					<div>
-						<label for="other-ulcer">Hospital</label>
+						<input
+							type="checkbox"
+							name="pressure-ulcer"
+							id="pressure-ulcer"
+							bind:checked={isPressureUlcer}
+						/>
+						<label for="pressure-ulcer">Pressure Ulcer</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="diabetic-ulcer"
+							id="diabetic-ulcer"
+							bind:checked={isDiabeticUlcer}
+						/>
+						<label for="diabetic-ulcer">Diabetic Ulcer</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="venous-ulcer"
+							id="venous-ulcer"
+							bind:checked={isVenousUlcer}
+						/>
+						<label for="venous-ulcer">Venous Ulcer</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="other-ulcer"
+							id="other-ulcer"
+							bind:checked={isOtherUlcer}
+						/>
+						<div>
+							<label for="other-ulcer">Other Ulcer <em>(please specify)</em></label>
+							{#if isOtherUlcer}
+								<input type="text" bind:value={specifiedOtherUlcer} />
+							{/if}
+						</div>
 					</div>
 				</div>
-				<div>
-					<input
-						type="checkbox"
-						name="other-location"
-						id="other-location"
-						bind:checked={isOtherLocation}
-					/>
+				<div class="current-location">
+					<p><strong>Current Location of Patient</strong></p>
 					<div>
-						<label for="other-location"
-							>Other Location <em>(please specify)</em></label
-						>
-						{#if isOtherLocation}
-							<input type="text" bind:value={specifiedOtherLocation} />
-						{/if}
+						<input
+							type="checkbox"
+							name="at-home"
+							id="at-home"
+							bind:checked={isAtHome}
+						/>
+						<label for="at-home">At Home</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="acute-rehab"
+							id="acute-rehab"
+							bind:checked={isAcuteRehab}
+						/>
+						<label for="acute-rehab">Acute Rehab</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="nursing-facility"
+							id="nursing-facility"
+							bind:checked={isNursingFacility}
+						/>
+						<label for="nursing-facility">Skilled Nursing Facility</label>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="hospital"
+							id="hospital"
+							bind:checked={isHospital}
+						/>
+						<div>
+							<label for="other-ulcer">Hospital</label>
+						</div>
+					</div>
+					<div>
+						<input
+							type="checkbox"
+							name="other-location"
+							id="other-location"
+							bind:checked={isOtherLocation}
+						/>
+						<div>
+							<label for="other-location"
+								>Other Location <em>(please specify)</em></label
+							>
+							{#if isOtherLocation}
+								<input type="text" bind:value={specifiedOtherLocation} />
+							{/if}
+						</div>
 					</div>
 				</div>
 			</div>
