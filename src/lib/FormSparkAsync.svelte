@@ -391,15 +391,6 @@
 					required
 				/>
 			</div>
-			<div>
-				<button type="submit" disabled={isSubmitting || !isConfirmSMS}>
-					{#if isSubmitting}
-						<Spinner />
-					{:else}
-						Submit
-					{/if}
-				</button>
-			</div>
 			<div class="confirm-sms">
 				<input
 					type="checkbox"
@@ -410,6 +401,15 @@
 				<label for="confirm-sms"
 					>I agree to receive SMS from Restore First Health. <span>*</span></label
 				>
+			</div>
+			<div>
+				<button type="submit" disabled={isSubmitting || !isConfirmSMS}>
+					{#if isSubmitting}
+						<Spinner />
+					{:else}
+						Submit
+					{/if}
+				</button>
 			</div>
 		</form>
 	{/if}

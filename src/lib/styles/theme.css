@@ -103,6 +103,22 @@ select {
 	padding: var(--half-size);
 }
 
+summary {
+	cursor: pointer;
+}
+
+/* details {
+	& summary::after {
+		content: '\276f';
+		transition: 100ms;
+	}
+
+	&[open] summary::after {
+		rotate: 90deg;
+		transform-origin: center;
+	}
+} */
+
 /* Utilities */
 .title,
 .sep {
