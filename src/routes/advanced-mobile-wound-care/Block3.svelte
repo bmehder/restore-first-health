@@ -107,6 +107,10 @@
 		background-color: #f6f6f6;
 	}
 
+	h3 {
+		font-weight: bold;
+	}
+
 	.button-wrapper {
 		margin-block-start: var(--double-size);
 		margin-inline: auto;
