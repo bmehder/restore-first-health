@@ -48,7 +48,7 @@
 		<HomeHero image="/hero-1.jpg" />
 	{/if}
 
-	{#if $page.route.id === '/landing-page'}
+	{#if $page.route.id === '/advanced-mobile-wound-care'}
 		<LandingHero image="/advanced-mobile-wound-care-hero-2.jpg" />
 	{/if}
 

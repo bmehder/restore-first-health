@@ -16,7 +16,7 @@
 		name="description"
 		content="We get it. Living with a chronic wound can be overwhelming. Restore First Health provides expert wound care in the comfort of the home."
 	/>
-	<meta name="robots" content="noindex" />
+	<!-- <meta name="robots" content="noindex" /> -->
 </svelte:head>
 
 <Block1 />
