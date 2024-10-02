@@ -24,13 +24,9 @@
 	}
 
 	.h1,
+	.h2,
 	p {
 		color: white;
-		text-align: center;
-	}
-
-	.h2 {
-		color: var(--secondary);
 		text-align: center;
 	}
 </style>
