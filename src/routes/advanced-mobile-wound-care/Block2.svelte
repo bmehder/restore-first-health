@@ -47,6 +47,16 @@
 		gap: 1.5rem;
 		/* align-items: center; */
 
+		& .featured-video {
+			order: -1;
+		}
+
+		& .featured-video {
+			@media screen and (width > 48rem) {
+				order: 0;
+			}
+		}
+
 		@media screen and (width > 48rem) {
 			grid-template-columns: repeat(2, 1fr);
 			gap: 4rem;
