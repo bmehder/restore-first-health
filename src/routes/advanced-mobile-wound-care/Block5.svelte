@@ -1,5 +1,6 @@
 <script>
 	import FormSparkAsync from '$lib/FormSparkAsync.svelte'
+
 	const BOTPOISON_KEY = 'pk_a3136ac2-f7c3-4fee-8735-5285801ca731'
 </script>
 
