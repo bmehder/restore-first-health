@@ -5,7 +5,7 @@
 	import Block4 from './Block4.svelte'
 	import Block5 from './Block5.svelte'
 	import Block6 from './Block6.svelte'
-	import Block7 from './Block7.svelte'
+	// import Block7 from './Block7.svelte'
 	import Block8 from './Block8.svelte'
 
 	export let data
@@ -27,4 +27,4 @@
 <Block6 faqs={data.faqs} />
 <Block5 />
 <Block8 />
-<Block7 />
+<!-- <Block7 /> -->
