@@ -8,12 +8,16 @@ export default [
 		url: '/about-restore-first-health/',
 		children: [
 			{
-				name: 'Leadership Team',
-				url: '/about-restore-first-health#leadership-team',
+				name: 'Patients & Caregivers',
+				url: '/advanced-mobile-wound-care/',
 			},
 			{
 				name: 'For Providers / Community Partners',
 				url: '/about-restore-first-health/for-providers-community-partners',
+			},
+			{
+				name: 'Leadership Team',
+				url: '/about-restore-first-health#leadership-team',
 			},
 		],
 	},
