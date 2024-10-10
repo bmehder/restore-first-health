@@ -3,7 +3,7 @@
 	import '$lib/styles/app.css'
 	import '$lib/styles/theme.css'
 	import { page } from '$app/stores'
-	import Analytics from '$lib/analytics.svelte'
+	import Analytics from '$lib/Analytics.svelte'
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footers/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
