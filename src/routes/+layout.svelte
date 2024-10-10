@@ -3,6 +3,7 @@
 	import '$lib/styles/app.css'
 	import '$lib/styles/theme.css'
 	import { page } from '$app/stores'
+	import Analytics from '$lib/analytics.svelte'
 	import Header from '$lib/Headers/Header.svelte'
 	import Footer from '$lib/Footers/Footer.svelte'
 	import BackToTop from '$lib/BackToTop.svelte'
@@ -30,6 +31,8 @@
 		content="z9Ar6P1i0M4D3658ZhmtcgEa1Lb3qHKidFGHVfQe9NA"
 	/>
 </svelte:head>
+
+<Analytics />
 
 <ViewTransition />
 

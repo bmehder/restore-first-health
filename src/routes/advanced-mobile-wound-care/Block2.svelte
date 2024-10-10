@@ -45,7 +45,6 @@
 	.services-grid {
 		display: grid;
 		gap: 1.5rem;
-		/* align-items: center; */
 
 		& .featured-video {
 			order: -1;
