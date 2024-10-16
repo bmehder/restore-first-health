@@ -1,6 +1,7 @@
 <script>
 	import Botpoison from '@botpoison/browser'
 	import { onMount } from 'svelte'
+	import { page } from '$app/stores'
 	import Spinner from '$lib/Spinner.svelte'
 
 	export let id = 'HpYuoy9r'
@@ -105,9 +106,26 @@
 		} finally {
 			isSubmitting = false
 			isSubmitted = true
+
+			if (isSubmitted && $page.route.id === '/advanced-mobile-wound-care/') {
+				gtag('event', 'conversion', {
+					send_to: 'AW-16722966334/Ka9cCI-Jkt4ZEL7ukKY-',
+				})
+			}
 		}
 	}
+
+	// $: console.log($page.route.id)
+	// $: console.log(isSubmitted)
 </script>
+
+<!-- <svelte:head>
+	{#if isSubmitted && $page.route.id === '/advanced-mobile-wound-care/'}
+		<script>
+			gtag('event', 'conversion', { send_to: 'AW-16722966334/Ka9cCI-Jkt4ZEL7ukKY-' })
+		</script>
+	{/if}
+</svelte:head> -->
 
 <section class="flow">
 	{#if isSubmitted}
