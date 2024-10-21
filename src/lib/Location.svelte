@@ -29,4 +29,9 @@
 	div {
 		padding: var(--size);
 	}
+
+	.button {
+		padding-inline: var(--size);
+		text-align: center;
+	}
 </style>

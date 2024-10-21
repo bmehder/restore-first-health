@@ -107,7 +107,7 @@
 			isSubmitting = false
 			isSubmitted = true
 
-			if (isSubmitted && $page.route.id === '/advanced-mobile-wound-care/') {
+			if ($page.route.id === '/advanced-mobile-wound-care/') {
 				gtag('event', 'conversion', {
 					send_to: 'AW-16722966334/Ka9cCI-Jkt4ZEL7ukKY-',
 				})

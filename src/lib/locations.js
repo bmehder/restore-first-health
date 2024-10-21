@@ -146,7 +146,7 @@ export default {
 			name: 'Cypress, TX',
 			address1: '20320 Northwest Fwy',
 			address2: 'Suite 400A',
-			city: 'Jersey Village, TX 77339',
+			city: 'Jersey Village, TX 77065',
 			mapLink:
 				'https://maps.apple.com/?address=20320%20Northwest%20Fwy,%20Cypress,%20TX%20%2077429,%20United%20States&ll=29.923892,-95.629305&q=20320%20Northwest%20Fwy',
 
