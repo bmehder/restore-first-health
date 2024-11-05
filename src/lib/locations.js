@@ -167,5 +167,17 @@ export default {
 			phone: '(904) 328-5035',
 			fax: '(904) 485-8710',
 		},
+		{
+			name: 'Orlando, FL',
+			address1: '6881 Kingspointe Pkwy',
+			address2: 'Suite 2',
+			city: 'Orlando, FL 32819',
+			mapLink:
+				'https://maps.apple.com/?address=6881%20Kingspointe%20Pkwy,%20Unit%202,%20Orlando,%20FL%20%2032819,%20United%20States&ll=28.459532,-81.438204&q=6881%20Kingspointe%20Pkwy,%20Unit%202',
+			phoneLink: 'tel:4074125600',
+			phone: '407-412-5600',
+			fax: '407-264-6314',
+			isComingSoon: true,
+		},
 	],
 }

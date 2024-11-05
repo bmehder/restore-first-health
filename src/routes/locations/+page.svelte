@@ -148,7 +148,7 @@
 				<h2>Florida Locations</h2>
 			</div>
 			<div class="items">
-				{#each locations.florida as { name, address1, address2, city, mapLink, phoneLink, phone, fax }}
+				{#each locations.florida as { name, address1, address2, city, mapLink, phoneLink, phone, fax, isComingSoon }}
 					<Location
 						{name}
 						{address1}
@@ -158,6 +158,7 @@
 						{phoneLink}
 						{phone}
 						{fax}
+						{isComingSoon}
 					/>
 				{/each}
 			</div>

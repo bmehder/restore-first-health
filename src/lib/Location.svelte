@@ -7,6 +7,7 @@
 	export let phoneLink
 	export let phone
 	export let fax
+	export let isComingSoon
 </script>
 
 <div class="half-flow bg-light">
@@ -23,6 +24,9 @@
 	{#if phoneLink}
 		<a class="button" href={phoneLink}>{phone}</a>
 	{/if}
+	{#if isComingSoon}
+		<p class="coming-soon">Coming Soon!</p>
+	{/if}
 </div>
 
 <style>
@@ -33,5 +37,12 @@
 	.button {
 		padding-inline: var(--size);
 		text-align: center;
+	}
+
+	.coming-soon {
+		color: var(--highlight);
+		text-align: center;
+		font-weight: bold;
+		font-style: italic;
 	}
 </style>
