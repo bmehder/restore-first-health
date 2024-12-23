@@ -61,9 +61,9 @@ export default {
 			name: 'East Windsor, NJ',
 			address1: '300B Princeton-Hightstown Road',
 			address2: 'Suite 202',
-			city: 'East Windsor, NJ 08512',
+			city: 'East Windsor, NJ 08520',
 			mapLink:
-				'https://maps.apple.com/maps/?q=300B+Princeton-Hightstown+Road+Suite+202+East+Windsor+NJ+08512',
+				'https://maps.apple.com/?address=300B%20Princeton%20Hightstown%20Rd,%20East%20Windsor,%20NJ%20%2008512,%20United%20States&ll=40.285916,-74.557855&q=300B%20Princeton%20Hightstown%20Rd&t=m',
 			phoneLink: 'tel:8623147030',
 			phone: '(862) 314-7030',
 			fax: '(732) 647-1133',
